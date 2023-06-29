@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#86lkn9tn8DE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#b7iUJDo2OO8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -32228,15 +32228,15 @@ study:  {
   name:  "GpuCleanupInBackground"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_2"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "GpuCleanupInBackground"
     }
   }
   filter:  {
-    end_date:  1688169540
-    min_version:  "113.0.5656.0"
+    end_date:  1690761540
+    min_version:  "115.0.5790.32"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -32250,15 +32250,15 @@ study:  {
   name:  "GpuCleanupInBackground"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_2"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "GpuCleanupInBackground"
     }
   }
   filter:  {
-    end_date:  1688169540
-    min_version:  "113.0.5656.0"
+    end_date:  1690761540
+    min_version:  "115.0.5790.32"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -32277,8 +32277,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1688169540
-    min_version:  "113.0.5656.0"
+    end_date:  1690761540
+    min_version:  "115.0.5790.32"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
