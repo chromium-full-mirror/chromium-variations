@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#anYLvv4p2lA="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ZMqnk7CYj8k="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -76518,11 +76518,12 @@ study:  {
     probability_weight:  1
     feature_association:  {
       enable_feature:  "AutofillTouchToFillForCreditCardsAndroid"
+      enable_feature:  "AutofillVirtualCardsOnTouchToFillAndroid"
     }
   }
   filter:  {
     min_version:  "113.0.5672.61"
-    max_version:  "116.0.5845.0"
+    max_version:  "117.0.5863.0"
     channel:  CANARY
     channel:  DEV
     channel:  BETA
