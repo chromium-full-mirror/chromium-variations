@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#yL3AW6qVPkM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#mZYekwfBFZY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -10172,8 +10172,11 @@ study:  {
   name:  "AutofillUpstreamUseAlternateSecureDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AutofillUpstreamUseAlternateSecureDataType"
+    }
   }
   filter:  {
     end_date:  1693612740
