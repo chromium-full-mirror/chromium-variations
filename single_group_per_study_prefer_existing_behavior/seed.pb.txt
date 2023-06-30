@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#tGG6IQPQhrI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4VvzoUhFNq8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -61916,6 +61916,85 @@ study:  {
   filter:  {
     end_date:  1690934340
     min_version:  "111.0.5557.0"
+    max_os_version:  "12.*"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    country:  "gb"
+    country:  "at"
+    country:  "ax"
+    country:  "be"
+    country:  "bg"
+    country:  "bl"
+    country:  "ch"
+    country:  "cy"
+    country:  "cz"
+    country:  "de"
+    country:  "dk"
+    country:  "ee"
+    country:  "es"
+    country:  "fi"
+    country:  "fr"
+    country:  "gf"
+    country:  "gg"
+    country:  "gi"
+    country:  "gp"
+    country:  "gr"
+    country:  "hr"
+    country:  "hu"
+    country:  "ie"
+    country:  "is"
+    country:  "it"
+    country:  "je"
+    country:  "li"
+    country:  "lt"
+    country:  "lu"
+    country:  "lv"
+    country:  "mf"
+    country:  "mt"
+    country:  "mq"
+    country:  "nc"
+    country:  "nl"
+    country:  "no"
+    country:  "pf"
+    country:  "pl"
+    country:  "pm"
+    country:  "pt"
+    country:  "re"
+    country:  "ro"
+    country:  "se"
+    country:  "si"
+    country:  "sk"
+    country:  "sj"
+    country:  "tf"
+    country:  "va"
+    country:  "wf"
+    country:  "yt"
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "PrivacySandboxAdsAPIs"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AllowURNsInIframes"
+      disable_feature:  "BiddingAndScoringDebugReportingAPI"
+      disable_feature:  "BrowsingTopics"
+      disable_feature:  "BrowsingTopicsXHR"
+      disable_feature:  "InterestGroupStorage"
+      disable_feature:  "KAnonymityService"
+      disable_feature:  "KAnonymityServiceOHTTPRequests"
+      disable_feature:  "PrivacySandboxAdsAPIs"
+      disable_feature:  "PrivateAggregationApi"
+      disable_feature:  "TrustTokens"
+    }
+  }
+  filter:  {
+    end_date:  1690934340
+    min_version:  "111.0.5557.0"
+    min_os_version:  "13.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
     country:  "gb"
@@ -62315,6 +62394,85 @@ study:  {
   filter:  {
     end_date:  1690934340
     min_version:  "111.0.5557.0"
+    max_os_version:  "12.*"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    exclude_country:  "gb"
+    exclude_country:  "at"
+    exclude_country:  "ax"
+    exclude_country:  "be"
+    exclude_country:  "bg"
+    exclude_country:  "bl"
+    exclude_country:  "ch"
+    exclude_country:  "cy"
+    exclude_country:  "cz"
+    exclude_country:  "de"
+    exclude_country:  "dk"
+    exclude_country:  "ee"
+    exclude_country:  "es"
+    exclude_country:  "fi"
+    exclude_country:  "fr"
+    exclude_country:  "gf"
+    exclude_country:  "gg"
+    exclude_country:  "gi"
+    exclude_country:  "gp"
+    exclude_country:  "gr"
+    exclude_country:  "hr"
+    exclude_country:  "hu"
+    exclude_country:  "ie"
+    exclude_country:  "is"
+    exclude_country:  "it"
+    exclude_country:  "je"
+    exclude_country:  "li"
+    exclude_country:  "lt"
+    exclude_country:  "lu"
+    exclude_country:  "lv"
+    exclude_country:  "mf"
+    exclude_country:  "mt"
+    exclude_country:  "mq"
+    exclude_country:  "nc"
+    exclude_country:  "nl"
+    exclude_country:  "no"
+    exclude_country:  "pf"
+    exclude_country:  "pl"
+    exclude_country:  "pm"
+    exclude_country:  "pt"
+    exclude_country:  "re"
+    exclude_country:  "ro"
+    exclude_country:  "se"
+    exclude_country:  "si"
+    exclude_country:  "sk"
+    exclude_country:  "sj"
+    exclude_country:  "tf"
+    exclude_country:  "va"
+    exclude_country:  "wf"
+    exclude_country:  "yt"
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "PrivacySandboxAdsAPIs"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AllowURNsInIframes"
+      disable_feature:  "BiddingAndScoringDebugReportingAPI"
+      disable_feature:  "BrowsingTopics"
+      disable_feature:  "BrowsingTopicsXHR"
+      disable_feature:  "InterestGroupStorage"
+      disable_feature:  "KAnonymityService"
+      disable_feature:  "KAnonymityServiceOHTTPRequests"
+      disable_feature:  "PrivacySandboxAdsAPIs"
+      disable_feature:  "PrivateAggregationApi"
+      disable_feature:  "TrustTokens"
+    }
+  }
+  filter:  {
+    end_date:  1690934340
+    min_version:  "111.0.5557.0"
+    min_os_version:  "13.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
     exclude_country:  "gb"
