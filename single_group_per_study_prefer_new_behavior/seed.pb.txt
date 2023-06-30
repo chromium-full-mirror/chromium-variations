@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#E4x+/3P2rdk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#U05iZsA4wIE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -20039,10 +20039,14 @@ study:  {
   name:  "CompanionEnabledByObservingExpsNavigations"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230628"
+    name:  "Enabled_20230630"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "CompanionEnabledByObservingExpsNavigations"
+    }
+    param:  {
+      name:  "exps-registration-success-page-urls"
+      value:  "https://labs.google.com/search/experiments,https://labs.google.com/search/experiment/2"
     }
   }
   filter:  {
