@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#HNx34f9zMMU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#zYxL+Rtv07w="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -35678,31 +35678,6 @@ study:  {
     min_version:  "115.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_IOS
-    exclude_locale:  "zh-CN"
-    exclude_locale:  "zh-TW"
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "IOSExpKitTextClassifier"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "EnableExpKitTextClassifier"
-    }
-    param:  {
-      name:  "address"
-      value:  "false"
-    }
-  }
-  filter:  {
-    end_date:  1688169540
-    min_version:  "112.0.5615.29"
-    max_version:  "115.*"
-    channel:  STABLE
     platform:  PLATFORM_IOS
     exclude_locale:  "zh-CN"
     exclude_locale:  "zh-TW"
