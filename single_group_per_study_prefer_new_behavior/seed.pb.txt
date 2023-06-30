@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#gd30wqLoinM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ZSyrpWymHFA="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -18839,24 +18839,7 @@ study:  {
   name:  "ClankFeedSyntheticCapabilities"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "FeedSyntheticCapabilities"
-    }
-  }
-  filter:  {
-    end_date:  1692575940
-    min_version:  "109.*"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "ClankFeedSyntheticCapabilities"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "FeedSyntheticCapabilities"
@@ -18867,19 +18850,7 @@ study:  {
     min_version:  "109.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "ClankFeedSyntheticCapabilities"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1692575940
-    min_version:  "109.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
