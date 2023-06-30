@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#EzI8qV0S6/I="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Ig2O9wcgDoc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -12260,7 +12260,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default43"
+    name:  "default44"
     probability_weight:  1
   }
   filter:  {
@@ -12274,7 +12274,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default43"
+    name:  "default44"
     probability_weight:  1
   }
   filter:  {
@@ -12288,7 +12288,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default43"
+    name:  "default44"
     probability_weight:  1
   }
   filter:  {
@@ -12302,7 +12302,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default43"
+    name:  "default44"
     probability_weight:  1
   }
   filter:  {
@@ -12316,7 +12316,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default43"
+    name:  "default44"
     probability_weight:  1
   }
   filter:  {
@@ -12330,7 +12330,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default65"
+    name:  "default66"
     probability_weight:  1
   }
   filter:  {
@@ -14125,7 +14125,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default168"
+    name:  "default169"
     probability_weight:  1
   }
   filter:  {
@@ -14140,7 +14140,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default168"
+    name:  "default169"
     probability_weight:  1
   }
   filter:  {
@@ -14155,7 +14155,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default168"
+    name:  "default169"
     probability_weight:  1
   }
   filter:  {
@@ -14170,7 +14170,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default168"
+    name:  "default169"
     probability_weight:  1
   }
   filter:  {
@@ -35278,7 +35278,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1688255940
+    end_date:  1693612740
     min_version:  "110.*"
     channel:  CANARY
     channel:  DEV
@@ -35299,7 +35299,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1688255940
+    end_date:  1693612740
     min_version:  "110.*"
     channel:  CANARY
     channel:  DEV
@@ -47569,7 +47569,7 @@ study:  {
   name:  "BackgroundTracing"
   consistency:  SESSION
   experiment:  {
-    name:  "default129"
+    name:  "default130"
     probability_weight:  1
   }
   filter:  {
@@ -52108,7 +52108,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1688169540
+    end_date:  1693439940
     min_version:  "113.*"
     channel:  BETA
     platform:  PLATFORM_ANDROID
@@ -52125,7 +52125,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1688169540
+    end_date:  1693439940
     min_version:  "113.*"
     channel:  CANARY
     channel:  DEV
@@ -59773,7 +59773,7 @@ study:  {
   name:  "PasswordManagerRedesign"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230509"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "PasswordManagerRedesign"
@@ -59781,49 +59781,11 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1688255940
     min_version:  "114.0.5735.26"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-  }
-}
-study:  {
-  name:  "PasswordManagerRedesign"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230509"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "PasswordManagerRedesign"
-      enable_feature:  "PasswordsGrouping"
-    }
-  }
-  filter:  {
-    end_date:  1688255940
-    min_version:  "114.0.5735.26"
+    max_version:  "117.0.5863.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-  }
-}
-study:  {
-  name:  "PasswordManagerRedesign"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1688255940
-    min_version:  "114.0.5735.26"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
