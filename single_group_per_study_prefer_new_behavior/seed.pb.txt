@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#OGELaIEYpr4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KYS9wPLAgZg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -1202,6 +1202,31 @@ study:  {
     channel:  DEV
     channel:  BETA
     channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "AddPageLoadTokenToClientSafeBrowsingReport"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "AddPageLoadTokenToClientSafeBrowsingReport"
+    }
+  }
+  filter:  {
+    min_version:  "112.*"
+    max_version:  "117.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
     platform:  PLATFORM_ANDROID
   }
 }
@@ -19019,6 +19044,70 @@ study:  {
   }
 }
 study:  {
+  name:  "ClientSideDetectionModelOptimizationGuide"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModelOptimizationGuide"
+    }
+  }
+  filter:  {
+    end_date:  1691971140
+    min_version:  "112.0.5599.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "ClientSideDetectionModelOptimizationGuide"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModelOptimizationGuide"
+    }
+  }
+  filter:  {
+    end_date:  1691971140
+    min_version:  "112.0.5599.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "ClientSideDetectionModelOptimizationGuide"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1691971140
+    min_version:  "112.0.5599.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
   name:  "ClientSideDetectionReferrerChain"
   consistency:  PERMANENT
   experiment:  {
@@ -28864,6 +28953,70 @@ study:  {
     platform:  PLATFORM_ANDROID
   }
   activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "EvaluateProtectedPasswordLengthMinimum"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "EvaluateProtectedPasswordLengthMinimum"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "EvaluateProtectedPasswordLengthMinimum"
+    }
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "EvaluateProtectedPasswordLengthMinimum"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
 }
 study:  {
   name:  "EventPathReverseRollout"
@@ -70368,6 +70521,32 @@ study:  {
   randomization_seed:  3069020699
 }
 study:  {
+  name:  "SafeBrowsingBetterTelemetryAcrossReports"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingBetterTelemetryAcrossReports"
+    }
+  }
+  filter:  {
+    min_version:  "92.0.4515.36"
+    max_version:  "94.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
   name:  "SafeBrowsingBillingInterstitial"
   consistency:  SESSION
   experiment:  {
@@ -70428,6 +70607,207 @@ study:  {
     platform:  PLATFORM_MAC
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_LINUX
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDCompareModelsAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledProtobuf_20220317"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModelOnAndroid"
+      enable_feature:  "ClientSideDetectionTag"
+      disable_feature:  "ClientSideDetectionModelIsFlatBuffer"
+    }
+    param:  {
+      name:  "reporter_omaha_tag"
+      value:  "25.2"
+    }
+  }
+  filter:  {
+    min_version:  "93.0.4569.0"
+    max_version:  "101.0.4924.0"
+    channel:  BETA
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDCompareModelsAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledProtobuf_20220317"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModelOnAndroid"
+      enable_feature:  "ClientSideDetectionTag"
+      disable_feature:  "ClientSideDetectionModelIsFlatBuffer"
+    }
+    param:  {
+      name:  "reporter_omaha_tag"
+      value:  "25.2"
+    }
+  }
+  filter:  {
+    min_version:  "93.0.4569.0"
+    max_version:  "101.0.4924.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDCompareModelsAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "DefaultFlatbuffer_20220317"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModelIsFlatBuffer"
+      enable_feature:  "ClientSideDetectionModelOnAndroid"
+      disable_feature:  "ClientSideDetectionTag"
+    }
+  }
+  filter:  {
+    min_version:  "92.0.4515.43"
+    max_version:  "101.0.4924.0"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDDesktop"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control_20230323"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1687564740
+    min_version:  "97.*"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDDesktop"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_33_0_20230323"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionTag"
+    }
+    param:  {
+      name:  "reporter_omaha_tag"
+      value:  "33.0"
+    }
+  }
+  filter:  {
+    end_date:  1687564740
+    min_version:  "97.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDDesktop"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1687564740
+    min_version:  "97.*"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDRequestWithToken"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingCSDRequestWithToken"
+    }
+  }
+  filter:  {
+    min_version:  "91.0.4472.96"
+    max_version:  "93.0.4553.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_ANDROID_WEBLAYER
+  }
+}
+study:  {
+  name:  "SafeBrowsingCSDTypeForceRequest"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionTypeForceRequest"
+    }
+  }
+  filter:  {
+    min_version:  "111.0.5530.0"
+    max_version:  "116.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "VisualFeaturesInCsppPings"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "VisualFeaturesInCsppPings"
+    }
+  }
+  filter:  {
+    min_version:  "102.0.5005.40"
+    max_version:  "106.0.5248.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
     platform:  PLATFORM_ANDROID
   }
 }
@@ -70478,6 +70858,26 @@ study:  {
   randomization_seed:  1219764087
 }
 study:  {
+  name:  "SafeBrowsingComponentUpdaterAndroidProtegoAllowlist"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingComponentUpdaterAndroidProtegoAllowlist"
+    }
+  }
+  filter:  {
+    min_version:  "110.0.5427.0"
+    max_version:  "115.0.5790.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
   name:  "SafeBrowsingCrxAllowlistShowWarnings"
   consistency:  PERMANENT
   experiment:  {
@@ -70502,6 +70902,92 @@ study:  {
   }
 }
 study:  {
+  name:  "SafeBrowsingCsbrrNewDownloadTrigger"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingCsbrrNewDownloadTrigger"
+    }
+  }
+  filter:  {
+    end_date:  1690847940
+    min_version:  "110.0.5435.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCsbrrNewDownloadTrigger"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingCsbrrNewDownloadTrigger"
+    }
+  }
+  filter:  {
+    end_date:  1690847940
+    min_version:  "110.0.5435.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCsbrrNewDownloadTrigger"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1690847940
+    min_version:  "110.0.5435.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingCsbrrWithToken"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingCsbrrWithToken"
+    }
+  }
+  filter:  {
+    min_version:  "104.*"
+    max_version:  "110.0.5424.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
   name:  "SafeBrowsingDelayedWarnings"
   consistency:  PERMANENT
   experiment:  {
@@ -70615,6 +71101,130 @@ study:  {
   randomization_seed:  2740289398
 }
 study:  {
+  name:  "SafeBrowsingEnhancedProtectionAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "PrivacyReorderedAndroid"
+      enable_feature:  "SafeBrowsingEnhancedProtection"
+      enable_feature:  "SafeBrowsingSecuritySectionUIAndroid"
+    }
+  }
+  filter:  {
+    min_version:  "86.0.4228.*"
+    max_version:  "89.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingEnhancedProtectionMessageInInterstitials"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingEnhancedProtectionMessageInInterstitials"
+    }
+  }
+  filter:  {
+    min_version:  "87.0.4280.20"
+    max_version:  "89.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingEnhancedProtectionMessageInInterstitials"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Disabled_WEBLAYER89_90"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "SafeBrowsingEnhancedProtectionMessageInInterstitials"
+    }
+  }
+  filter:  {
+    min_version:  "89.*"
+    max_version:  "90.*"
+    channel:  STABLE
+    channel:  BETA
+    channel:  DEV
+    channel:  CANARY
+    platform:  PLATFORM_ANDROID_WEBLAYER
+  }
+}
+study:  {
+  name:  "SafeBrowsingEnterpriseCsd"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingDisableConsumerCsdForEnterprise"
+      enable_feature:  "SafeBrowsingEnterpriseCsd"
+    }
+  }
+  filter:  {
+    min_version:  "89.0.4389.72"
+    max_version:  "97.0.4674.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingEsbPromotionFlowImprovements"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledWithBoth"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "EsbIphBubbleAndCollapseSettings"
+    }
+    param:  {
+      name:  "EnableEsbIphBubble"
+      value:  "true"
+    }
+    param:  {
+      name:  "EnableEsbSettingCollapse"
+      value:  "true"
+    }
+  }
+  filter:  {
+    min_version:  "112.0.5581.0"
+    max_version:  "115.0.5762.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
   name:  "SafeBrowsingInitSbRepost"
   consistency:  SESSION
   experiment:  {
@@ -70731,6 +71341,842 @@ study:  {
   }
 }
 study:  {
+  name:  "SafeBrowsingLookupMechanismExperiment"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingLookupMechanismExperiment"
+    }
+  }
+  filter:  {
+    end_date:  1687391940
+    min_version:  "111.0.5563.19"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingLookupMechanismExperiment"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingLookupMechanismExperiment"
+    }
+  }
+  filter:  {
+    end_date:  1687391940
+    min_version:  "112.0.5579.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingLookupMechanismExperiment"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1687391940
+    min_version:  "111.0.5563.19"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingNestedArchives"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingArchiveImprovements"
+      enable_feature:  "SafeBrowsingStrictDownloadtimeout"
+    }
+  }
+  filter:  {
+    end_date:  1690675140
+    min_version:  "114.0.5735.16"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingNestedArchives"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingArchiveImprovements"
+      enable_feature:  "SafeBrowsingStrictDownloadtimeout"
+    }
+  }
+  filter:  {
+    end_date:  1690675140
+    min_version:  "114.0.5735.16"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingNestedArchives"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1690675140
+    min_version:  "114.0.5735.16"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingPerProfileNetworkContexts"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRemoveCookies"
+      enable_feature:  "SafeBrowsingSeparateNetworkContexts"
+    }
+  }
+  filter:  {
+    min_version:  "87.0.4280.20"
+    max_version:  "93.0.4547.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+  }
+}
+study:  {
+  name:  "SafeBrowsingOmitNonUserGesturesFromReferrerChain"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingOmitNonUserGesturesFromReferrerChain"
+    }
+  }
+  filter:  {
+    min_version:  "96.0.4652.0"
+    max_version:  "99.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPageLoadToken"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPageLoadToken"
+    }
+  }
+  filter:  {
+    min_version:  "96.0.4664.8"
+    max_version:  "99.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordCheckIntegrationForSavedPasswordsAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordCheckIntegrationForSavedPasswordsAndroid"
+    }
+  }
+  filter:  {
+    min_version:  "93.0.4576.0"
+    max_version:  "97.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionForSavedPasswords"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionForSavedPasswords"
+    }
+  }
+  filter:  {
+    min_version:  "79.0.3945.7"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    exclude_country:  "cn"
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionForSavedPasswordsAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionForSavedPasswords"
+      enable_feature:  "SafeBrowsingPasswordProtectionShowDomainsForSavedPasswords"
+    }
+  }
+  filter:  {
+    min_version:  "81.0.4031.*"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    exclude_country:  "cn"
+  }
+  randomization_seed:  403594441
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionShowDomainsForSavedPasswords"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionShowDomainsForSavedPasswords"
+    }
+  }
+  filter:  {
+    min_version:  "80.0.3987.42"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    exclude_country:  "cn"
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionForSignedInUsers"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionForSignedInUsers"
+    }
+  }
+  filter:  {
+    min_version:  "79.0.3945.6"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    exclude_country:  "cn"
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionForSignedInUsers"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionForSignedInUsers"
+    }
+  }
+  filter:  {
+    min_version:  "96.*"
+    max_version:  "100.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionOnFocusPingAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSendOnFocusPing"
+    }
+  }
+  filter:  {
+    min_version:  "79.0.3945.*"
+    max_version:  "80.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  3976283596
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionPasswordReusePingAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSendPasswordReusePing"
+    }
+  }
+  filter:  {
+    min_version:  "79.0.3945.0"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    exclude_country:  "cn"
+  }
+  randomization_seed:  2635865190
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionReferringAppEnabledAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionReferringAppEnabledAndroid"
+    }
+  }
+  filter:  {
+    min_version:  "89.0.4389.14"
+    max_version:  "91.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPasswordProtectionRequestWithToken"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPasswordProtectionRequestWithToken"
+    }
+  }
+  filter:  {
+    min_version:  "91.0.4472.0"
+    max_version:  "95.0.4631.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPhishingClassificationESBThreshold"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPhishingClassificationESBThreshold"
+    }
+  }
+  filter:  {
+    min_version:  "113.0.5623.0"
+    max_version:  "116.1.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingPromptEsbForDeepScanning"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingPromptEsbForDeepScanning"
+    }
+  }
+  filter:  {
+    min_version:  "91.*"
+    max_version:  "93.0.4556.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabled"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabled"
+    }
+  }
+  filter:  {
+    min_version:  "80.0.3987.132"
+    max_version:  "85.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    exclude_country:  "cn"
+  }
+  randomization_seed:  3628394056
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabledAndroidAllDevices"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabledForAllAndroidDevices"
+    }
+  }
+  filter:  {
+    min_version:  "83.0.4089.0"
+    max_version:  "85.0.4174.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    exclude_country:  "cn"
+  }
+  randomization_seed:  3628585013
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabledAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledHighEndDevices_20200323"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabled"
+    }
+    param:  {
+      name:  "SafeBrowsingRealTimeUrlLookupMemoryThresholdMb"
+      value:  "4096"
+    }
+  }
+  filter:  {
+    min_version:  "80.0.3956.0"
+    max_version:  "85.0.4174.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+    exclude_country:  "cn"
+  }
+  randomization_seed:  2717859072
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabledIOS"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabled"
+    }
+  }
+  filter:  {
+    min_version:  "86.0.4218.0"
+    max_version:  "89.0.4332.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabledWithTokenAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabledWithToken"
+    }
+  }
+  filter:  {
+    min_version:  "87.0.4280.20"
+    max_version:  "89.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  562084407
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupEnabledWithToken"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupEnabledWithToken"
+    }
+  }
+  filter:  {
+    min_version:  "83.0.4087.0"
+    max_version:  "86.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  randomization_seed:  3448362090
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupFetchAllowlist"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupFetchAllowlist"
+    }
+  }
+  filter:  {
+    min_version:  "78.*"
+    max_version:  "80.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  randomization_seed:  277534422
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupForEnterpriseAllowlistBypass"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupForEnterpriseAllowlistBypass"
+    }
+  }
+  filter:  {
+    min_version:  "107.0.5304.18"
+    max_version:  "111.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupReferrerChain"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupReferrerChain"
+    }
+    param:  {
+      name:  "SafeBrowsingRealTimeUrlLookupReferrerLengthParam"
+      value:  "2"
+    }
+  }
+  filter:  {
+    min_version:  "91.0.4472.19"
+    max_version:  "94.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingRealTimeUrlLookupReferrerChainForEnterprise"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingRealTimeUrlLookupReferrerChainForEnterprise"
+    }
+  }
+  filter:  {
+    min_version:  "94.0.4606.0"
+    max_version:  "98.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingSendSampledPingsForAllowlistDomain"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSendSampledPingsForAllowlistDomain"
+    }
+  }
+  filter:  {
+    min_version:  "79.0.3942.0"
+    max_version:  "81.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingSendSampledPingsForProtegoAllowlistDomains"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSendSampledPingsForProtegoAllowlistDomains"
+    }
+  }
+  filter:  {
+    min_version:  "99.*"
+    max_version:  "103.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingSevenZipEvaluationEnabled"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSevenZipEvaluationEnabled"
+    }
+  }
+  filter:  {
+    min_version:  "109.*"
+    max_version:  "113.0.5653.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingSkipImageCssFont"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_20230605"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSkipImageCssFont"
+    }
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "113.0.5625.0"
+    channel:  BETA
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingSkipImageCssFont"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_20230605"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingSkipImageCssFont"
+    }
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "113.0.5625.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingSkipImageCssFont"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "113.0.5625.0"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
   name:  "SafeBrowsingSuspiciousSiteTrigger"
   consistency:  SESSION
   experiment:  {
@@ -70801,6 +72247,272 @@ study:  {
     platform:  PLATFORM_MAC
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_LINUX
+  }
+}
+study:  {
+  name:  "TailoredSecurityIntegration"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityIntegration"
+    }
+  }
+  filter:  {
+    min_version:  "98.0.4758.48"
+    max_version:  "101.0.4909.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "TailoredSecurityIntegrationAndroid"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityIntegration"
+    }
+  }
+  filter:  {
+    min_version:  "99.0.4844.16"
+    max_version:  "102.0.4963.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "TailoredSecurityIntegrationDesktopNotice"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityDesktopNotice"
+    }
+  }
+  filter:  {
+    min_version:  "105.0.5195.56"
+    max_version:  "108.0.5351.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityObserverBasedRetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityObserverRetries"
+    }
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "113.0.5672.14"
+    channel:  BETA
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityObserverBasedRetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityObserverRetries"
+    }
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "113.0.5672.14"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityObserverBasedRetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "113.0.5672.14"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityUpdatedMessages"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "114.0.5735.24"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityUpdatedMessages"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TailoredSecurityUpdatedMessages"
+    }
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "114.0.5735.24"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTailoredSecurityUpdatedMessages"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "114.0.5735.24"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingTelemetryForApkDownloads"
+  consistency:  SESSION
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SafeBrowsingTelemetryForApkDownloads"
+    }
+    param:  {
+      name:  "enabled"
+      value:  "false"
+    }
+  }
+  filter:  {
+    min_version:  "74.0.3729.100"
+    max_version:  "75.0.3746.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "SafeBrowsingVisualCsdModel"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ClientSideDetectionModel"
+    }
+    param:  {
+      name:  "ModelNum"
+      value:  "9"
+    }
+  }
+  filter:  {
+    min_version:  "89.0.4331.0"
+    max_version:  "93.0.4547.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "SafeBrowsingVisualFeaturesSizes"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "VisualFeaturesSizes"
+    }
+    param:  {
+      name:  "min_height"
+      value:  "258"
+    }
+    param:  {
+      name:  "min_width"
+      value:  "258"
+    }
+    param:  {
+      name:  "phash_height"
+      value:  "192"
+    }
+    param:  {
+      name:  "phash_width"
+      value:  "108"
+    }
+  }
+  filter:  {
+    min_version:  "92.0.4515.51"
+    max_version:  "96.0.4649.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
   }
 }
 study:  {
@@ -135985,6 +137697,31 @@ study:  {
     channel:  DEV
     channel:  BETA
     channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "VisualFeaturesInReusePings"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "VisualFeaturesInReusePings"
+    }
+  }
+  filter:  {
+    min_version:  "107.0.5300.0"
+    max_version:  "110.0.5421.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
     platform:  PLATFORM_ANDROID
   }
 }
