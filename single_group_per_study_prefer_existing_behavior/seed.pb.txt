@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KsnwJdcYEWA="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#yYtYAoa6uGk="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -53389,12 +53389,12 @@ study:  {
   name:  "OnBeginFrameThrottleVideo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Preperiod_Enabled_06282023"
     probability_weight:  1
   }
   filter:  {
     end_date:  1693612740
-    min_version:  "117.*"
+    min_version:  "117.0.5858.0"
     channel:  BETA
     platform:  PLATFORM_ANDROID
     platform:  PLATFORM_ANDROID_WEBVIEW
@@ -53404,7 +53404,7 @@ study:  {
   name:  "OnBeginFrameThrottleVideo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Disabled_06282023"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "OnBeginFrameThrottleVideo"
@@ -53412,7 +53412,7 @@ study:  {
   }
   filter:  {
     end_date:  1693612740
-    min_version:  "117.*"
+    min_version:  "117.0.5858.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_ANDROID
@@ -53423,12 +53423,12 @@ study:  {
   name:  "OnBeginFrameThrottleVideo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Preperiod_Default"
     probability_weight:  1
   }
   filter:  {
     end_date:  1693612740
-    min_version:  "117.*"
+    min_version:  "117.0.5858.0"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
     platform:  PLATFORM_ANDROID_WEBVIEW
