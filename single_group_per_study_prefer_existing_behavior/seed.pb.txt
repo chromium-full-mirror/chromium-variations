@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#TKa/nh1ShA4="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#Cl8bHq95ZDQ="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -35568,32 +35568,12 @@ study: {
   name: "EnablePasswordsAccountStorage"
   consistency: PERMANENT
   experiment: {
-    name: "Control_3"
+    name: "EnabledLaunch"
     probability_weight: 1
     feature_association: {
-      disable_feature: "EnablePasswordsAccountStorage"
-      disable_feature: "IndicateAccountStorageErrorInAccountCell"
-      disable_feature: "IndicateSyncErrorInOverflowMenu"
-    }
-  }
-  filter: {
-    min_version: "113.0.5672.15"
-    max_version: "116.0.5837.0"
-    channel: BETA
-    platform: PLATFORM_IOS
-  }
-  activation_type: ACTIVATE_ON_STARTUP
-}
-study: {
-  name: "EnablePasswordsAccountStorage"
-  consistency: PERMANENT
-  experiment: {
-    name: "Control_3"
-    probability_weight: 1
-    feature_association: {
-      disable_feature: "EnablePasswordsAccountStorage"
-      disable_feature: "IndicateAccountStorageErrorInAccountCell"
-      disable_feature: "IndicateSyncErrorInOverflowMenu"
+      enable_feature: "EnablePasswordsAccountStorage"
+      enable_feature: "IndicateAccountStorageErrorInAccountCell"
+      enable_feature: "IndicateSyncErrorInOverflowMenu"
     }
   }
   filter: {
@@ -35601,25 +35581,7 @@ study: {
     max_version: "116.0.5837.0"
     channel: CANARY
     channel: DEV
-    platform: PLATFORM_IOS
-  }
-  activation_type: ACTIVATE_ON_STARTUP
-}
-study: {
-  name: "EnablePasswordsAccountStorage"
-  consistency: PERMANENT
-  experiment: {
-    name: "Control_3"
-    probability_weight: 1
-    feature_association: {
-      disable_feature: "EnablePasswordsAccountStorage"
-      disable_feature: "IndicateAccountStorageErrorInAccountCell"
-      disable_feature: "IndicateSyncErrorInOverflowMenu"
-    }
-  }
-  filter: {
-    min_version: "113.0.5672.15"
-    max_version: "116.0.5837.0"
+    channel: BETA
     channel: STABLE
     platform: PLATFORM_IOS
   }
