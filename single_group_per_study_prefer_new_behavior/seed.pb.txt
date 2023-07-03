@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ltSEO9GGnUc="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#udXpauypu+U="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -11926,6 +11926,7 @@ study:  {
     min_version:  "116.0.5840.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_ANDROID
@@ -11951,6 +11952,7 @@ study:  {
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_ANDROID
@@ -11968,6 +11970,7 @@ study:  {
     min_version:  "116.0.5840.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_ANDROID
