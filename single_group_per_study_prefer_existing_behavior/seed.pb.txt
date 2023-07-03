@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#FAF2O3MKZIg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#lbl7qxiiRow="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -33491,6 +33491,55 @@ study:  {
   }
   randomization_seed:  3424115130
   activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "HelpAppLauncherSearch"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1697587140
+    min_version:  "117.*"
+    channel:  BETA
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "HelpAppLauncherSearch"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "HelpAppLauncherSearch"
+    }
+  }
+  filter:  {
+    end_date:  1697587140
+    min_version:  "117.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "HelpAppLauncherSearch"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1697587140
+    min_version:  "117.*"
+    channel:  STABLE
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
 }
 study:  {
   name:  "HelpAppLocalSearchServiceIntegration"
