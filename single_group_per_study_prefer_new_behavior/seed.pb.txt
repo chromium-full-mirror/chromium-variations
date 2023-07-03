@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#/qDaYyrvdjE="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#RwmwwHya4VE="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -114049,7 +114049,7 @@ study: {
     }
     param: {
       name: "AbusiveExperienceHeuristic.JavaScriptDialog"
-      value: "43"
+      value: "51"
     }
     param: {
       name: "AbusiveExperienceHeuristic.TabUnder"
@@ -114101,7 +114101,7 @@ study: {
     }
     param: {
       name: "Android.MultiWindowState"
-      value: "39"
+      value: "40"
     }
     param: {
       name: "Android.NonDefaultRdsPageLoad"
@@ -114117,7 +114117,7 @@ study: {
     }
     param: {
       name: "Autofill"
-      value: "78"
+      value: "82"
     }
     param: {
       name: "Autofill.AddressProfileImport"
@@ -114137,10 +114137,6 @@ study: {
     }
     param: {
       name: "Autofill.EditedAutofilledFieldAtSubmission"
-      value: "Autofill"
-    }
-    param: {
-      name: "Autofill.FastCheckoutFormStatus"
       value: "Autofill"
     }
     param: {
@@ -114237,7 +114233,7 @@ study: {
     }
     param: {
       name: "Blink.AutomaticLazyLoadFrame"
-      value: "21"
+      value: "20"
     }
     param: {
       name: "Blink.DeveloperMetricsRare"
@@ -114325,7 +114321,7 @@ study: {
     }
     param: {
       name: "ClientHints.AcceptCHFrameUsage"
-      value: "890"
+      value: "880"
     }
     param: {
       name: "ClientHints.AcceptCHHeaderUsage"
@@ -114377,7 +114373,7 @@ study: {
     }
     param: {
       name: "CrossOriginSubframeWithoutEmbeddingControl"
-      value: "780"
+      value: "770"
     }
     param: {
       name: "DIPS.Deletion"
@@ -114385,7 +114381,7 @@ study: {
     }
     param: {
       name: "DIPS.Redirect"
-      value: "52"
+      value: "53"
     }
     param: {
       name: "DailyChargeSummary"
@@ -114421,7 +114417,7 @@ study: {
     }
     param: {
       name: "Event.Scroll.Wheel"
-      value: "1500"
+      value: "1400"
     }
     param: {
       name: "Event.ScrollBegin.Touch"
@@ -114441,11 +114437,11 @@ study: {
     }
     param: {
       name: "Extensions.OnNavigation"
-      value: "680"
+      value: "670"
     }
     param: {
       name: "Extensions.WebRequest.KeepaliveRequestFinished"
-      value: "620"
+      value: "600"
     }
     param: {
       name: "FontMatchAttempts"
@@ -114497,7 +114493,7 @@ study: {
     }
     param: {
       name: "Graphics.Smoothness"
-      value: "90"
+      value: "91"
     }
     param: {
       name: "Graphics.Smoothness.EventLatency"
@@ -114573,7 +114569,7 @@ study: {
     }
     param: {
       name: "InstalledRelatedApps"
-      value: "38"
+      value: "39"
     }
     param: {
       name: "JavascriptFrameworkPageLoad"
@@ -114589,7 +114585,7 @@ study: {
     }
     param: {
       name: "LocalNetworkRequests"
-      value: "77"
+      value: "79"
     }
     param: {
       name: "LoginDetection"
@@ -114653,7 +114649,7 @@ study: {
     }
     param: {
       name: "Media.VideoDecodePerfRecord"
-      value: "64"
+      value: "63"
     }
     param: {
       name: "Media.WebAudio.AudioContext.AudibleTime"
@@ -114673,7 +114669,7 @@ study: {
     }
     param: {
       name: "Memory.Experimental"
-      value: "860"
+      value: "840"
     }
     param: {
       name: "Memory.TabFootprint"
@@ -114749,6 +114745,10 @@ study: {
     }
     param: {
       name: "Network.CacheTransparency2"
+      value: "1"
+    }
+    param: {
+      name: "NewTabPage.HistoryClusters"
       value: "1"
     }
     param: {
@@ -114881,11 +114881,11 @@ study: {
     }
     param: {
       name: "PerformanceManager.PageResourceUsage"
-      value: "940"
+      value: "920"
     }
     param: {
       name: "PerformanceManager.PageTimelineState"
-      value: "47"
+      value: "46"
     }
     param: {
       name: "PeriodicBackgroundSyncRegistered"
@@ -114969,7 +114969,7 @@ study: {
     }
     param: {
       name: "PrefetchProxy"
-      value: "140"
+      value: "150"
     }
     param: {
       name: "PrefetchProxy.AfterSRPClick"
@@ -114981,11 +114981,11 @@ study: {
     }
     param: {
       name: "Preloading.Attempt"
-      value: "3"
+      value: "2"
     }
     param: {
       name: "Preloading.Attempt.PreviousPrimaryPage"
-      value: "4"
+      value: "3"
     }
     param: {
       name: "Preloading.Prediction"
@@ -115013,7 +115013,7 @@ study: {
     }
     param: {
       name: "RendererSchedulerTask"
-      value: "6900"
+      value: "7000"
     }
     param: {
       name: "Responsiveness.UserInteraction"
@@ -115025,7 +115025,7 @@ study: {
     }
     param: {
       name: "SSL.MixedContentShown2"
-      value: "63"
+      value: "43"
     }
     param: {
       name: "SalientImageAvailability"
@@ -115033,7 +115033,7 @@ study: {
     }
     param: {
       name: "SamesiteRedirectContextDowngrade"
-      value: "49"
+      value: "48"
     }
     param: {
       name: "SchemefulSameSiteContextDowngrade"
@@ -115193,7 +115193,7 @@ study: {
     }
     param: {
       name: "V8.Wasm"
-      value: "20"
+      value: "19"
     }
     param: {
       name: "V8.Wasm.ModuleCompiled"
@@ -115233,7 +115233,7 @@ study: {
     }
     param: {
       name: "WebApp.DailyInteraction"
-      value: "2"
+      value: "1"
     }
     param: {
       name: "WebOTPImpact"
@@ -115249,7 +115249,7 @@ study: {
     }
     param: {
       name: "XR.WebXR"
-      value: "6"
+      value: "7"
     }
     param: {
       name: "XR.WebXR.Session"
@@ -116479,7 +116479,7 @@ study: {
     }
     param: {
       name: "AbusiveExperienceHeuristic.JavaScriptDialog"
-      value: "43"
+      value: "51"
     }
     param: {
       name: "AbusiveExperienceHeuristic.TabUnder"
@@ -116531,7 +116531,7 @@ study: {
     }
     param: {
       name: "Android.MultiWindowState"
-      value: "39"
+      value: "40"
     }
     param: {
       name: "Android.NonDefaultRdsPageLoad"
@@ -116547,7 +116547,7 @@ study: {
     }
     param: {
       name: "Autofill"
-      value: "78"
+      value: "82"
     }
     param: {
       name: "Autofill.AddressProfileImport"
@@ -116567,10 +116567,6 @@ study: {
     }
     param: {
       name: "Autofill.EditedAutofilledFieldAtSubmission"
-      value: "Autofill"
-    }
-    param: {
-      name: "Autofill.FastCheckoutFormStatus"
       value: "Autofill"
     }
     param: {
@@ -116667,7 +116663,7 @@ study: {
     }
     param: {
       name: "Blink.AutomaticLazyLoadFrame"
-      value: "21"
+      value: "20"
     }
     param: {
       name: "Blink.DeveloperMetricsRare"
@@ -116755,7 +116751,7 @@ study: {
     }
     param: {
       name: "ClientHints.AcceptCHFrameUsage"
-      value: "890"
+      value: "880"
     }
     param: {
       name: "ClientHints.AcceptCHHeaderUsage"
@@ -116807,7 +116803,7 @@ study: {
     }
     param: {
       name: "CrossOriginSubframeWithoutEmbeddingControl"
-      value: "780"
+      value: "770"
     }
     param: {
       name: "DIPS.Deletion"
@@ -116815,7 +116811,7 @@ study: {
     }
     param: {
       name: "DIPS.Redirect"
-      value: "52"
+      value: "53"
     }
     param: {
       name: "DailyChargeSummary"
@@ -116851,7 +116847,7 @@ study: {
     }
     param: {
       name: "Event.Scroll.Wheel"
-      value: "1500"
+      value: "1400"
     }
     param: {
       name: "Event.ScrollBegin.Touch"
@@ -116871,11 +116867,11 @@ study: {
     }
     param: {
       name: "Extensions.OnNavigation"
-      value: "680"
+      value: "670"
     }
     param: {
       name: "Extensions.WebRequest.KeepaliveRequestFinished"
-      value: "620"
+      value: "600"
     }
     param: {
       name: "FontMatchAttempts"
@@ -116927,7 +116923,7 @@ study: {
     }
     param: {
       name: "Graphics.Smoothness"
-      value: "90"
+      value: "91"
     }
     param: {
       name: "Graphics.Smoothness.EventLatency"
@@ -117003,7 +116999,7 @@ study: {
     }
     param: {
       name: "InstalledRelatedApps"
-      value: "38"
+      value: "39"
     }
     param: {
       name: "JavascriptFrameworkPageLoad"
@@ -117019,7 +117015,7 @@ study: {
     }
     param: {
       name: "LocalNetworkRequests"
-      value: "77"
+      value: "79"
     }
     param: {
       name: "LoginDetection"
@@ -117083,7 +117079,7 @@ study: {
     }
     param: {
       name: "Media.VideoDecodePerfRecord"
-      value: "64"
+      value: "63"
     }
     param: {
       name: "Media.WebAudio.AudioContext.AudibleTime"
@@ -117103,7 +117099,7 @@ study: {
     }
     param: {
       name: "Memory.Experimental"
-      value: "860"
+      value: "840"
     }
     param: {
       name: "Memory.TabFootprint"
@@ -117179,6 +117175,10 @@ study: {
     }
     param: {
       name: "Network.CacheTransparency2"
+      value: "1"
+    }
+    param: {
+      name: "NewTabPage.HistoryClusters"
       value: "1"
     }
     param: {
@@ -117311,11 +117311,11 @@ study: {
     }
     param: {
       name: "PerformanceManager.PageResourceUsage"
-      value: "940"
+      value: "920"
     }
     param: {
       name: "PerformanceManager.PageTimelineState"
-      value: "47"
+      value: "46"
     }
     param: {
       name: "PeriodicBackgroundSyncRegistered"
@@ -117399,7 +117399,7 @@ study: {
     }
     param: {
       name: "PrefetchProxy"
-      value: "140"
+      value: "150"
     }
     param: {
       name: "PrefetchProxy.AfterSRPClick"
@@ -117411,11 +117411,11 @@ study: {
     }
     param: {
       name: "Preloading.Attempt"
-      value: "3"
+      value: "2"
     }
     param: {
       name: "Preloading.Attempt.PreviousPrimaryPage"
-      value: "4"
+      value: "3"
     }
     param: {
       name: "Preloading.Prediction"
@@ -117443,7 +117443,7 @@ study: {
     }
     param: {
       name: "RendererSchedulerTask"
-      value: "6900"
+      value: "7000"
     }
     param: {
       name: "Responsiveness.UserInteraction"
@@ -117455,7 +117455,7 @@ study: {
     }
     param: {
       name: "SSL.MixedContentShown2"
-      value: "63"
+      value: "43"
     }
     param: {
       name: "SalientImageAvailability"
@@ -117463,7 +117463,7 @@ study: {
     }
     param: {
       name: "SamesiteRedirectContextDowngrade"
-      value: "49"
+      value: "48"
     }
     param: {
       name: "SchemefulSameSiteContextDowngrade"
@@ -117623,7 +117623,7 @@ study: {
     }
     param: {
       name: "V8.Wasm"
-      value: "20"
+      value: "19"
     }
     param: {
       name: "V8.Wasm.ModuleCompiled"
@@ -117663,7 +117663,7 @@ study: {
     }
     param: {
       name: "WebApp.DailyInteraction"
-      value: "2"
+      value: "1"
     }
     param: {
       name: "WebOTPImpact"
@@ -117679,7 +117679,7 @@ study: {
     }
     param: {
       name: "XR.WebXR"
-      value: "6"
+      value: "7"
     }
     param: {
       name: "XR.WebXR.Session"
