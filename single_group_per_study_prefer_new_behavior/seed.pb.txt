@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#7aJ3IQ0ItJc="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#SEgtYEWTaM4="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -56685,7 +56685,7 @@ study: {
   name: "OutOfProcessNetworkServiceMemoryControls"
   consistency: PERMANENT
   experiment: {
-    name: "Over_6500_mb_20230410"
+    name: "Over_6500_mb_20230704"
     probability_weight: 1
     feature_association: {
       enable_feature: "NetworkServiceOutOfProcessMemoryThreshold"
@@ -56696,7 +56696,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1691193540
+    end_date: 1693699140
     min_version: "113.0.5672.13"
     channel: CANARY
     channel: DEV
@@ -56708,11 +56708,15 @@ study: {
   name: "OutOfProcessNetworkService"
   consistency: PERMANENT
   experiment: {
-    name: "Default"
+    name: "EnableOOPNS_over_6656_Mb_20230704"
     probability_weight: 1
+    feature_association: {
+      disable_feature: "NetworkServiceEmptyOutOfProcess"
+      disable_feature: "NetworkServiceInProcess2"
+    }
   }
   filter: {
-    end_date: 1691193540
+    end_date: 1693699140
     min_version: "113.0.5672.13"
     channel: BETA
     platform: PLATFORM_ANDROID
@@ -56722,41 +56726,16 @@ study: {
   name: "OutOfProcessNetworkService"
   consistency: PERMANENT
   experiment: {
-    name: "Default"
+    name: "EnableOOPNS_over_6656_Mb_20230704"
     probability_weight: 1
+    feature_association: {
+      disable_feature: "NetworkServiceEmptyOutOfProcess"
+      disable_feature: "NetworkServiceInProcess2"
+    }
   }
   filter: {
-    end_date: 1691193540
+    end_date: 1693699140
     min_version: "113.0.5672.13"
-    channel: CANARY
-    channel: DEV
-    platform: PLATFORM_ANDROID
-  }
-}
-study: {
-  name: "OutOfProcessNetworkServiceEmptyNetworkService"
-  consistency: PERMANENT
-  experiment: {
-    name: "Preperiod_Default"
-    probability_weight: 1
-  }
-  filter: {
-    end_date: 1693094340
-    min_version: "116.0.5834.0"
-    channel: BETA
-    platform: PLATFORM_ANDROID
-  }
-}
-study: {
-  name: "OutOfProcessNetworkServiceEmptyNetworkService"
-  consistency: PERMANENT
-  experiment: {
-    name: "Default"
-    probability_weight: 1
-  }
-  filter: {
-    end_date: 1693094340
-    min_version: "116.0.5834.0"
     channel: CANARY
     channel: DEV
     platform: PLATFORM_ANDROID
