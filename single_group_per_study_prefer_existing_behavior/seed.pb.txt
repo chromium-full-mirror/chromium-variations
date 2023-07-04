@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#Dh/pYyL+uO8="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#SxvIJG0W3Hc="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -138890,7 +138890,7 @@ study: {
   name: "WebViewZoomKeyboardShortcuts"
   consistency: PERMANENT
   experiment: {
-    name: "Control_20230627"
+    name: "Control_20230703"
     probability_weight: 1
     feature_association: {
       disable_feature: "WebViewZoomKeyboardShortcuts"
@@ -138907,7 +138907,7 @@ study: {
   name: "WebViewZoomKeyboardShortcuts"
   consistency: PERMANENT
   experiment: {
-    name: "Control_20230627"
+    name: "Control_20230703"
     probability_weight: 1
     feature_association: {
       disable_feature: "WebViewZoomKeyboardShortcuts"
@@ -138925,8 +138925,11 @@ study: {
   name: "WebViewZoomKeyboardShortcuts"
   consistency: PERMANENT
   experiment: {
-    name: "Default"
+    name: "Control_20230703"
     probability_weight: 1
+    feature_association: {
+      disable_feature: "WebViewZoomKeyboardShortcuts"
+    }
   }
   filter: {
     end_date: 1691366340
