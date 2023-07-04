@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#RwmwwHya4VE="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#/5lCN9io8bA="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -45303,7 +45303,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "115.*"
     channel: BETA
     platform: PLATFORM_CHROMEOS
@@ -45324,7 +45324,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "115.*"
     channel: CANARY
     channel: DEV
@@ -45338,11 +45338,11 @@ study: {
   name: "DiacriticsOnPhysicalKeyboardLongpressOnByDefault"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Default"
+    name: "Default"
     probability_weight: 1
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "115.*"
     channel: STABLE
     platform: PLATFORM_CHROMEOS
