@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#yVsIp9MJ6Ys="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#YLrnkV6U9K8="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -34350,21 +34350,7 @@ study: {
   name: "IOSAutofillEnableCardArtAndCardProductName"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Enabled"
-    probability_weight: 1
-  }
-  filter: {
-    end_date: 1690156740
-    min_version: "115.*"
-    channel: BETA
-    platform: PLATFORM_IOS
-  }
-}
-study: {
-  name: "IOSAutofillEnableCardArtAndCardProductName"
-  consistency: PERMANENT
-  experiment: {
-    name: "Control"
+    name: "Control_20230704"
     probability_weight: 1
     feature_association: {
       disable_feature: "AutofillEnableCardArtImage"
@@ -34373,8 +34359,27 @@ study: {
     }
   }
   filter: {
-    end_date: 1690156740
-    min_version: "115.*"
+    end_date: 1696291140
+    min_version: "116.*"
+    channel: BETA
+    platform: PLATFORM_IOS
+  }
+}
+study: {
+  name: "IOSAutofillEnableCardArtAndCardProductName"
+  consistency: PERMANENT
+  experiment: {
+    name: "Control_20230704"
+    probability_weight: 1
+    feature_association: {
+      disable_feature: "AutofillEnableCardArtImage"
+      disable_feature: "AutofillEnableCardProductName"
+      disable_feature: "AutofillUseTwoDotsForLastFourDigits"
+    }
+  }
+  filter: {
+    end_date: 1696291140
+    min_version: "116.*"
     channel: CANARY
     channel: DEV
     platform: PLATFORM_IOS
@@ -34388,8 +34393,8 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1690156740
-    min_version: "115.*"
+    end_date: 1696291140
+    min_version: "116.*"
     channel: STABLE
     platform: PLATFORM_IOS
   }
