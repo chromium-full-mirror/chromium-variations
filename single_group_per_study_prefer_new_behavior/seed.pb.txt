@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#KijF7JDt8Qk="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#bPLRnhJLsxg="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -4444,11 +4444,14 @@ study: {
   name: "AsyncCacheLock"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Control"
+    name: "Enabled"
     probability_weight: 1
+    feature_association: {
+      enable_feature: "AsyncCacheLock"
+    }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "116.*"
     channel: BETA
     platform: PLATFORM_WINDOWS
@@ -4470,7 +4473,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "116.*"
     channel: CANARY
     channel: DEV
@@ -4490,7 +4493,7 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1693612740
     min_version: "116.*"
     channel: STABLE
     platform: PLATFORM_WINDOWS
