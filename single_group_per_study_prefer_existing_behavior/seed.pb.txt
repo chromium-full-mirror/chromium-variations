@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#1W9Pycny+Iw="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#TjS89IRaK/k="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -58315,7 +58315,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "114.0.5735.*"
     channel: BETA
     platform: PLATFORM_WINDOWS
@@ -58336,7 +58336,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "114.0.5735.*"
     channel: CANARY
     channel: DEV
@@ -58351,11 +58351,14 @@ study: {
   name: "PasswordsImportM2"
   consistency: PERMANENT
   experiment: {
-    name: "Default"
+    name: "Control_50"
     probability_weight: 1
+    feature_association: {
+      disable_feature: "PasswordsImportM2"
+    }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "114.0.5735.*"
     channel: STABLE
     platform: PLATFORM_WINDOWS
