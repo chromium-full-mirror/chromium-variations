@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#E4TAmDTQWys="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#+k3DRA3mGAU="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -3023,7 +3023,7 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.0.5563.99"
     channel: BETA
     platform: PLATFORM_ANDROID
@@ -3041,7 +3041,7 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.0.5563.99"
     channel: CANARY
     channel: DEV
@@ -3105,7 +3105,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3142,7 +3142,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "107.0.5304.15"
     channel: CANARY
     channel: DEV
@@ -3187,7 +3187,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "107.0.5304.15"
     channel: BETA
     platform: PLATFORM_ANDROID
@@ -3208,7 +3208,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "107.0.5304.15"
     channel: BETA
     platform: PLATFORM_ANDROID
@@ -3229,7 +3229,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "108.0.5325.0"
     channel: CANARY
     channel: DEV
@@ -3251,7 +3251,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "108.0.5325.0"
     channel: CANARY
     channel: DEV
@@ -3273,7 +3273,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "107.0.5304.15"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3294,7 +3294,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3315,7 +3315,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3336,7 +3336,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3357,7 +3357,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3378,7 +3378,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "107.0.5304.15"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3399,7 +3399,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
@@ -3420,7 +3420,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690761540
+    end_date: 1693439940
     min_version: "111.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
