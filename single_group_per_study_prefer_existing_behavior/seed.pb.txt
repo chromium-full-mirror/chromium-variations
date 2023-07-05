@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Cm9cf8MC/yQ="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#AWHKHz5O8j8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -27885,15 +27885,15 @@ study:  {
   name:  "EncryptedClientHello"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230629"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "EncryptedClientHello"
     }
   }
   filter:  {
-    end_date:  1689897540
-    min_version:  "106.0.0.0"
+    end_date:  1694476740
+    min_version:  "115.0.0.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -27908,15 +27908,15 @@ study:  {
   name:  "EncryptedClientHello"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230629"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "EncryptedClientHello"
     }
   }
   filter:  {
-    end_date:  1689897540
-    min_version:  "106.0.0.0"
+    end_date:  1694476740
+    min_version:  "115.0.0.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -27936,8 +27936,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689897540
-    min_version:  "106.0.0.0"
+    end_date:  1694476740
+    min_version:  "115.0.0.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
