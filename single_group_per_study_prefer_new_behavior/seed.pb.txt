@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#XPQlCVDXxAo="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#TpDjVw4Gcy0="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -67723,7 +67723,7 @@ study: {
     }
     param: {
       name: "epoch"
-      value: "20230526"
+      value: "20230705"
     }
     param: {
       name: "retransmittable_on_wire_timeout_milliseconds"
