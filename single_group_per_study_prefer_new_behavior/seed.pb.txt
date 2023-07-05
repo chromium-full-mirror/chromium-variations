@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#7K+Jgs5pv9M="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#XPQlCVDXxAo="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -31339,17 +31339,12 @@ study: {
   name: "FirstPartySets"
   consistency: PERMANENT
   experiment: {
-    name: "Enabled_20230221"
+    name: "Preperiod_Default"
     probability_weight: 1
-    gws_experiment_id: 3361415
-    feature_association: {
-      enable_feature: "FirstPartySets"
-      enable_feature: "PrivacySandboxFirstPartySetsUI"
-    }
   }
   filter: {
     end_date: 1694217600
-    min_version: "112.*"
+    min_version: "115.0.0.0"
     channel: BETA
     platform: PLATFORM_WINDOWS
     platform: PLATFORM_MAC
@@ -31364,9 +31359,55 @@ study: {
   name: "FirstPartySets"
   consistency: PERMANENT
   experiment: {
-    name: "Enabled_20230221"
+    name: "EnabledWithWait_20230705"
     probability_weight: 1
-    gws_experiment_id: 3361411
+    gws_experiment_id: 3366931
+    feature_association: {
+      enable_feature: "FirstPartySets"
+      enable_feature: "PrivacySandboxFirstPartySetsUI"
+    }
+  }
+  filter: {
+    end_date: 1694217600
+    min_version: "115.0.0.0"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "FirstPartySets"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Default"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1694217600
+    min_version: "115.0.0.0"
+    channel: STABLE
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "FirstPartySets"
+  consistency: PERMANENT
+  experiment: {
+    name: "EnabledWithWait"
+    probability_weight: 1
+    gws_experiment_id: 3367301
     feature_association: {
       enable_feature: "FirstPartySets"
       enable_feature: "PrivacySandboxFirstPartySetsUI"
@@ -31375,6 +31416,33 @@ study: {
   filter: {
     end_date: 1694217600
     min_version: "112.*"
+    max_version: "114.*"
+    channel: BETA
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "FirstPartySets"
+  consistency: PERMANENT
+  experiment: {
+    name: "EnabledWithWait"
+    probability_weight: 1
+    gws_experiment_id: 3367297
+    feature_association: {
+      enable_feature: "FirstPartySets"
+      enable_feature: "PrivacySandboxFirstPartySetsUI"
+    }
+  }
+  filter: {
+    end_date: 1694217600
+    min_version: "112.*"
+    max_version: "114.*"
     channel: CANARY
     channel: DEV
     platform: PLATFORM_WINDOWS
@@ -31396,6 +31464,7 @@ study: {
   filter: {
     end_date: 1694217600
     min_version: "113.*"
+    max_version: "114.*"
     channel: STABLE
     platform: PLATFORM_WINDOWS
     platform: PLATFORM_MAC
