@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#UrqWMDULV7Q="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#hKIwSJydxH0="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -1321,6 +1321,7 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
     platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
     platform: PLATFORM_WINDOWS
   }
 }
@@ -1344,6 +1345,7 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
     platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
     platform: PLATFORM_WINDOWS
   }
 }
@@ -1363,6 +1365,7 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
     platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
     platform: PLATFORM_WINDOWS
   }
 }
