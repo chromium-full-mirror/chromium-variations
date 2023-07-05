@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#HVo3RPrbDnA="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#i1UCchm8bdg="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -16497,6 +16497,118 @@ study: {
   name: "HatsGeneralCamera"
   consistency: PERMANENT
   experiment: {
+    name: "Preperiod_Default"
+    probability_weight: 1
+    feature_association: {
+      enable_feature: "HappinessTrackingGeneralCamera"
+    }
+    param: {
+      name: "enabled_for_googlers"
+      value: "true"
+    }
+    param: {
+      name: "prob"
+      value: "0.01"
+    }
+    param: {
+      name: "survey_cycle_length"
+      value: "7"
+    }
+    param: {
+      name: "survey_start_date_ms"
+      value: "1677715200000"
+    }
+    param: {
+      name: "trigger_id"
+      value: "vpqxGW9RC0jBnuKU19R0S2ceNB9H"
+    }
+  }
+  filter: {
+    end_date: 1693699200
+    min_version: "115.0.5790.61"
+    channel: BETA
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "HatsGeneralCamera"
+  consistency: PERMANENT
+  experiment: {
+    name: "Default"
+    probability_weight: 1
+    feature_association: {
+      enable_feature: "HappinessTrackingGeneralCamera"
+    }
+    param: {
+      name: "enabled_for_googlers"
+      value: "true"
+    }
+    param: {
+      name: "prob"
+      value: "0.01"
+    }
+    param: {
+      name: "survey_cycle_length"
+      value: "7"
+    }
+    param: {
+      name: "survey_start_date_ms"
+      value: "1677715200000"
+    }
+    param: {
+      name: "trigger_id"
+      value: "vpqxGW9RC0jBnuKU19R0S2ceNB9H"
+    }
+  }
+  filter: {
+    end_date: 1693699200
+    min_version: "115.0.5790.61"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "HatsGeneralCamera"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Default"
+    probability_weight: 1
+    feature_association: {
+      enable_feature: "HappinessTrackingGeneralCamera"
+    }
+    param: {
+      name: "enabled_for_googlers"
+      value: "true"
+    }
+    param: {
+      name: "prob"
+      value: "0.01"
+    }
+    param: {
+      name: "survey_cycle_length"
+      value: "7"
+    }
+    param: {
+      name: "survey_start_date_ms"
+      value: "1677715200000"
+    }
+    param: {
+      name: "trigger_id"
+      value: "vpqxGW9RC0jBnuKU19R0S2ceNB9H"
+    }
+  }
+  filter: {
+    end_date: 1693699200
+    min_version: "115.0.5790.61"
+    channel: STABLE
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "HatsGeneralCamera"
+  consistency: PERMANENT
+  experiment: {
     name: "EnabledWithGooglers"
     probability_weight: 1
     feature_association: {
@@ -16525,7 +16637,7 @@ study: {
   }
   filter: {
     min_version: "109.*"
-    max_version: "117.*"
+    max_version: "115.0.5790.60"
     channel: CANARY
     channel: DEV
     channel: BETA
