@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#7+B+Mxu61mI="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#eIiI5LTEZpM="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -11889,8 +11889,15 @@ study: {
   name: "BackForwardCacheForPageWithCacheControlNotStoredHeader"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Control_20230628"
+    name: "Enabled_20230628"
     probability_weight: 1
+    feature_association: {
+      enable_feature: "CacheControlNoStoreEnterBackForwardCache"
+    }
+    param: {
+      name: "level"
+      value: "store-and-evict"
+    }
   }
   filter: {
     end_date: 1695427140
