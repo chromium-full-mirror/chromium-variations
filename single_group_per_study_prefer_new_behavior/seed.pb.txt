@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#i4adOL3SuZw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#eSbMjQ1QVoc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -9671,8 +9671,11 @@ study:  {
   name:  "AutofillSuggestServerCardInsteadOfLocalCard"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Control"
+    name:  "Enabled"
     probability_weight:  1
+    feature_association:  {
+      enable_feature:  "AutofillSuggestServerCardInsteadOfLocalCard"
+    }
   }
   filter:  {
     end_date:  1693612740
