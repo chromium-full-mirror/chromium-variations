@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#i1UCchm8bdg="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#2dmvcvujg+M="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -56850,9 +56850,8 @@ study: {
     }
   }
   filter: {
-    end_date: 1693440000
     min_version: "113.0.5672.51"
-    max_version: "115.*"
+    max_version: "117.0.5846.0"
     channel: STABLE
     platform: PLATFORM_LINUX
     platform: PLATFORM_MAC
@@ -56879,9 +56878,8 @@ study: {
     }
   }
   filter: {
-    end_date: 1693440000
     min_version: "113.0.5672.51"
-    max_version: "115.*"
+    max_version: "117.0.5846.0"
     channel: STABLE
     platform: PLATFORM_WINDOWS
     platform: PLATFORM_ANDROID
@@ -56903,9 +56901,8 @@ study: {
     }
   }
   filter: {
-    end_date: 1693440000
     min_version: "115.0.5781.0"
-    max_version: "115.*"
+    max_version: "117.0.5846.0"
     channel: CANARY
     channel: DEV
     channel: BETA
