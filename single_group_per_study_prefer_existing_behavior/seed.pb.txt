@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#AWHKHz5O8j8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#TCQFbbJ1AdI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -56679,36 +56679,42 @@ study:  {
   name:  "PartialCustomTabsSideSheet"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230523"
+    name:  "Control"
     probability_weight:  1
+    gws_experiment_id:  3366768
+    web_visibility:  FIRST_PARTY
     feature_association:  {
       disable_feature:  "CCTResizableSideSheet"
     }
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1693439940
     min_version:  "114.*"
     channel:  BETA
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "PartialCustomTabsSideSheet"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230523"
+    name:  "Control"
     probability_weight:  1
+    gws_experiment_id:  3366764
+    web_visibility:  FIRST_PARTY
     feature_association:  {
       disable_feature:  "CCTResizableSideSheet"
     }
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1693439940
     min_version:  "114.*"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "PartialCustomTabsSideSheet"
@@ -56718,11 +56724,12 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1693439940
     min_version:  "114.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "PartialLowEndModeOnMidRangeDevices"
