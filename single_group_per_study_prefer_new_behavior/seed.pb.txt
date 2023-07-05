@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#CCol9Qxjx0U="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#Zl0UgP4SaL4="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -24010,6 +24010,57 @@ study: {
   filter: {
     end_date: 1692489540
     min_version: "113.0.5672.12"
+    channel: STABLE
+    platform: PLATFORM_WINDOWS
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "DedicatedMediaServiceThread"
+  consistency: SESSION
+  experiment: {
+    name: "Preperiod_Control"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1690415940
+    min_version: "117.0.5863.0"
+    channel: BETA
+    platform: PLATFORM_WINDOWS
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "DedicatedMediaServiceThread"
+  consistency: SESSION
+  experiment: {
+    name: "Enabled_20230704"
+    probability_weight: 1
+    gws_experiment_id: 3367145
+    web_visibility: FIRST_PARTY
+    feature_association: {
+      enable_feature: "DedicatedMediaServiceThread"
+    }
+  }
+  filter: {
+    end_date: 1690415940
+    min_version: "117.0.5863.0"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_WINDOWS
+  }
+  activation_type: ACTIVATE_ON_STARTUP
+}
+study: {
+  name: "DedicatedMediaServiceThread"
+  consistency: SESSION
+  experiment: {
+    name: "Default"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1690415940
+    min_version: "117.0.5863.0"
     channel: STABLE
     platform: PLATFORM_WINDOWS
   }
