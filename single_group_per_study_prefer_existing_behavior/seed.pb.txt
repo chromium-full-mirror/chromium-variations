@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#xJQ/X58NP/A="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#7TSPpJW+3xw="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -27624,6 +27624,67 @@ study: {
     platform: PLATFORM_MAC
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_LINUX
+  }
+}
+study: {
+  name: "EnableNetworkBandwidthReporting"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Enabled"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1699487940
+    min_version: "117.*"
+    channel: BETA
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_IOS
+  }
+}
+study: {
+  name: "EnableNetworkBandwidthReporting"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Enabled"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1699487940
+    min_version: "117.*"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_IOS
+  }
+}
+study: {
+  name: "EnableNetworkBandwidthReporting"
+  consistency: PERMANENT
+  experiment: {
+    name: "Default"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1699487940
+    min_version: "117.*"
+    channel: STABLE
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_IOS
   }
 }
 study: {
