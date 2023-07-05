@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#n70N2cl3MzI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#5+ys7OY89Dc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -68875,6 +68875,67 @@ study:  {
     platform:  PLATFORM_ANDROID
     platform:  PLATFORM_IOS
     platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "ReclaimPrepaintTilesWhenIdle"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "117.0.5872.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "ReclaimPrepaintTilesWhenIdle"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "ReclaimPrepaintTilesWhenIdle"
+    }
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "117.0.5872.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "ReclaimPrepaintTilesWhenIdle"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "117.0.5872.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
   }
 }
 study:  {
