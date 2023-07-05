@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#+0Q9SEwvoow="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#n70N2cl3MzI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -54038,6 +54038,7 @@ study:  {
     min_version:  "113.*"
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_ANDROID
     platform:  PLATFORM_IOS
   }
