@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#/+Z9POdLJwo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#y7IxIx3obJc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -26315,12 +26315,12 @@ study:  {
   name:  "DisableUrgentPageDiscarding"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Control"
+    name:  "Preperiod_Control_20230706"
     probability_weight:  1
   }
   filter:  {
     end_date:  1693439940
-    min_version:  "114.*"
+    min_version:  "117.0.5875.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -26330,7 +26330,7 @@ study:  {
   name:  "DisableUrgentPageDiscarding"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Disabled"
+    name:  "Disabled_20230706"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "UrgentPageDiscarding"
@@ -26338,7 +26338,7 @@ study:  {
   }
   filter:  {
     end_date:  1693439940
-    min_version:  "114.*"
+    min_version:  "117.0.5875.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -26354,7 +26354,7 @@ study:  {
   }
   filter:  {
     end_date:  1693439940
-    min_version:  "114.*"
+    min_version:  "117.0.5875.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
