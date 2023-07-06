@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#p4lzjkQNWtI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#DmO8tys7KUs="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -28866,8 +28866,12 @@ study:  {
   name:  "EnablePreferencesAccountStorage"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Default"
+    name:  "Enabled_115plus_20230710"
     probability_weight:  1
+    feature_association:  {
+      enable_feature:  "EnablePreferencesAccountStorage"
+      enable_feature:  "SyncAvoidReconfigurationIfAlreadyStopping"
+    }
   }
   filter:  {
     end_date:  1693439940
@@ -28881,7 +28885,7 @@ study:  {
   name:  "EnablePreferencesAccountStorage"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_115plus_WithReconfigurationFix_20230629"
+    name:  "Enabled_115plus_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnablePreferencesAccountStorage"
@@ -28901,7 +28905,7 @@ study:  {
   name:  "EnablePreferencesAccountStorage"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Default"
+    name:  "Default"
     probability_weight:  1
   }
   filter:  {
