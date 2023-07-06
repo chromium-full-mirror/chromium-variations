@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#WaNI/QgmLxE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#cXYzxhTCnK4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -79305,7 +79305,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "111.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -79329,7 +79329,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "111.*"
     channel:  CANARY
     channel:  DEV
@@ -79347,16 +79347,16 @@ study:  {
   name:  "SyncEnableHistoryDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Sync_Enable_History_20230627"
+    name:  "Sync_Enable_History_20230704"
     probability_weight:  1
-    gws_experiment_id:  3366844
+    gws_experiment_id:  3367140
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SyncEnableHistoryDataType"
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "111.*"
     max_version:  "114.0.5735.132"
     channel:  STABLE
@@ -79375,16 +79375,16 @@ study:  {
   name:  "SyncEnableHistoryDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Sync_Enable_History_20230627"
+    name:  "Sync_Enable_History_20230704"
     probability_weight:  1
-    gws_experiment_id:  3366844
+    gws_experiment_id:  3367140
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SyncEnableHistoryDataType"
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -79402,16 +79402,16 @@ study:  {
   name:  "SyncEnableHistoryDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Sync_Enable_History_20230627"
+    name:  "Sync_Enable_History_20230704"
     probability_weight:  1
-    gws_experiment_id:  3366844
+    gws_experiment_id:  3367140
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SyncEnableHistoryDataType"
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -79429,16 +79429,16 @@ study:  {
   name:  "SyncEnableHistoryDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Sync_Enable_History_20230627"
+    name:  "Sync_Enable_History_20230704"
     probability_weight:  1
-    gws_experiment_id:  3366844
+    gws_experiment_id:  3367140
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SyncEnableHistoryDataType"
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -79455,16 +79455,16 @@ study:  {
   name:  "SyncEnableHistoryDataType"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Sync_Enable_History_20230627"
+    name:  "Sync_Enable_History_20230704"
     probability_weight:  1
-    gws_experiment_id:  3366844
+    gws_experiment_id:  3367140
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SyncEnableHistoryDataType"
     }
   }
   filter:  {
-    end_date:  1690502340
+    end_date:  1691020740
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
