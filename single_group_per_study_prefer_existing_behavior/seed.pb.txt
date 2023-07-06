@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#YcnMu/x5Kro="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#/YXnMofFquY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -6220,8 +6220,11 @@ study:  {
   name:  "AutofillEnableEmailOtpForVcnYellowPath"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AutofillEnableEmailOtpForVcnYellowPath"
+    }
   }
   filter:  {
     end_date:  1695513540
