@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#ottmPa338kA="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#YjGbRSFIjpw="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -27766,7 +27766,7 @@ study: {
   name: "En840AndFstDecoderParamsUpdate"
   consistency: PERMANENT
   experiment: {
-    name: "Enable_Model_And_Params_A_20230628"
+    name: "Enable_Model_And_Params_A_20230705"
     probability_weight: 1
     feature_association: {
       enable_feature: "ImeFstDecoderParamsUpdate"
@@ -27787,11 +27787,11 @@ study: {
   name: "En840AndFstDecoderParamsUpdate"
   consistency: PERMANENT
   experiment: {
-    name: "Model_And_Params_Control_Group_20230628"
+    name: "Enable_Model_And_Params_20230705"
     probability_weight: 1
     feature_association: {
-      disable_feature: "ImeFstDecoderParamsUpdate"
-      disable_feature: "ImeUsEnglishModelUpdate"
+      enable_feature: "ImeFstDecoderParamsUpdate"
+      enable_feature: "ImeUsEnglishModelUpdate"
     }
   }
   filter: {
