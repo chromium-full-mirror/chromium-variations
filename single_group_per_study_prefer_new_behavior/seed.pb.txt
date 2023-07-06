@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#T9t67AQL/3A="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#WaNI/QgmLxE="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -22317,6 +22317,52 @@ study: {
     channel: CANARY
     channel: DEV
     channel: BETA
+    channel: STABLE
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "CrostiniLxd5Rollout"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Control_V4"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1691107140
+    min_version: "117.*"
+    channel: BETA
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "CrostiniLxd5Rollout"
+  consistency: PERMANENT
+  experiment: {
+    name: "Enabled_V4"
+    probability_weight: 1
+    feature_association: {
+      enable_feature: "CrostiniUseLxd5"
+    }
+  }
+  filter: {
+    end_date: 1691107140
+    min_version: "117.*"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_CHROMEOS
+  }
+}
+study: {
+  name: "CrostiniLxd5Rollout"
+  consistency: PERMANENT
+  experiment: {
+    name: "Default"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1691107140
+    min_version: "117.*"
     channel: STABLE
     platform: PLATFORM_CHROMEOS
   }
