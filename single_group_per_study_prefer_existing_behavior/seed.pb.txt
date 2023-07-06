@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KOb9IsNeKtE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Zw2LucNvjrw="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -2453,7 +2453,7 @@ study:  {
   name:  "AndroidMediaPickerAdoption"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control20230630"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "MediaPickerAdoption"
