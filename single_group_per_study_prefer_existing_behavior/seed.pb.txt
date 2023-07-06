@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#W4wZadFk3GM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ve+MgOu5mW4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -74574,74 +74574,6 @@ study:  {
     platform:  PLATFORM_ANDROID
   }
   randomization_seed:  1648503282
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SpeculativeServiceWorkerWarmUp"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Preperiod_EnableAllPointerEvents_20230703"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1693785540
-    min_version:  "116.0.5845.0"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-  randomization_seed:  1868403087
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SpeculativeServiceWorkerWarmUp"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230703"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "SpeculativeServiceWorkerStartup"
-      disable_feature:  "SpeculativeServiceWorkerWarmUp"
-    }
-  }
-  filter:  {
-    end_date:  1693785540
-    min_version:  "116.0.5845.0"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-  randomization_seed:  1868403087
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SpeculativeServiceWorkerWarmUp"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Preperiod_Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1693785540
-    min_version:  "116.0.5845.0"
-    channel:  STABLE
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-  randomization_seed:  1868403087
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
