@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#L2mCpvWikYk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#daTgqjl5jW4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -81492,14 +81492,14 @@ study:  {
   name:  "ThirdPartyStoragePartitioning"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230612"
+    name:  "Enabled_20230627"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "ThirdPartyStoragePartitioning"
     }
   }
   filter:  {
-    end_date:  1691366340
+    end_date:  1694044740
     min_version:  "113.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -81514,14 +81514,14 @@ study:  {
   name:  "ThirdPartyStoragePartitioning"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230612"
+    name:  "Enabled_20230627"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "ThirdPartyStoragePartitioning"
     }
   }
   filter:  {
-    end_date:  1691366340
+    end_date:  1694044740
     min_version:  "113.*"
     channel:  CANARY
     channel:  DEV
@@ -81541,7 +81541,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1691366340
+    end_date:  1694044740
     min_version:  "113.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
