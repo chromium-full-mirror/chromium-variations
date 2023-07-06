@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#8WdvYhmXHQg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#731+CZ+oa0g="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -40089,11 +40089,14 @@ study:  {
   name:  "InhibitLoadingStateUpdate"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "InhibitLoadingStateUpdate"
+    }
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1693439940
     min_version:  "115.0.5738.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -40114,7 +40117,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1693439940
     min_version:  "115.0.5738.0"
     channel:  CANARY
     channel:  DEV
@@ -40133,7 +40136,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1693439940
     min_version:  "115.0.5738.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
