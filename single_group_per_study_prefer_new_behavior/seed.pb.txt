@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#RaxoIpWMfZk="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#T9t67AQL/3A="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -62596,9 +62596,9 @@ study: {
   name: "Prerender2DUIConfidenceCutoff"
   consistency: PERMANENT
   experiment: {
-    name: "ExperimentalConfidenceCutoff_20230523"
+    name: "ExperimentalConfidenceCutoff_20230705"
     probability_weight: 1
-    gws_experiment_id: 3365685
+    gws_experiment_id: 3367280
     web_visibility: FIRST_PARTY
     feature_association: {
       enable_feature: "AutocompleteActionPredictorConfidenceCutoff"
@@ -62613,10 +62613,15 @@ study: {
     }
   }
   filter: {
-    end_date: 1689465540
+    end_date: 1693958340
     min_version: "113.*"
     channel: BETA
     platform: PLATFORM_ANDROID
+    platform: PLATFORM_WINDOWS
+    platform: PLATFORM_MAC
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
   }
   randomization_seed: 2693160055
   activation_type: ACTIVATE_ON_STARTUP
@@ -62625,9 +62630,9 @@ study: {
   name: "Prerender2DUIConfidenceCutoff"
   consistency: PERMANENT
   experiment: {
-    name: "ExperimentalConfidenceCutoff_20230523"
+    name: "ExperimentalConfidenceCutoff_20230705"
     probability_weight: 1
-    gws_experiment_id: 3365681
+    gws_experiment_id: 3367276
     web_visibility: FIRST_PARTY
     feature_association: {
       enable_feature: "AutocompleteActionPredictorConfidenceCutoff"
@@ -62642,7 +62647,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1689465540
+    end_date: 1693958340
     min_version: "113.*"
     channel: CANARY
     channel: DEV
@@ -62664,7 +62669,7 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1689465540
+    end_date: 1693958340
     min_version: "113.*"
     channel: STABLE
     platform: PLATFORM_ANDROID
