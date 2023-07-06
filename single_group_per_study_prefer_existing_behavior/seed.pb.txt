@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Qt4Gjjtmw1A="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#xPcZNpHlwaY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -10922,14 +10922,14 @@ study:  {
   name:  "AllowSpeechSynthesisIntoBFCache"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_2023-06-26"
+    name:  "Control_2023-07-03"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "UnblockSpeechSynthesisForBFCache"
     }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690329540
     min_version:  "112.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -10944,14 +10944,14 @@ study:  {
   name:  "AllowSpeechSynthesisIntoBFCache"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_2023-06-26"
+    name:  "Control_2023-07-03"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "UnblockSpeechSynthesisForBFCache"
     }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690329540
     min_version:  "112.*"
     channel:  CANARY
     channel:  DEV
@@ -10967,11 +10967,14 @@ study:  {
   name:  "AllowSpeechSynthesisIntoBFCache"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Control_2023-07-03"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "UnblockSpeechSynthesisForBFCache"
+    }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690329540
     min_version:  "112.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
