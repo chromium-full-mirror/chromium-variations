@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#lUpkzYujzj0="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#s57fMuVV2Ic="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -16608,7 +16608,7 @@ study:  {
   name:  "HappinessTrackingSystemBatteryLife"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "HappinessTrackingSystemBatteryLife"
@@ -16635,83 +16635,11 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691366340
     min_version:  "114.*"
-    channel:  BETA
-    platform:  PLATFORM_CHROMEOS
-  }
-}
-study:  {
-  name:  "HappinessTrackingSystemBatteryLife"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "HappinessTrackingSystemBatteryLife"
-    }
-    param:  {
-      name:  "histogram_name"
-      value:  "ChromeOS.HaTS.BatteryLife"
-    }
-    param:  {
-      name:  "prob"
-      value:  "0.02"
-    }
-    param:  {
-      name:  "survey_cycle_length"
-      value:  "7"
-    }
-    param:  {
-      name:  "survey_start_date_ms"
-      value:  "1681974000000"
-    }
-    param:  {
-      name:  "trigger_id"
-      value:  "1xncr1Dp20jBnuKU19R0XpozVULu"
-    }
-  }
-  filter:  {
-    end_date:  1691366340
-    min_version:  "114.*"
+    max_version:  "118.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_CHROMEOS
-  }
-}
-study:  {
-  name:  "HappinessTrackingSystemBatteryLife"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_50"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "HappinessTrackingSystemBatteryLife"
-    }
-    param:  {
-      name:  "histogram_name"
-      value:  "ChromeOS.HaTS.BatteryLife"
-    }
-    param:  {
-      name:  "prob"
-      value:  "0.02"
-    }
-    param:  {
-      name:  "survey_cycle_length"
-      value:  "7"
-    }
-    param:  {
-      name:  "survey_start_date_ms"
-      value:  "1681974000000"
-    }
-    param:  {
-      name:  "trigger_id"
-      value:  "1xncr1Dp20jBnuKU19R0XpozVULu"
-    }
-  }
-  filter:  {
-    end_date:  1691366340
-    min_version:  "114.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
   }
