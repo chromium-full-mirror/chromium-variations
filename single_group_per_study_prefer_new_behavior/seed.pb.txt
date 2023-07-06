@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#daTgqjl5jW4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#hg2YcychA4I="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -114452,7 +114452,7 @@ study:  {
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.JavaScriptDialog"
-      value:  "51"
+      value:  "50"
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.TabUnder"
@@ -114480,11 +114480,7 @@ study:  {
     }
     param:  {
       name:  "AdPageLoad"
-      value:  "74"
-    }
-    param:  {
-      name:  "AdPageLoadCustomSampling2"
-      value:  "1"
+      value:  "75"
     }
     param:  {
       name:  "AdsInterestGroup.AuctionLatency"
@@ -114744,7 +114740,7 @@ study:  {
     }
     param:  {
       name:  "ClientRenderingAPI"
-      value:  "3600"
+      value:  "3700"
     }
     param:  {
       name:  "Companion.PageView"
@@ -114788,7 +114784,7 @@ study:  {
     }
     param:  {
       name:  "DailyChargeSummary"
-      value:  "26"
+      value:  "25"
     }
     param:  {
       name:  "DocumentCreated"
@@ -114840,11 +114836,15 @@ study:  {
     }
     param:  {
       name:  "Extensions.OnNavigation"
-      value:  "670"
+      value:  "660"
     }
     param:  {
       name:  "Extensions.WebRequest.KeepaliveRequestFinished"
-      value:  "600"
+      value:  "590"
+    }
+    param:  {
+      name:  "FileSystemAPI.WebRequest"
+      value:  "1"
     }
     param:  {
       name:  "FontMatchAttempts"
@@ -114896,7 +114896,7 @@ study:  {
     }
     param:  {
       name:  "Graphics.Smoothness"
-      value:  "91"
+      value:  "120"
     }
     param:  {
       name:  "Graphics.Smoothness.EventLatency"
@@ -114908,10 +114908,6 @@ study:  {
     }
     param:  {
       name:  "Graphics.Smoothness.NormalizedPercentDroppedFrames"
-      value:  "Graphics.Smoothness"
-    }
-    param:  {
-      name:  "Graphics.Smoothness.PercentDroppedFrames"
       value:  "Graphics.Smoothness"
     }
     param:  {
@@ -114976,7 +114972,7 @@ study:  {
     }
     param:  {
       name:  "JavascriptFrameworkPageLoad"
-      value:  "170"
+      value:  "180"
     }
     param:  {
       name:  "LoadCountsPerTopLevelDocument"
@@ -115032,7 +115028,7 @@ study:  {
     }
     param:  {
       name:  "Media.EME.GetStatusForPolicy"
-      value:  "58"
+      value:  "59"
     }
     param:  {
       name:  "Media.EME.RequestMediaKeySystemAccess"
@@ -115072,7 +115068,7 @@ study:  {
     }
     param:  {
       name:  "Memory.Experimental"
-      value:  "840"
+      value:  "860"
     }
     param:  {
       name:  "Memory.TabFootprint"
@@ -115080,7 +115076,7 @@ study:  {
     }
     param:  {
       name:  "MixedContentAutoupgrade.ResourceRequest"
-      value:  "25"
+      value:  "26"
     }
     param:  {
       name:  "MobileFriendliness"
@@ -115108,11 +115104,11 @@ study:  {
     }
     param:  {
       name:  "Navigation.ReceivedResponse"
-      value:  "180"
+      value:  "190"
     }
     param:  {
       name:  "NavigationPredictor"
-      value:  "45"
+      value:  "46"
     }
     param:  {
       name:  "NavigationPredictorAnchorElementMetrics"
@@ -115143,10 +115139,6 @@ study:  {
       value:  "150"
     }
     param:  {
-      name:  "Network.CacheTransparency"
-      value:  "1"
-    }
-    param:  {
       name:  "Network.CacheTransparency2"
       value:  "1"
     }
@@ -115168,7 +115160,7 @@ study:  {
     }
     param:  {
       name:  "OmniboxSecurityIndicator.FormSubmission"
-      value:  "36"
+      value:  "37"
     }
     param:  {
       name:  "OptimizationGuide"
@@ -115188,7 +115180,7 @@ study:  {
     }
     param:  {
       name:  "PageForegroundSession"
-      value:  "280"
+      value:  "290"
     }
     param:  {
       name:  "PageInfoBubble"
@@ -115280,11 +115272,11 @@ study:  {
     }
     param:  {
       name:  "PerformanceAPI.Memory.Legacy"
-      value:  "1600"
+      value:  "1500"
     }
     param:  {
       name:  "PerformanceManager.PageResourceUsage"
-      value:  "920"
+      value:  "930"
     }
     param:  {
       name:  "PerformanceManager.PageTimelineState"
@@ -115392,7 +115384,7 @@ study:  {
     }
     param:  {
       name:  "Preloading.Prediction"
-      value:  "720"
+      value:  "730"
     }
     param:  {
       name:  "Preloading.Prediction.PreviousPrimaryPage"
@@ -115416,7 +115408,7 @@ study:  {
     }
     param:  {
       name:  "RendererSchedulerTask"
-      value:  "7000"
+      value:  "7200"
     }
     param:  {
       name:  "Responsiveness.UserInteraction"
@@ -115428,11 +115420,11 @@ study:  {
     }
     param:  {
       name:  "SSL.MixedContentShown2"
-      value:  "43"
+      value:  "40"
     }
     param:  {
       name:  "SalientImageAvailability"
-      value:  "380"
+      value:  "370"
     }
     param:  {
       name:  "SamesiteRedirectContextDowngrade"
@@ -115508,7 +115500,7 @@ study:  {
     }
     param:  {
       name:  "Shopping.WillSendRequest"
-      value:  "200"
+      value:  "180"
     }
     param:  {
       name:  "SmartCharging"
@@ -115588,7 +115580,7 @@ study:  {
     }
     param:  {
       name:  "UserPerceivedPageVisit"
-      value:  "540"
+      value:  "550"
     }
     param:  {
       name:  "UserSettingsEvent"
@@ -115640,7 +115632,7 @@ study:  {
     }
     param:  {
       name:  "WebOTPImpact"
-      value:  "69"
+      value:  "70"
     }
     param:  {
       name:  "Webapp.AddToHomeScreen"
@@ -116882,7 +116874,7 @@ study:  {
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.JavaScriptDialog"
-      value:  "51"
+      value:  "50"
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.TabUnder"
@@ -116910,11 +116902,7 @@ study:  {
     }
     param:  {
       name:  "AdPageLoad"
-      value:  "74"
-    }
-    param:  {
-      name:  "AdPageLoadCustomSampling2"
-      value:  "1"
+      value:  "75"
     }
     param:  {
       name:  "AdsInterestGroup.AuctionLatency"
@@ -117174,7 +117162,7 @@ study:  {
     }
     param:  {
       name:  "ClientRenderingAPI"
-      value:  "3600"
+      value:  "3700"
     }
     param:  {
       name:  "Companion.PageView"
@@ -117218,7 +117206,7 @@ study:  {
     }
     param:  {
       name:  "DailyChargeSummary"
-      value:  "26"
+      value:  "25"
     }
     param:  {
       name:  "DocumentCreated"
@@ -117270,11 +117258,15 @@ study:  {
     }
     param:  {
       name:  "Extensions.OnNavigation"
-      value:  "670"
+      value:  "660"
     }
     param:  {
       name:  "Extensions.WebRequest.KeepaliveRequestFinished"
-      value:  "600"
+      value:  "590"
+    }
+    param:  {
+      name:  "FileSystemAPI.WebRequest"
+      value:  "1"
     }
     param:  {
       name:  "FontMatchAttempts"
@@ -117326,7 +117318,7 @@ study:  {
     }
     param:  {
       name:  "Graphics.Smoothness"
-      value:  "91"
+      value:  "120"
     }
     param:  {
       name:  "Graphics.Smoothness.EventLatency"
@@ -117338,10 +117330,6 @@ study:  {
     }
     param:  {
       name:  "Graphics.Smoothness.NormalizedPercentDroppedFrames"
-      value:  "Graphics.Smoothness"
-    }
-    param:  {
-      name:  "Graphics.Smoothness.PercentDroppedFrames"
       value:  "Graphics.Smoothness"
     }
     param:  {
@@ -117406,7 +117394,7 @@ study:  {
     }
     param:  {
       name:  "JavascriptFrameworkPageLoad"
-      value:  "170"
+      value:  "180"
     }
     param:  {
       name:  "LoadCountsPerTopLevelDocument"
@@ -117462,7 +117450,7 @@ study:  {
     }
     param:  {
       name:  "Media.EME.GetStatusForPolicy"
-      value:  "58"
+      value:  "59"
     }
     param:  {
       name:  "Media.EME.RequestMediaKeySystemAccess"
@@ -117502,7 +117490,7 @@ study:  {
     }
     param:  {
       name:  "Memory.Experimental"
-      value:  "840"
+      value:  "860"
     }
     param:  {
       name:  "Memory.TabFootprint"
@@ -117510,7 +117498,7 @@ study:  {
     }
     param:  {
       name:  "MixedContentAutoupgrade.ResourceRequest"
-      value:  "25"
+      value:  "26"
     }
     param:  {
       name:  "MobileFriendliness"
@@ -117538,11 +117526,11 @@ study:  {
     }
     param:  {
       name:  "Navigation.ReceivedResponse"
-      value:  "180"
+      value:  "190"
     }
     param:  {
       name:  "NavigationPredictor"
-      value:  "45"
+      value:  "46"
     }
     param:  {
       name:  "NavigationPredictorAnchorElementMetrics"
@@ -117573,10 +117561,6 @@ study:  {
       value:  "150"
     }
     param:  {
-      name:  "Network.CacheTransparency"
-      value:  "1"
-    }
-    param:  {
       name:  "Network.CacheTransparency2"
       value:  "1"
     }
@@ -117598,7 +117582,7 @@ study:  {
     }
     param:  {
       name:  "OmniboxSecurityIndicator.FormSubmission"
-      value:  "36"
+      value:  "37"
     }
     param:  {
       name:  "OptimizationGuide"
@@ -117618,7 +117602,7 @@ study:  {
     }
     param:  {
       name:  "PageForegroundSession"
-      value:  "280"
+      value:  "290"
     }
     param:  {
       name:  "PageInfoBubble"
@@ -117710,11 +117694,11 @@ study:  {
     }
     param:  {
       name:  "PerformanceAPI.Memory.Legacy"
-      value:  "1600"
+      value:  "1500"
     }
     param:  {
       name:  "PerformanceManager.PageResourceUsage"
-      value:  "920"
+      value:  "930"
     }
     param:  {
       name:  "PerformanceManager.PageTimelineState"
@@ -117822,7 +117806,7 @@ study:  {
     }
     param:  {
       name:  "Preloading.Prediction"
-      value:  "720"
+      value:  "730"
     }
     param:  {
       name:  "Preloading.Prediction.PreviousPrimaryPage"
@@ -117846,7 +117830,7 @@ study:  {
     }
     param:  {
       name:  "RendererSchedulerTask"
-      value:  "7000"
+      value:  "7200"
     }
     param:  {
       name:  "Responsiveness.UserInteraction"
@@ -117858,11 +117842,11 @@ study:  {
     }
     param:  {
       name:  "SSL.MixedContentShown2"
-      value:  "43"
+      value:  "40"
     }
     param:  {
       name:  "SalientImageAvailability"
-      value:  "380"
+      value:  "370"
     }
     param:  {
       name:  "SamesiteRedirectContextDowngrade"
@@ -117938,7 +117922,7 @@ study:  {
     }
     param:  {
       name:  "Shopping.WillSendRequest"
-      value:  "200"
+      value:  "180"
     }
     param:  {
       name:  "SmartCharging"
@@ -118018,7 +118002,7 @@ study:  {
     }
     param:  {
       name:  "UserPerceivedPageVisit"
-      value:  "540"
+      value:  "550"
     }
     param:  {
       name:  "UserSettingsEvent"
@@ -118070,7 +118054,7 @@ study:  {
     }
     param:  {
       name:  "WebOTPImpact"
-      value:  "69"
+      value:  "70"
     }
     param:  {
       name:  "Webapp.AddToHomeScreen"
