@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#YjGbRSFIjpw="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#RaxoIpWMfZk="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -56940,7 +56940,7 @@ study: {
   name: "OutOfProcessNetworkServiceMemoryControls"
   consistency: PERMANENT
   experiment: {
-    name: "Over_6500_mb_20230704"
+    name: "Over_6656_mb_20230706"
     probability_weight: 1
     feature_association: {
       enable_feature: "NetworkServiceOutOfProcessMemoryThreshold"
@@ -56952,7 +56952,7 @@ study: {
   }
   filter: {
     end_date: 1693699140
-    min_version: "113.0.5672.13"
+    min_version: "115.*"
     channel: CANARY
     channel: DEV
     channel: BETA
@@ -56960,10 +56960,24 @@ study: {
   }
 }
 study: {
+  name: "OutOfProcessNetworkServiceMemoryControls"
+  consistency: PERMANENT
+  experiment: {
+    name: "Control"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1693699140
+    min_version: "115.*"
+    channel: STABLE
+    platform: PLATFORM_ANDROID
+  }
+}
+study: {
   name: "OutOfProcessNetworkService"
   consistency: PERMANENT
   experiment: {
-    name: "EnableOOPNS_over_6656_Mb_20230704"
+    name: "EnableOOPNS_over_6656_Mb_20230706"
     probability_weight: 1
     feature_association: {
       disable_feature: "NetworkServiceEmptyOutOfProcess"
@@ -56972,7 +56986,7 @@ study: {
   }
   filter: {
     end_date: 1693699140
-    min_version: "113.0.5672.13"
+    min_version: "115.*"
     channel: BETA
     platform: PLATFORM_ANDROID
   }
@@ -56981,7 +56995,7 @@ study: {
   name: "OutOfProcessNetworkService"
   consistency: PERMANENT
   experiment: {
-    name: "EnableOOPNS_over_6656_Mb_20230704"
+    name: "EnableOOPNS_over_6656_Mb_20230706"
     probability_weight: 1
     feature_association: {
       disable_feature: "NetworkServiceEmptyOutOfProcess"
@@ -56990,9 +57004,23 @@ study: {
   }
   filter: {
     end_date: 1693699140
-    min_version: "113.0.5672.13"
+    min_version: "115.*"
     channel: CANARY
     channel: DEV
+    platform: PLATFORM_ANDROID
+  }
+}
+study: {
+  name: "OutOfProcessNetworkService"
+  consistency: PERMANENT
+  experiment: {
+    name: "Preperiod_Default"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1693699140
+    min_version: "115.*"
+    channel: STABLE
     platform: PLATFORM_ANDROID
   }
 }
