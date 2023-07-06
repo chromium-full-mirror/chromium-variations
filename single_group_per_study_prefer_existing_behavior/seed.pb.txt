@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Lcg3BaNF4KI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#AMFLXvf69jg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -52378,7 +52378,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1692143940
+    end_date:  1693612740
     min_version:  "116.0.5832.0"
     channel:  CANARY
     channel:  DEV
@@ -52389,7 +52389,7 @@ study:  {
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
   }
-  randomization_seed:  2197327643
+  randomization_seed:  2638690976
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
