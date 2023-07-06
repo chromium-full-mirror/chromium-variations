@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#s57fMuVV2Ic="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Ut4/+BQHaEM="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -3823,6 +3823,70 @@ study:  {
     channel:  DEV
     channel:  BETA
     channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "AntiPhishingTelemetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "AntiPhishingTelemetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "AntiPhishingTelemetry"
+    }
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "AntiPhishingTelemetry"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693612740
+    min_version:  "116.*"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
     platform:  PLATFORM_IOS
   }
 }
