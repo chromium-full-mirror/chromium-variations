@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#2xSf/B949p4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#XlxQ4sxiW9M="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -24096,13 +24096,8 @@ study:  {
   name:  "DedicatedMediaServiceThread"
   consistency:  SESSION
   experiment:  {
-    name:  "Enabled_20230704"
+    name:  "Preperiod_Control"
     probability_weight:  1
-    gws_experiment_id:  3367145
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      enable_feature:  "DedicatedMediaServiceThread"
-    }
   }
   filter:  {
     end_date:  1690415940
