@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#lpDLAM8f/Vw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#lUpkzYujzj0="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -62049,8 +62049,30 @@ study:  {
   name:  "PowerBookmarksSidePanel"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Disabled_20230509"
+    name:  "Enabled_20230509"
     probability_weight:  1
+    gws_experiment_id:  3364835
+    web_visibility:  FIRST_PARTY
+    feature_association:  {
+      enable_feature:  "IPH_PowerBookmarksSidePanel"
+      enable_feature:  "PowerBookmarksSidePanel"
+    }
+    param:  {
+      name:  "availability"
+      value:  "any"
+    }
+    param:  {
+      name:  "event_trigger"
+      value:  "name:iph_power_bookmarks_side_panel_trigger;comparator:<=3;window:365;storage:365"
+    }
+    param:  {
+      name:  "event_used"
+      value:  "name:power_bookmarks_side_panel_shown;comparator:==0;window:360;storage:360"
+    }
+    param:  {
+      name:  "session_rate"
+      value:  "==0"
+    }
   }
   filter:  {
     end_date:  1694131140
