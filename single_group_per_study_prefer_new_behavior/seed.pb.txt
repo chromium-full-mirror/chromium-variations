@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#cXYzxhTCnK4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#p4lzjkQNWtI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -17104,7 +17104,7 @@ study:  {
   }
   filter:  {
     min_version:  "107.0.5298.*"
-    max_version:  "116.*"
+    max_version:  "123.*"
     channel:  CANARY
     channel:  DEV
     channel:  BETA
@@ -17141,7 +17141,7 @@ study:  {
   }
   filter:  {
     min_version:  "107.0.5298.*"
-    max_version:  "116.*"
+    max_version:  "123.*"
     channel:  CANARY
     channel:  DEV
     channel:  BETA
