@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#7jGKQWGeJDE="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#ottmPa338kA="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -20241,8 +20241,15 @@ study: {
   name: "CompanionEnabledByObservingExpsNavigations"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Control"
+    name: "Enabled_20230705"
     probability_weight: 1
+    feature_association: {
+      enable_feature: "CompanionEnabledByObservingExpsNavigations"
+    }
+    param: {
+      name: "exps-registration-success-page-urls"
+      value: "https://labs.google.com/search/experiments,https://labs.google.com/search/experiment/2"
+    }
   }
   filter: {
     end_date: 1690070340
@@ -20262,7 +20269,7 @@ study: {
   name: "CompanionEnabledByObservingExpsNavigations"
   consistency: PERMANENT
   experiment: {
-    name: "Enabled_20230630"
+    name: "Enabled_20230705"
     probability_weight: 1
     feature_association: {
       enable_feature: "CompanionEnabledByObservingExpsNavigations"
