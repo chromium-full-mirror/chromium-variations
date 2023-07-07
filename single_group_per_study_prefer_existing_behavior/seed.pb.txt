@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#1S4v7iRDjC8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#GrRuivTy9/c="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -28662,32 +28662,6 @@ study:  {
     channel:  CANARY
     channel:  DEV
     channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_IOS
-    platform:  PLATFORM_ANDROID
-    platform:  PLATFORM_ANDROID_WEBVIEW
-  }
-}
-study:  {
-  name:  "ExpiredHistograms"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "ExpiryEnabledWithAllowlist_Default"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "ExpiredHistogramLogic"
-    }
-    param:  {
-      name:  "whitelist"
-      value:  "MachineLearningService.GrammarChecker.Check.Event,MachineLearningService.TextSuggester.Suggest.Event,Navigation.EngagementTime.HTTP"
-    }
-  }
-  filter:  {
-    end_date:  1717804740
-    min_version:  "88.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
