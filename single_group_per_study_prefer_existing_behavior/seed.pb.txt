@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Wjm7Ua9a0wg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#19kXcRjco4E="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -59654,6 +59654,64 @@ study:  {
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
+  }
+}
+study:  {
+  name:  "PerformanceControlsHatsStudy"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694044740
+    min_version:  "112.*"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    locale:  "en-US"
+  }
+}
+study:  {
+  name:  "PerformanceControlsHatsStudy"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694044740
+    min_version:  "112.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    locale:  "en-US"
+  }
+}
+study:  {
+  name:  "PerformanceControlsHatsStudy"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694044740
+    min_version:  "112.*"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    locale:  "en-US"
   }
 }
 study:  {
