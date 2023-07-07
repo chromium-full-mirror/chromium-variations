@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#2VVDFLH948c="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ITG3TbgtDGc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -35350,52 +35350,22 @@ study:  {
   name:  "IOSCredentialProviderExtensionPromo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230525"
+    name:  "EnabledOnLoginWithAutofill"
     probability_weight:  1
     feature_association:  {
-      disable_feature:  "CredentialProviderExtensionPromo"
+      enable_feature:  "CredentialProviderExtensionPromo"
+    }
+    param:  {
+      name:  "enable_promo_on_login_with_autofill"
+      value:  "true"
     }
   }
   filter:  {
-    end_date:  1690934340
     min_version:  "112.*"
-    channel:  BETA
-    platform:  PLATFORM_IOS
-  }
-  randomization_seed:  1970125834
-}
-study:  {
-  name:  "IOSCredentialProviderExtensionPromo"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230525"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "CredentialProviderExtensionPromo"
-    }
-  }
-  filter:  {
-    end_date:  1690934340
-    min_version:  "112.*"
+    max_version:  "116.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_IOS
-  }
-  randomization_seed:  1970125834
-}
-study:  {
-  name:  "IOSCredentialProviderExtensionPromo"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230525"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "CredentialProviderExtensionPromo"
-    }
-  }
-  filter:  {
-    end_date:  1690934340
-    min_version:  "112.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
