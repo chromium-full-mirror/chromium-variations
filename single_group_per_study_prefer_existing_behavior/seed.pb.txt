@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Fd3UsRmEj0A="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#d6WoED+G4QI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -55595,8 +55595,11 @@ study:  {
   name:  "OutOfProcessSystemDnsResolution"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled_20230622"
+    name:  "Control_202300705"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "OutOfProcessSystemDnsResolution"
+    }
   }
   filter:  {
     end_date:  1692489540
@@ -55604,12 +55607,13 @@ study:  {
     channel:  BETA
     platform:  PLATFORM_LINUX
   }
+  randomization_seed:  4020717656
 }
 study:  {
   name:  "OutOfProcessSystemDnsResolution"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230622"
+    name:  "Control_202300705"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "OutOfProcessSystemDnsResolution"
@@ -55622,6 +55626,7 @@ study:  {
     channel:  DEV
     platform:  PLATFORM_LINUX
   }
+  randomization_seed:  4020717656
 }
 study:  {
   name:  "OutOfProcessSystemDnsResolution"
@@ -55636,6 +55641,7 @@ study:  {
     channel:  STABLE
     platform:  PLATFORM_LINUX
   }
+  randomization_seed:  4020717656
 }
 study:  {
   name:  "OverlayNewLayout"
