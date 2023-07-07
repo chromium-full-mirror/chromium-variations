@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#bExvj/yd85Y="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#e1ovrvC5nVw="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -282,57 +282,18 @@ study:  {
   name:  "PageInfoAboutThisSiteNewIcon"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_230404"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
-      disable_feature:  "PageInfoAboutThisSiteNewIcon"
+      enable_feature:  "PageInfoAboutThisSiteNewIcon"
     }
   }
   filter:  {
-    end_date:  1690761540
     min_version:  "114.0.5694.0"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "PageInfoAboutThisSiteNewIcon"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_230404"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "PageInfoAboutThisSiteNewIcon"
-    }
-  }
-  filter:  {
-    end_date:  1690761540
-    min_version:  "114.0.5694.0"
+    max_version:  "117.0.5874.0"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "PageInfoAboutThisSiteNewIcon"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690761540
-    min_version:  "114.0.5694.0"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
