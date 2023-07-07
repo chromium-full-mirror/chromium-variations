@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#WBOb5hs9mZQ="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#w7tmYon5f2M="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -72734,47 +72734,18 @@ study:  {
   name:  "SafeBrowsingSkipImageCssFont"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230605"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "SafeBrowsingSkipImageCssFont"
     }
   }
   filter:  {
-    end_date:  1691279940
     min_version:  "113.0.5625.0"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "SafeBrowsingSkipImageCssFont"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230605"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "SafeBrowsingSkipImageCssFont"
-    }
-  }
-  filter:  {
-    end_date:  1691279940
-    min_version:  "113.0.5625.0"
+    max_version:  "117.0.5876.0"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "SafeBrowsingSkipImageCssFont"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1691279940
-    min_version:  "113.0.5625.0"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
