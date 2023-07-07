@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#e1ovrvC5nVw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Wjm7Ua9a0wg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -53081,6 +53081,22 @@ study:  {
     channel:  BETA
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "OmniboxPerf_Android"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693353540
+    min_version:  "114.0.5714.0"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  708746294
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
