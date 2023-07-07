@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#sf+oLT4XIkg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#tlF3qBw8Mc4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -57101,12 +57101,8 @@ study:  {
   name:  "OutOfProcessNetworkService"
   consistency:  PERMANENT
   experiment:  {
-    name:  "EnableOOPNS_over_6656_Mb_20230706"
+    name:  "Default"
     probability_weight:  1
-    feature_association:  {
-      disable_feature:  "NetworkServiceEmptyOutOfProcess"
-      disable_feature:  "NetworkServiceInProcess2"
-    }
   }
   filter:  {
     end_date:  1693699140
@@ -57119,12 +57115,8 @@ study:  {
   name:  "OutOfProcessNetworkService"
   consistency:  PERMANENT
   experiment:  {
-    name:  "EnableOOPNS_over_6656_Mb_20230706"
+    name:  "Default"
     probability_weight:  1
-    feature_association:  {
-      disable_feature:  "NetworkServiceEmptyOutOfProcess"
-      disable_feature:  "NetworkServiceInProcess2"
-    }
   }
   filter:  {
     end_date:  1693699140
