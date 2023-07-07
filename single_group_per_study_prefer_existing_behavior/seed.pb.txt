@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#biZQUrUQSVw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#qsRlPcQYRaU="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -61388,7 +61388,7 @@ study:  {
   name:  "PriceTrackingChipStudy"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230602"
+    name:  "Control_20230706"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "IPH_PriceTrackingPageActionIconLabelFeature"
@@ -61412,7 +61412,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690761540
+    end_date:  1693439940
     min_version:  "114.0.5735.35"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -61428,7 +61428,7 @@ study:  {
   name:  "PriceTrackingChipStudy"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230602"
+    name:  "Control_20230706"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "IPH_PriceTrackingPageActionIconLabelFeature"
@@ -61452,7 +61452,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690761540
+    end_date:  1693439940
     min_version:  "115.0.5739.0"
     channel:  CANARY
     channel:  DEV
@@ -61473,7 +61473,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690761540
+    end_date:  1693439940
     min_version:  "114.0.5735.35"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
