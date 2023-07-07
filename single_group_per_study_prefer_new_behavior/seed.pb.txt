@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#78ApoHTzmNo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#YI7L0Wp5X8A="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -27416,6 +27416,7 @@ study:  {
   filter:  {
     end_date:  1690761540
     min_version:  "110.0.5481.77"
+    max_version:  "114.0.5735.132"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -27438,6 +27439,7 @@ study:  {
   filter:  {
     end_date:  1690761540
     min_version:  "110.0.5481.77"
+    max_version:  "114.0.5735.132"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -27457,6 +27459,71 @@ study:  {
   filter:  {
     end_date:  1690761540
     min_version:  "110.0.5481.77"
+    max_version:  "114.0.5735.132"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  randomization_seed:  2473205037
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "DownloadUXRedesign"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_V2_20230222"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "DownloadBubble"
+      enable_feature:  "DownloadBubbleV2"
+    }
+  }
+  filter:  {
+    end_date:  1690761540
+    min_version:  "114.0.5735.133"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "DownloadUXRedesign"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_V2_20230222"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "DownloadBubble"
+      enable_feature:  "DownloadBubbleV2"
+    }
+  }
+  filter:  {
+    end_date:  1690761540
+    min_version:  "114.0.5735.133"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "DownloadUXRedesign"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1690761540
+    min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
