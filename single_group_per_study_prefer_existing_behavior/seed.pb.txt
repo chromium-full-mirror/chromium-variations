@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4oKqQQoIPFM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#1S4v7iRDjC8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -23390,6 +23390,68 @@ study:  {
     platform:  PLATFORM_ANDROID
   }
   randomization_seed:  1757348644
+}
+study:  {
+  name:  "DelayMemoryInterventions"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "117.0.5872.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "DelayMemoryInterventions"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "DelayFirstPeriodicPAPurgeOrReclaim"
+      disable_feature:  "DelayFirstWorkerWake"
+    }
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "117.0.5872.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "DelayMemoryInterventions"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1691279940
+    min_version:  "117.0.5872.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
 }
 study:  {
   name:  "DelayOutOfViewportLazyImages"
