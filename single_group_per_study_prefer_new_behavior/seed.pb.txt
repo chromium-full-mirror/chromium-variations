@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#tlF3qBw8Mc4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#LTIGWrDmrdE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -11035,14 +11035,14 @@ study:  {
   name:  "DoNotEvictOnAXEvents"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_2023-06-26"
+    name:  "Enabled_2023-07-06"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "EvictOnAXEvents"
     }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690761540
     min_version:  "107.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -11057,14 +11057,14 @@ study:  {
   name:  "DoNotEvictOnAXEvents"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_2023-06-26"
+    name:  "Enabled_2023-07-06"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "EvictOnAXEvents"
     }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690761540
     min_version:  "107.*"
     channel:  CANARY
     channel:  DEV
@@ -11080,11 +11080,14 @@ study:  {
   name:  "DoNotEvictOnAXEvents"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Enabled_2023-07-06"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "EvictOnAXEvents"
+    }
   }
   filter:  {
-    end_date:  1689551940
+    end_date:  1690761540
     min_version:  "107.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
