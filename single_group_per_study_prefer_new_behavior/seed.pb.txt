@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#UYYQSwyFtCs="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Gbf/lHbjgx4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -46122,47 +46122,18 @@ study:  {
   name:  "MacSetDefaultTaskRole"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "MacSetDefaultTaskRole"
     }
   }
   filter:  {
-    end_date:  1690847940
     min_version:  "111.0.5558.0"
-    channel:  BETA
-    platform:  PLATFORM_MAC
-  }
-}
-study:  {
-  name:  "MacSetDefaultTaskRole"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "MacSetDefaultTaskRole"
-    }
-  }
-  filter:  {
-    end_date:  1690847940
-    min_version:  "111.0.5558.0"
+    max_version:  "115.0.5780.0"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_MAC
-  }
-}
-study:  {
-  name:  "MacSetDefaultTaskRole"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690847940
-    min_version:  "111.0.5558.0"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_MAC
   }
