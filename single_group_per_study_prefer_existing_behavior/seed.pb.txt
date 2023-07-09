@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#bY5EaP3zHEE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#5h3L5cWtIQI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -55348,7 +55348,7 @@ study:  {
   name:  "OutOfProcessNetworkServiceMemoryControls"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Over_6656_mb_20230706"
+    name:  "Over_6656_mb_20230707"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "NetworkServiceOutOfProcessMemoryThreshold"
@@ -55360,7 +55360,7 @@ study:  {
   }
   filter:  {
     end_date:  1693699140
-    min_version:  "115.*"
+    min_version:  "116.0.5834.0"
     channel:  CANARY
     channel:  DEV
     channel:  BETA
@@ -55371,12 +55371,12 @@ study:  {
   name:  "OutOfProcessNetworkServiceMemoryControls"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230707"
     probability_weight:  1
   }
   filter:  {
     end_date:  1693699140
-    min_version:  "115.*"
+    min_version:  "116.0.5834.0"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
@@ -55385,12 +55385,12 @@ study:  {
   name:  "OutOfProcessNetworkService"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Preperiod_EnableOOPNS_over_6656_Mb_20230707"
     probability_weight:  1
   }
   filter:  {
     end_date:  1693699140
-    min_version:  "115.*"
+    min_version:  "116.0.5834.0"
     channel:  BETA
     platform:  PLATFORM_ANDROID
   }
@@ -55399,12 +55399,16 @@ study:  {
   name:  "OutOfProcessNetworkService"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Control_over_6656_Mb_20230707"
     probability_weight:  1
+    feature_association:  {
+      enable_feature:  "NetworkServiceInProcess2"
+      disable_feature:  "NetworkServiceEmptyOutOfProcess"
+    }
   }
   filter:  {
     end_date:  1693699140
-    min_version:  "115.*"
+    min_version:  "116.0.5834.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_ANDROID
@@ -55419,7 +55423,7 @@ study:  {
   }
   filter:  {
     end_date:  1693699140
-    min_version:  "115.*"
+    min_version:  "116.0.5834.0"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
