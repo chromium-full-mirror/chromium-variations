@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#oOFIu4JVjHw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#etI7ihRzWPg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -6197,7 +6197,7 @@ study:  {
   name:  "AutofillEnableCardArtAndCardProductName"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled"
+    name:  "Enabled_20230707"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "AutofillEnableCardArtImage"
@@ -6207,8 +6207,8 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689465540
-    min_version:  "113.0.5672.53"
+    end_date:  1693612740
+    min_version:  "115.0.5790.53"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -6222,7 +6222,7 @@ study:  {
   name:  "AutofillEnableCardArtAndCardProductName"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled"
+    name:  "Enabled_20230707"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "AutofillEnableCardArtImage"
@@ -6232,8 +6232,8 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689465540
-    min_version:  "113.0.5672.53"
+    end_date:  1693612740
+    min_version:  "115.0.5790.53"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -6252,8 +6252,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689465540
-    min_version:  "113.0.5672.53"
+    end_date:  1693612740
+    min_version:  "115.0.5790.53"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
