@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#AgHeY8rkBtU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#vvxtasDrKww="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -143013,50 +143013,18 @@ study:  {
   name:  "WebViewZoomKeyboardShortcuts"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230703"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "WebViewZoomKeyboardShortcuts"
     }
   }
   filter:  {
-    end_date:  1691366340
     min_version:  "114.*"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID_WEBVIEW
-  }
-}
-study:  {
-  name:  "WebViewZoomKeyboardShortcuts"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230703"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "WebViewZoomKeyboardShortcuts"
-    }
-  }
-  filter:  {
-    end_date:  1691366340
-    min_version:  "114.*"
+    max_version:  "115.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_ANDROID_WEBVIEW
-  }
-}
-study:  {
-  name:  "WebViewZoomKeyboardShortcuts"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230703"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "WebViewZoomKeyboardShortcuts"
-    }
-  }
-  filter:  {
-    end_date:  1691366340
-    min_version:  "114.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID_WEBVIEW
   }
