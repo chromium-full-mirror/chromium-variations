@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#JM9vwJfiWTo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#DtkpXb1/3e0="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -57494,7 +57494,7 @@ study:  {
     }
     param:  {
       name:  "BlockListByModel"
-      value:  "NW-A100Series|ONEPLUS A5000|GT-P5210|SF20GM7|Nexus 7|ONEPLUS A3010|Galaxy Tab 2 3G|GT-P5200|ASUS_Z01QD|SM-G955F|NW-ZX500Series|Z00D|moto e32|SM-G988N|SM-G610F|HUAWEI VNS-L23|moto g73 5G|moto g power 5G - 2023"
+      value:  "NW-A100Series|ONEPLUS A5000|GT-P5210|SF20GM7|Nexus 7|ONEPLUS A3010|Galaxy Tab 2 3G|GT-P5200|ASUS_Z01QD|SM-G955F|NW-ZX500Series|Z00D|moto e32|SM-G988N|SM-G610F|HUAWEI VNS-L23|moto g54 5G|moto g73 5G|moto g power 5G - 2023"
     }
   }
   filter:  {
