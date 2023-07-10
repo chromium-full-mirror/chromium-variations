@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pUCWUfpcI8w="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Si1Z56l5MVo="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -21610,8 +21610,8 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
-    min_version:  "102.0.5001.0"
+    end_date:  1694217540
+    min_version:  "108.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -21629,8 +21629,8 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
-    min_version:  "102.0.5001.0"
+    end_date:  1694217540
+    min_version:  "108.*"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -21646,8 +21646,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689379140
-    min_version:  "102.0.5001.0"
+    end_date:  1694217540
+    min_version:  "108.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -21665,7 +21665,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "108.*"
     channel:  BETA
     platform:  PLATFORM_ANDROID
@@ -21682,7 +21682,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "108.*"
     channel:  CANARY
     channel:  DEV
@@ -21697,7 +21697,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "108.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
@@ -21714,7 +21714,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "109.0.5410.0"
     channel:  BETA
     platform:  PLATFORM_CHROMEOS
@@ -21732,7 +21732,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "109.0.5410.0"
     channel:  CANARY
     channel:  DEV
@@ -21748,7 +21748,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "109.0.5410.0"
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
@@ -21766,7 +21766,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "84.0.4147.37"
     channel:  BETA
     platform:  PLATFORM_IOS
@@ -21783,7 +21783,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "84.0.4147.37"
     channel:  CANARY
     channel:  DEV
@@ -21798,7 +21798,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689379140
+    end_date:  1694217540
     min_version:  "84.0.4147.37"
     channel:  STABLE
     platform:  PLATFORM_IOS
