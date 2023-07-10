@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pEuc8xTrg1k="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#W2pNhUSZ874="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -139427,8 +139427,11 @@ study:  {
   name:  "WebViewUmaUploadQualityOfServiceSetToDefault"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "WebViewUmaUploadQualityOfServiceSetToDefault"
+    }
   }
   filter:  {
     end_date:  1692143940
