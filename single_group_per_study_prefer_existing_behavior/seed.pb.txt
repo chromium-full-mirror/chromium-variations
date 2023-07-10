@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#fDKlR7vBlF4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#z/1k5yEOhJ4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -30616,9 +30616,13 @@ study:  {
   name:  "FirstPartySets"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_EnabledWithWait_20230705"
+    name:  "Control_20230705"
     probability_weight:  1
-    gws_experiment_id:  3366934
+    gws_experiment_id:  3366936
+    feature_association:  {
+      disable_feature:  "FirstPartySets"
+      disable_feature:  "PrivacySandboxFirstPartySetsUI"
+    }
   }
   filter:  {
     end_date:  1694217600
