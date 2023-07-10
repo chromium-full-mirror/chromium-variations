@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#LDBGfslaTuU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#+g56o8eISsY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -77991,6 +77991,106 @@ study:  {
     platform:  PLATFORM_ANDROID
   }
   randomization_seed:  1648503282
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "SpeculativeServiceWorkerWarmUp"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5877.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  1868403087
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "SpeculativeServiceWorkerWarmUp"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnableAllPointerEvents_20230709"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "SpeculativeServiceWorkerWarmUp"
+      disable_feature:  "SpeculativeServiceWorkerStartup"
+    }
+    param:  {
+      name:  "sw_warm_up_batch_timer"
+      value:  "1ms"
+    }
+    param:  {
+      name:  "sw_warm_up_dry_run"
+      value:  "false"
+    }
+    param:  {
+      name:  "sw_warm_up_first_batch_timer"
+      value:  "1ms"
+    }
+    param:  {
+      name:  "sw_warm_up_intersection_observer"
+      value:  "false"
+    }
+    param:  {
+      name:  "sw_warm_up_on_pointerdown"
+      value:  "true"
+    }
+    param:  {
+      name:  "sw_warm_up_on_pointerover"
+      value:  "true"
+    }
+    param:  {
+      name:  "sw_warm_up_on_visible"
+      value:  "false"
+    }
+    param:  {
+      name:  "sw_warm_up_wait_for_load"
+      value:  "false"
+    }
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5877.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  1868403087
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "SpeculativeServiceWorkerWarmUp"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5877.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+  randomization_seed:  1868403087
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
