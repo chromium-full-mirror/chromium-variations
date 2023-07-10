@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#vvxtasDrKww="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#udsXDMXEltQ="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -11063,36 +11063,7 @@ study:  {
   name:  "BFCachePerformanceManagerPolicy"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690761540
-    min_version:  "113.0.5640.3"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "BFCachePerformanceManagerPolicy"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690761540
-    min_version:  "113.0.5640.3"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "BFCachePerformanceManagerPolicy"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "EnabledPolicy_CacheSize6_20230525"
+    name:  "EnabledPolicy_CacheSize6"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "BFCachePerformanceManagerPolicy"
@@ -11108,8 +11079,11 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690761540
     min_version:  "113.0.5640.3"
+    max_version:  "117.0.5863.0"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
