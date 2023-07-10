@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#8XQCBgQwlYM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pUCWUfpcI8w="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -56403,13 +56403,11 @@ study:  {
   name:  "OptimizationTargetNotificationPermissionPredictionsGradualRollout"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230703"
+    name:  "Preperiod_Control"
     probability_weight:  1
-    gws_experiment_id:  3366871
-    web_visibility:  FIRST_PARTY
   }
   filter:  {
-    end_date:  1688947200
+    end_date:  1690156800
     min_version:  "108.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -56426,13 +56424,13 @@ study:  {
   name:  "OptimizationTargetNotificationPermissionPredictionsGradualRollout"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230703"
+    name:  "Enabled_20230710"
     probability_weight:  1
-    gws_experiment_id:  3366871
+    gws_experiment_id:  3367387
     web_visibility:  FIRST_PARTY
   }
   filter:  {
-    end_date:  1688947200
+    end_date:  1690156800
     min_version:  "108.*"
     channel:  CANARY
     channel:  DEV
@@ -56454,7 +56452,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1688947200
+    end_date:  1690156800
     min_version:  "108.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
