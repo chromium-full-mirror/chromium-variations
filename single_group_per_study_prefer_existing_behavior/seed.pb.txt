@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#38ldBUlLN1U="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#fDKlR7vBlF4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -15419,8 +15419,11 @@ study:  {
   name:  "HatsOnboardingExperience"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "HappinessTrackingOnboardingExperience"
+    }
   }
   filter:  {
     end_date:  1691711940

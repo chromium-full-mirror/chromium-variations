@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#jJIC49zIpKw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#C1Oq74ARm2c="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -15964,8 +15964,27 @@ study:  {
   name:  "HatsOnboardingExperience"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Control"
+    name:  "Enabled"
     probability_weight:  1
+    feature_association:  {
+      enable_feature:  "HappinessTrackingOnboardingExperience"
+    }
+    param:  {
+      name:  "prob"
+      value:  "0.05"
+    }
+    param:  {
+      name:  "survey_cycle_length"
+      value:  "2147483647"
+    }
+    param:  {
+      name:  "survey_start_date_ms"
+      value:  "1617260400000"
+    }
+    param:  {
+      name:  "trigger_id"
+      value:  "NAgJpJZhz0jBnuKU19R0UuVK5EA7"
+    }
   }
   filter:  {
     end_date:  1691711940
