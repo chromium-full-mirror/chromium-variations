@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#etI7ihRzWPg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#xk+RSp9UR+8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -20161,7 +20161,7 @@ study:  {
   name:  "CompanionEnabledByObservingExpsNavigations"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230705"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "CompanionEnabledByObservingExpsNavigations"
@@ -20172,58 +20172,11 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690070340
-    min_version:  "115.*"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    locale:  "en-US"
-    country:  "us"
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "CompanionEnabledByObservingExpsNavigations"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230705"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "CompanionEnabledByObservingExpsNavigations"
-    }
-    param:  {
-      name:  "exps-registration-success-page-urls"
-      value:  "https://labs.google.com/search/experiments,https://labs.google.com/search/experiment/2"
-    }
-  }
-  filter:  {
-    end_date:  1690070340
+    end_date:  1721692740
     min_version:  "115.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    locale:  "en-US"
-    country:  "us"
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "CompanionEnabledByObservingExpsNavigations"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690070340
-    min_version:  "115.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
