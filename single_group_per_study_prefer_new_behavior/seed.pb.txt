@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#U8JGPauIntk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#1xLg30hz9fY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -12830,7 +12830,7 @@ study:  {
   name:  "BoostImagePriority"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_5_0_20230501"
+    name:  "Enabled_5_1_20230705"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "BoostImagePriority"
@@ -12841,11 +12841,11 @@ study:  {
     }
     param:  {
       name:  "tight_medium_limit"
-      value:  "0"
+      value:  "1"
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1693612740
     min_version:  "114.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -12861,7 +12861,7 @@ study:  {
   name:  "BoostImagePriority"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_5_0_20230501"
+    name:  "Enabled_5_1_20230705"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "BoostImagePriority"
@@ -12872,11 +12872,11 @@ study:  {
     }
     param:  {
       name:  "tight_medium_limit"
-      value:  "0"
+      value:  "1"
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1693612740
     min_version:  "114.*"
     channel:  CANARY
     channel:  DEV
@@ -12897,7 +12897,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1693612740
     min_version:  "114.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
