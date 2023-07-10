@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#MkgDW5XnAQU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#3qg3dDVwNqg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -67471,7 +67471,7 @@ study:  {
   name:  "RevampedPasswordManagementBubble"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230525"
+    name:  "Disabled_20230707"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "IPH_PasswordsManagementBubbleAfterSave"
@@ -67494,7 +67494,7 @@ study:  {
   name:  "RevampedPasswordManagementBubble"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230525"
+    name:  "Disabled_20230707"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "IPH_PasswordsManagementBubbleAfterSave"
