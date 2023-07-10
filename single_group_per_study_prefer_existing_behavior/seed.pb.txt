@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ICkBVBGAWAc="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#U5dP/Ywz0rw="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -62774,7 +62774,7 @@ study:  {
   }
   filter:  {
     end_date:  1690934340
-    min_version:  "111.0.5557.0"
+    min_version:  "114.0.5735.24"
     min_os_version:  "13.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
@@ -63252,7 +63252,7 @@ study:  {
   }
   filter:  {
     end_date:  1690934340
-    min_version:  "111.0.5557.0"
+    min_version:  "114.0.5735.24"
     min_os_version:  "13.*"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
