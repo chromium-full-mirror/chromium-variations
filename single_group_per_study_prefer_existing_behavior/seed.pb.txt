@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#TJczzTDUbbo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#38ldBUlLN1U="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -57208,7 +57208,7 @@ study:  {
   }
   filter:  {
     min_version:  "113.0.5672.51"
-    max_version:  "117.0.5846.0"
+    max_version:  "115.0.5780.*"
     channel:  STABLE
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_MAC
@@ -57236,7 +57236,7 @@ study:  {
   }
   filter:  {
     min_version:  "113.0.5672.51"
-    max_version:  "117.0.5846.0"
+    max_version:  "115.0.5780.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_ANDROID
@@ -57270,6 +57270,36 @@ study:  {
     platform:  PLATFORM_CHROMEOS
   }
   randomization_seed:  3922712767
+}
+study:  {
+  name:  "PartitionAllocBackupRefPtr"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "PartitionAllocBackupRefPtr"
+    }
+    param:  {
+      name:  "brp-mode"
+      value:  "enabled"
+    }
+    param:  {
+      name:  "enabled-processes"
+      value:  "non-renderer"
+    }
+  }
+  filter:  {
+    min_version:  "115.0.5781.0"
+    max_version:  "117.0.5846.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_CHROMEOS
+  }
+  randomization_seed:  3241927740
 }
 study:  {
   name:  "PartitionAllocUnretainedDanglingPtr"
