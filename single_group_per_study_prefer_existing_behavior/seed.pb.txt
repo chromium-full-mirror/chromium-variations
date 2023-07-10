@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pO0nrDH43s8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Mj7kbtIpaV0="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -20597,7 +20597,7 @@ study:  {
   name:  "CrOSFederatedServiceV0Task"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled_20230627"
+    name:  "Preperiod_Enabled_20230710"
     probability_weight:  1
   }
   filter:  {
@@ -20605,13 +20605,14 @@ study:  {
     min_version:  "116.0.5794.0"
     channel:  BETA
     platform:  PLATFORM_CHROMEOS
+    exclude_hardware_class:  "reven"
   }
 }
 study:  {
   name:  "CrOSFederatedServiceV0Task"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230627"
+    name:  "Control_20230710"
     probability_weight:  1
   }
   filter:  {
@@ -20620,6 +20621,7 @@ study:  {
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_CHROMEOS
+    exclude_hardware_class:  "reven"
   }
 }
 study:  {
@@ -20634,6 +20636,7 @@ study:  {
     min_version:  "116.0.5794.0"
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
+    exclude_hardware_class:  "reven"
   }
 }
 study:  {
