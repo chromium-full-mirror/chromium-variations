@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#q/4p4yQD4/4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#TG5VX332KYY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -58347,7 +58347,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58372,7 +58372,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58447,7 +58447,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58472,7 +58472,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58528,6 +58528,7 @@ study:  {
   filter:  {
     end_date:  1693526340
     min_version:  "115.0.5766.0"
+    max_version:  "116.0.5836.*"
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
@@ -58545,7 +58546,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58555,7 +58556,7 @@ study:  {
   filter:  {
     end_date:  1693526340
     min_version:  "115.0.5766.0"
-    max_version:  "115.*"
+    max_version:  "116.0.5836.*"
     channel:  BETA
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_MAC
@@ -58569,7 +58570,7 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_20230710"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
@@ -58579,7 +58580,7 @@ study:  {
   filter:  {
     end_date:  1693526340
     min_version:  "115.0.5766.0"
-    max_version:  "115.*"
+    max_version:  "116.0.5836.*"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_LINUX
@@ -58600,7 +58601,7 @@ study:  {
   filter:  {
     end_date:  1693526340
     min_version:  "115.0.5766.0"
-    max_version:  "115.*"
+    max_version:  "116.0.5836.*"
     channel:  STABLE
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_MAC
@@ -58614,36 +58615,66 @@ study:  {
   name:  "ParentalControlsOnLinuxMacWindows"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Control_20230613"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1693526340
-    min_version:  "116.0.5794.0"
-    channel:  BETA
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_WINDOWS
-    exclude_google_group:  228535188278
-    exclude_google_group:  964944687147
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "ParentalControlsOnLinuxMacWindows"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230613"
+    name:  "Enabled_Dogfood"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableManagedByParentUi"
       enable_feature:  "EnableSupervisionOnDesktopAndIOS"
       enable_feature:  "FilterWebsitesForSupervisedUsersOnDesktopAndIOS"
+      enable_feature:  "SupervisedPrefsControlledBySupervisedStore"
     }
   }
   filter:  {
     end_date:  1693526340
-    min_version:  "116.0.5794.0"
+    min_version:  "116.0.5837.0"
+    channel:  UNKNOWN
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_WINDOWS
+    google_group:  228535188278
+    google_group:  964944687147
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "ParentalControlsOnLinuxMacWindows"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control_20230710"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693526340
+    min_version:  "116.0.5837.0"
+    channel:  BETA
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_WINDOWS
+    exclude_google_group:  228535188278
+    exclude_google_group:  964944687147
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "ParentalControlsOnLinuxMacWindows"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_20230710"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "EnableManagedByParentUi"
+      enable_feature:  "EnableSupervisionOnDesktopAndIOS"
+      enable_feature:  "FilterWebsitesForSupervisedUsersOnDesktopAndIOS"
+      enable_feature:  "SupervisedPrefsControlledBySupervisedStore"
+    }
+  }
+  filter:  {
+    end_date:  1693526340
+    min_version:  "116.0.5837.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_LINUX
@@ -58663,7 +58694,7 @@ study:  {
   }
   filter:  {
     end_date:  1693526340
-    min_version:  "116.0.5794.0"
+    min_version:  "116.0.5837.0"
     channel:  STABLE
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_MAC
