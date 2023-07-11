@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Rb/EzMIPf5I="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#+4+BEPPL63I="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -64988,6 +64988,53 @@ study:  {
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
     platform:  PLATFORM_LINUX
+  }
+}
+study:  {
+  name:  "PropagateWebViewNetworkingSignals"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_SignalNoConnecMigration_20230706"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5874.0"
+    channel:  BETA
+    platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "PropagateWebViewNetworkingSignals"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control_20230706"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "MigrateSessionsOnNetworkChangeV2"
+      disable_feature:  "webViewPropagateNetworkSignals"
+    }
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5874.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "PropagateWebViewNetworkingSignals"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693785540
+    min_version:  "117.0.5874.0"
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID_WEBVIEW
   }
 }
 study:  {
