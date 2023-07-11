@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#yU2Dx2n8bUo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#euyzpBU77O4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -24824,9 +24824,9 @@ study:  {
   name:  "NtpHistoryClusters"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Quests_20230628"
+    name:  "Quests_20230710"
     probability_weight:  1
-    gws_experiment_id:  3366950
+    gws_experiment_id:  3367414
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "NtpHistoryClustersModule"
@@ -24847,7 +24847,7 @@ study:  {
   }
   filter:  {
     end_date:  1689897540
-    min_version:  "115.0.5780.0"
+    min_version:  "116.0.5817.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
