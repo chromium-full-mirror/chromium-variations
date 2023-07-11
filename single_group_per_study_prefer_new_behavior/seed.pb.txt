@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#cNL6ChJwpDI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#cA9A8LlIkV4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -62899,7 +62899,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690243140
+    end_date:  1692921540
     min_version:  "114.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -62919,7 +62919,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690243140
+    end_date:  1692921540
     min_version:  "114.*"
     channel:  CANARY
     channel:  DEV
@@ -62928,6 +62928,24 @@ study:  {
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  randomization_seed:  31501050
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "Prerender2BookmarkBarTrigger"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1692921540
+    min_version:  "114.*"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
   }
   randomization_seed:  31501050
   activation_type:  ACTIVATE_ON_STARTUP
