@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#PBWPKsQ1fc8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#kNNcEJ8TAHo="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -39052,6 +39052,63 @@ study:  {
     channel:  CANARY
     channel:  DEV
     channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSPartialTranslateIncognito"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "IOSEditMenuPartialTranslate"
+    }
+    param:  {
+      name:  "IOSEditMenuPartialTranslateNoIncognitoParam"
+      value:  "false"
+    }
+  }
+  filter:  {
+    end_date:  1696204740
+    min_version:  "116.0.5794.0"
+    channel:  BETA
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSPartialTranslateIncognito"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "IOSEditMenuPartialTranslate"
+    }
+    param:  {
+      name:  "IOSEditMenuPartialTranslateNoIncognitoParam"
+      value:  "false"
+    }
+  }
+  filter:  {
+    end_date:  1696204740
+    min_version:  "116.0.5794.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSPartialTranslateIncognito"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1696204740
+    min_version:  "116.0.5794.0"
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
