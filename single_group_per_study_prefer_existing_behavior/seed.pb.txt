@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#n4BaXOqmKWI="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#VezpDr+e+mY="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -48775,14 +48775,14 @@ study: {
   name: "NavigationPredictor"
   consistency: PERMANENT
   experiment: {
-    name: "Control_20230616"
+    name: "Control_20230706"
     probability_weight: 1
     feature_association: {
       disable_feature: "NavigationPredictor"
     }
   }
   filter: {
-    end_date: 1692143940
+    end_date: 1693612740
     min_version: "115.0.5768.0"
     channel: BETA
     platform: PLATFORM_WINDOWS
@@ -48791,20 +48791,21 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
   }
+  randomization_seed: 761372086
   activation_type: ACTIVATE_ON_STARTUP
 }
 study: {
   name: "NavigationPredictor"
   consistency: PERMANENT
   experiment: {
-    name: "Control_20230616"
+    name: "Control_20230706"
     probability_weight: 1
     feature_association: {
       disable_feature: "NavigationPredictor"
     }
   }
   filter: {
-    end_date: 1692143940
+    end_date: 1693612740
     min_version: "115.0.5768.0"
     channel: CANARY
     channel: DEV
@@ -48814,6 +48815,7 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
   }
+  randomization_seed: 761372086
   activation_type: ACTIVATE_ON_STARTUP
 }
 study: {
@@ -48824,7 +48826,7 @@ study: {
     probability_weight: 1
   }
   filter: {
-    end_date: 1692143940
+    end_date: 1693612740
     min_version: "115.0.5768.0"
     channel: STABLE
     platform: PLATFORM_WINDOWS
@@ -48833,6 +48835,7 @@ study: {
     platform: PLATFORM_CHROMEOS
     platform: PLATFORM_CHROMEOS_LACROS
   }
+  randomization_seed: 761372086
   activation_type: ACTIVATE_ON_STARTUP
 }
 study: {
