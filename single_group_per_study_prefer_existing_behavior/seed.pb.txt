@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4Al7NJJ8d9o="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#GBzJLzCXlM8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -47998,6 +47998,29 @@ study:  {
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
+}
+study:  {
+  name:  "NTPRealboxSize"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "NtpRealboxIsTall"
+      disable_feature:  "NtpRealboxWidthBehavior"
+    }
+  }
+  filter:  {
+    end_date:  1693439940
+    min_version:  "115.0.5790.40"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "NTPRealboxSize"
