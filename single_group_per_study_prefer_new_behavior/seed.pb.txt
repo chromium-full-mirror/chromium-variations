@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#IDiBRMQLpIs="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#YcpXZJ91SC8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -78046,7 +78046,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1691539140
     min_version:  "109.0.5371.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -78075,7 +78075,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1691539140
     min_version:  "109.0.5371.0"
     channel:  CANARY
     channel:  DEV
@@ -78092,18 +78092,20 @@ study:  {
   name:  "SpeculationRulesPrerenderMemoryLimit"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "ExperimentalMemoryLimit100_20230711"
     probability_weight:  1
+    gws_experiment_id:  3367144
+    web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "Prerender2MemoryControls"
     }
     param:  {
       name:  "acceptable_percent_of_system_memory"
-      value:  "60"
+      value:  "100"
     }
   }
   filter:  {
-    end_date:  1691711940
+    end_date:  1691539140
     min_version:  "109.0.5371.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
