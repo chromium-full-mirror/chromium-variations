@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#qrX82oFyCVo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#l9/H1IdD+qc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -135618,6 +135618,25 @@ study:  {
     channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "PreinstalledWebAppWindowExperiment"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Disabled_v1"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "PreinstalledWebAppWindowExperiment"
+    }
+  }
+  filter:  {
+    end_date:  1693871940
+    min_version:  "114.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
   }
 }
 study:  {
