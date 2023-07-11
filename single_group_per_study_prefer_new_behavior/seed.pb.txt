@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#ZzhA6cMG8L4="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#DkGsunBPhkI="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -135213,52 +135213,18 @@ study: {
   name: "UseDMSAAForTiles"
   consistency: PERMANENT
   experiment: {
-    name: "Enabled_0620"
+    name: "EnabledLaunch"
     probability_weight: 1
     feature_association: {
       enable_feature: "UseDMSAAForTiles"
     }
   }
   filter: {
-    end_date: 1691711940
     min_version: "112.0.5594.1"
-    channel: BETA
-    platform: PLATFORM_LINUX
-  }
-  randomization_seed: 2862926044
-}
-study: {
-  name: "UseDMSAAForTiles"
-  consistency: PERMANENT
-  experiment: {
-    name: "Enabled_0620"
-    probability_weight: 1
-    feature_association: {
-      enable_feature: "UseDMSAAForTiles"
-    }
-  }
-  filter: {
-    end_date: 1691711940
-    min_version: "112.0.5594.1"
+    max_version: "117.*"
     channel: CANARY
     channel: DEV
-    platform: PLATFORM_LINUX
-  }
-  randomization_seed: 2862926044
-}
-study: {
-  name: "UseDMSAAForTiles"
-  consistency: PERMANENT
-  experiment: {
-    name: "Enabled_0620"
-    probability_weight: 1
-    feature_association: {
-      enable_feature: "UseDMSAAForTiles"
-    }
-  }
-  filter: {
-    end_date: 1691711940
-    min_version: "112.0.5594.1"
+    channel: BETA
     channel: STABLE
     platform: PLATFORM_LINUX
   }
