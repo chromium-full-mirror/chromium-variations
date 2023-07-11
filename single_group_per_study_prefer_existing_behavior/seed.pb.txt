@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#koQfZBoi0xM="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#dwMkuWTEwg8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -19744,6 +19744,58 @@ study:  {
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
+  name:  "ConsistencyNewAccountInterface"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "ConsistencyNewAccountInterface"
+    }
+  }
+  filter:  {
+    end_date:  1694131140
+    min_version:  "113.*"
+    channel:  BETA
+    platform:  PLATFORM_IOS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "ConsistencyNewAccountInterface"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "ConsistencyNewAccountInterface"
+    }
+  }
+  filter:  {
+    end_date:  1694131140
+    min_version:  "113.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_IOS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "ConsistencyNewAccountInterface"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694131140
+    min_version:  "113.*"
+    channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
   name:  "ConsolidateMetricsServiceInitialLogLogic"
   consistency:  PERMANENT
   experiment:  {
@@ -36427,29 +36479,6 @@ study:  {
   name:  "IOSFeedBackOfCardP13nPromo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Prestable_Launched_20230626"
-    probability_weight:  1
-    gws_trigger_experiment_id:  3366829
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      enable_feature:  "EnableFeedCardMenuSignInPromo"
-    }
-  }
-  filter:  {
-    end_date:  1692662340
-    min_version:  "113.*"
-    min_os_version:  "13.*"
-    channel:  CANARY
-    channel:  DEV
-    channel:  BETA
-    platform:  PLATFORM_IOS
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "IOSFeedBackOfCardP13nPromo"
-  consistency:  PERMANENT
-  experiment:  {
     name:  "Launched_20230626"
     probability_weight:  1
     gws_trigger_experiment_id:  3366831
@@ -36459,9 +36488,12 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1692662340
+    end_date:  1694131140
     min_version:  "113.*"
     min_os_version:  "13.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
