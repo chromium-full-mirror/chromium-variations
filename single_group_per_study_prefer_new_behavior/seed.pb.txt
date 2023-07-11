@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#1oq5OM7oZmw="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#fPd6t9pZ/Qg="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -51339,6 +51339,70 @@ study: {
     platform: PLATFORM_CHROMEOS_LACROS
     platform: PLATFORM_ANDROID
     platform: PLATFORM_IOS
+  }
+}
+study: {
+  name: "NonStandardDeclarativeShadowDOM"
+  consistency: PERMANENT
+  experiment: {
+    name: "Default_20230711"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1706745540
+    min_version: "115.*"
+    channel: BETA
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_FUCHSIA
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
+    platform: PLATFORM_WINDOWS
+  }
+}
+study: {
+  name: "NonStandardDeclarativeShadowDOM"
+  consistency: PERMANENT
+  experiment: {
+    name: "Disabled_20230711"
+    probability_weight: 1
+    feature_association: {
+      disable_feature: "DeclarativeShadowRoot"
+    }
+  }
+  filter: {
+    end_date: 1706745540
+    min_version: "115.*"
+    channel: CANARY
+    channel: DEV
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_FUCHSIA
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
+    platform: PLATFORM_WINDOWS
+  }
+}
+study: {
+  name: "NonStandardDeclarativeShadowDOM"
+  consistency: PERMANENT
+  experiment: {
+    name: "Default_20230711"
+    probability_weight: 1
+  }
+  filter: {
+    end_date: 1706745540
+    min_version: "115.*"
+    channel: STABLE
+    platform: PLATFORM_ANDROID
+    platform: PLATFORM_CHROMEOS
+    platform: PLATFORM_CHROMEOS_LACROS
+    platform: PLATFORM_FUCHSIA
+    platform: PLATFORM_LINUX
+    platform: PLATFORM_MAC
+    platform: PLATFORM_WINDOWS
   }
 }
 study: {
