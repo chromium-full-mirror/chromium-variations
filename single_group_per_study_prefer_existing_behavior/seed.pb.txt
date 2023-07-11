@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#0JQFkDNxF0g="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#UrvlmQw1gMs="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -5067,7 +5067,7 @@ study:  {
   name:  "AutocorrectByDefault"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230524"
+    name:  "Control_20230707"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "AutocorrectByDefault"
@@ -5080,6 +5080,7 @@ study:  {
     channel:  DEV
     channel:  BETA
     platform:  PLATFORM_CHROMEOS
+    exclude_form_factor:  KIOSK
   }
 }
 study:  {
