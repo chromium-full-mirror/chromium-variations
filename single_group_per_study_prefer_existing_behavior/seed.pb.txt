@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#SFh621t3R4E="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#qKY/Cok0lFQ="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -2414,7 +2414,7 @@ study:  {
   name:  "AndroidMediaPickerAdoption"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control20230630"
+    name:  "Control_2023_07_10"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "MediaPickerAdoption"
@@ -2432,7 +2432,7 @@ study:  {
   name:  "AndroidMediaPickerAdoption"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control20230630"
+    name:  "Control_2023_07_10"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "MediaPickerAdoption"
