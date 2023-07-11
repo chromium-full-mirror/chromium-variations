@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#mLxyZ62Fw5g="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#koQfZBoi0xM="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -11123,7 +11123,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "96.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -11146,7 +11146,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "98.0.4703.0"
     channel:  CANARY
     channel:  DEV
@@ -11230,7 +11230,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "96.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -11292,7 +11292,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "95.0.4638.74"
     channel:  BETA
     platform:  PLATFORM_ANDROID
@@ -11311,7 +11311,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "95.0.4638.74"
     channel:  CANARY
     channel:  DEV
@@ -11399,7 +11399,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689119940
+    end_date:  1696118340
     min_version:  "95.0.4638.74"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
