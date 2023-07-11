@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#fPd6t9pZ/Qg="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#gYIFX8OSSyE="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -1603,8 +1603,11 @@ study: {
   name: "AllowUndamagedNonrootRenderPassToSkip"
   consistency: PERMANENT
   experiment: {
-    name: "Preperiod_Control"
+    name: "Enabled"
     probability_weight: 1
+    feature_association: {
+      enable_feature: "AllowUndamagedNonrootRenderPassToSkip"
+    }
   }
   filter: {
     end_date: 1691711940
