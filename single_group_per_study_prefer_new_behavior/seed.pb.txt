@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pYFWhHDnMaE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#XQZBuJppt/k="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -29435,12 +29435,12 @@ study:  {
   name:  "EventTimingMatchPresentationIndex"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Control"
+    name:  "Preperiod_Default"
     probability_weight:  1
   }
   filter:  {
-    end_date:  1692403140
-    min_version:  "114.*"
+    end_date:  1694131140
+    min_version:  "117.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -29455,15 +29455,16 @@ study:  {
   name:  "EventTimingMatchPresentationIndex"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_V1"
+    name:  "EventTimingMatchPresentationIndex_V2"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EventTimingMatchPresentationIndex"
+      disable_feature:  "EventTimingReportAllEarlyEntriesOnPaintedPresentation"
     }
   }
   filter:  {
-    end_date:  1692403140
-    min_version:  "114.*"
+    end_date:  1694131140
+    min_version:  "117.*"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -29479,12 +29480,12 @@ study:  {
   name:  "EventTimingMatchPresentationIndex"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Preperiod_Default"
     probability_weight:  1
   }
   filter:  {
-    end_date:  1692403140
-    min_version:  "114.*"
+    end_date:  1694131140
+    min_version:  "117.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
