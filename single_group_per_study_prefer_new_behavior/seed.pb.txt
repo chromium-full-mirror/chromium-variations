@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#YcpXZJ91SC8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#PBWPKsQ1fc8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -38197,6 +38197,56 @@ study:  {
     channel:  CANARY
     channel:  DEV
     channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSTabPickup"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control_20230711"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694476740
+    min_version:  "117.*"
+    channel:  BETA
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSTabPickup"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Ten-minutes_20230711"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "TabPickupThreshold"
+    }
+    param:  {
+      name:  "variant"
+      value:  "tab-pickup-threshold-ten-minutes"
+    }
+  }
+  filter:  {
+    end_date:  1694476740
+    min_version:  "117.*"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "IOSTabPickup"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694476740
+    min_version:  "117.*"
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
