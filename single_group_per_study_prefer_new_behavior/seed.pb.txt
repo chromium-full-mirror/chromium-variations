@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#RF+rbSCBbSk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pYFWhHDnMaE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -54966,6 +54966,31 @@ study:  {
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
   }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "OmniboxRelaxedDriveRequirements"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled_NoSetting"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "OmniboxDocumentProviderNoSetting"
+      disable_feature:  "OmniboxDocumentProviderNoSyncRequirement"
+    }
+  }
+  filter:  {
+    end_date:  1693871940
+    min_version:  "117.0.5879.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  randomization_seed:  2114038060
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
