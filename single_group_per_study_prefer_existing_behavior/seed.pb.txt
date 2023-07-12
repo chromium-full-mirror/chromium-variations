@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#WSBuB28tVmY="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4y3/+oA9ZhY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -16835,6 +16835,49 @@ study:  {
     end_date:  1691366340
     min_version:  "115.*"
     min_os_version:  "15448.0.0"
+    channel:  STABLE
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "ChromeOSMaterialNextWaveOne"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1695167940
+    min_version:  "115.0.5790.0"
+    channel:  BETA
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "ChromeOSMaterialNextWaveOne"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1695167940
+    min_version:  "115.0.5790.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_CHROMEOS
+  }
+}
+study:  {
+  name:  "ChromeOSMaterialNextWaveOne"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1695167940
+    min_version:  "115.0.5790.0"
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
   }
