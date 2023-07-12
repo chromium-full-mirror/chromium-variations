@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#qf9YyBqYa4c="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#pouXDrqFvxo="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -21386,11 +21386,15 @@ study:  {
   name:  "CrOSEventSequenceLogging"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Default"
+    name:  "AppDiscoveryLogging_20230711"
     probability_weight:  1
+    feature_association:  {
+      enable_feature:  "AppDiscoveryLogging"
+      enable_feature:  "EnableEventSequenceLogging"
+    }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.0.5560.0"
     channel:  BETA
     platform:  PLATFORM_CHROMEOS
@@ -21400,7 +21404,7 @@ study:  {
   name:  "CrOSEventSequenceLogging"
   consistency:  PERMANENT
   experiment:  {
-    name:  "AppDiscoveryLogging_20230614"
+    name:  "AppDiscoveryLogging_20230711"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "AppDiscoveryLogging"
@@ -21408,7 +21412,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.0.5560.0"
     channel:  CANARY
     channel:  DEV
@@ -21423,7 +21427,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.0.5560.0"
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
