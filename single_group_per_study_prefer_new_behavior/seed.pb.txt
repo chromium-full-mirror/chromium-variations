@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#kk9HLZ6Z2fs="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#OEGKtnCzmIY="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -33305,6 +33305,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_ANDROID
     google_group:  494546258131
   }
@@ -33323,6 +33324,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_ANDROID
     exclude_google_group:  494546258131
   }
@@ -33341,6 +33343,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
     google_group:  494546258131
@@ -33360,6 +33363,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
     exclude_google_group:  494546258131
@@ -33379,6 +33383,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_IOS
     google_group:  494546258131
   }
@@ -33397,6 +33402,7 @@ study:  {
     channel:  UNKNOWN
     channel:  CANARY
     channel:  DEV
+    channel:  BETA
     platform:  PLATFORM_IOS
     exclude_google_group:  494546258131
   }
