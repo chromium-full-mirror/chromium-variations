@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#V6+Dn4NCRc0="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KzNK+UsXSak="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -46261,7 +46261,7 @@ study:  {
     }
     param:  {
       name:  "sampling_rate_per_mille"
-      value:  "900"
+      value:  "890"
     }
   }
   filter:  {
