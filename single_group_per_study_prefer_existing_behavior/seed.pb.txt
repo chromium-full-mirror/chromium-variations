@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#gZmdPFDOz7U="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Mpv2D/m3ngw="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -38683,36 +38683,42 @@ study:  {
   name:  "IOSSetUpList"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230712"
     probability_weight:  1
+    gws_experiment_id:  3367427
+    web_visibility:  FIRST_PARTY
     feature_association:  {
       disable_feature:  "IOSSetUpList"
     }
   }
   filter:  {
-    end_date:  1692230340
+    end_date:  1694390340
     min_version:  "115.0.5790.15"
     channel:  BETA
     platform:  PLATFORM_IOS
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "IOSSetUpList"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230712"
     probability_weight:  1
+    gws_experiment_id:  3367423
+    web_visibility:  FIRST_PARTY
     feature_association:  {
       disable_feature:  "IOSSetUpList"
     }
   }
   filter:  {
-    end_date:  1692230340
+    end_date:  1694390340
     min_version:  "115.0.5790.15"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_IOS
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "IOSSetUpList"
@@ -38722,11 +38728,12 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1692230340
+    end_date:  1694390340
     min_version:  "115.0.5790.15"
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "IOSSettingsAddPaymentMethod"
