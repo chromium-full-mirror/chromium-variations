@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#SGGOvDpZLks="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#AoIoMFZeCao="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -3119,6 +3119,31 @@ study:  {
     hardware_class:  "tangor"
     hardware_class:  "tangorpro"
     hardware_class:  "pixel tablet"
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "AndroidRdsDomainIph"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledLaunch"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "RequestDesktopSitePerSiteIph"
+    }
+    param:  {
+      name:  "iph_type_generic"
+      value:  "true"
+    }
+  }
+  filter:  {
+    min_version:  "111.0.5563.99"
+    max_version:  "117.*"
+    channel:  CANARY
+    channel:  DEV
+    channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_ANDROID
   }
   activation_type:  ACTIVATE_ON_STARTUP
 }
