@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Q0jsvig1qxo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#UhRxBei734k="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -35978,6 +35978,52 @@ study:  {
     platform:  PLATFORM_ANDROID
   }
   randomization_seed:  1983825953
+}
+study:  {
+  name:  "IOSAcquisitionOnDesktopPasswordPromo"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694303940
+    min_version:  "116.0.5845.22"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "IOSAcquisitionOnDesktopPasswordPromo"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "EnabledDirectVariant_2023_07_12"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "IOSPromoPasswordBubble"
+    }
+    param:  {
+      name:  "activation"
+      value:  "contextual-direct"
+    }
+  }
+  filter:  {
+    end_date:  1694303940
+    min_version:  "116.0.5845.22"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "IOSAddToHomeScreen"
