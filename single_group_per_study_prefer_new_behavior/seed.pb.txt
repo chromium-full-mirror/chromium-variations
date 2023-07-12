@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#QnPvz6in7NI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#OLZ25Aq0t9I="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -78966,15 +78966,15 @@ study:  {
   name:  "StructuredMetrics"
   consistency:  PERMANENT
   experiment:  {
-    name:  "StructuredMetricsDefault_20230626"
+    name:  "StructuredMetricsServiceEnabled_20230711"
     probability_weight:  1
     feature_association:  {
-      disable_feature:  "EnableStructuredMetrics"
-      disable_feature:  "EnableStructuredMetricsService"
+      enable_feature:  "EnableStructuredMetrics"
+      enable_feature:  "EnableStructuredMetricsService"
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.*"
     channel:  BETA
     platform:  PLATFORM_CHROMEOS
@@ -78984,7 +78984,7 @@ study:  {
   name:  "StructuredMetrics"
   consistency:  PERMANENT
   experiment:  {
-    name:  "StructuredMetricsEnabledControl_20230626"
+    name:  "StructuredMetricsEnabledControl_20230711"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "EnableStructuredMetrics"
@@ -78992,7 +78992,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.*"
     channel:  CANARY
     channel:  DEV
@@ -79003,7 +79003,7 @@ study:  {
   name:  "StructuredMetrics"
   consistency:  PERMANENT
   experiment:  {
-    name:  "StructuredMetricsDefault_20230626"
+    name:  "StructuredMetricsDefault_20230711"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "EnableStructuredMetrics"
@@ -79011,7 +79011,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690934340
+    end_date:  1691798340
     min_version:  "111.*"
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
