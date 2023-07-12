@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#OFymppyYG/8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#V27QeKdinE8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -60853,47 +60853,18 @@ study:  {
   name:  "PasswordNotesWithBackup"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230626"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "PasswordNotesWithBackup"
     }
   }
   filter:  {
-    end_date:  1690847940
     min_version:  "114.0.5734.0"
-    channel:  BETA
-    platform:  PLATFORM_IOS
-  }
-}
-study:  {
-  name:  "PasswordNotesWithBackup"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230626"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "PasswordNotesWithBackup"
-    }
-  }
-  filter:  {
-    end_date:  1690847940
-    min_version:  "114.0.5734.0"
+    max_version:  "117.0.5884.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_IOS
-  }
-}
-study:  {
-  name:  "PasswordNotesWithBackup"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1690847940
-    min_version:  "114.0.5734.0"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
