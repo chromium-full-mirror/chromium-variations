@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#GAA3PSh83QQ="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Za4TgO9bj+0="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -61763,7 +61763,7 @@ study:  {
   name:  "PerformanceControlsRound2Launch"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Disabled_20230621"
+    name:  "Preperiod_Disabled_20230711"
     probability_weight:  1
   }
   filter:  {
@@ -61781,7 +61781,7 @@ study:  {
   name:  "PerformanceControlsRound2Launch"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230621"
+    name:  "Enabled_20230711"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "DiscardExceptionsImprovements"
@@ -61828,6 +61828,10 @@ study:  {
     param:  {
       name:  "memory_usage_in_hovercards_high_threshold_bytes"
       value:  "838860800"
+    }
+    param:  {
+      name:  "update_memory_on_navigation"
+      value:  "true"
     }
   }
   filter:  {
