@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Y48ZoBu+EhE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#jccNnVL0+MI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -55062,7 +55062,7 @@ study:  {
   name:  "OptimizationTargetNotificationPermissionPredictionsGradualRollout"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control_20230712"
     probability_weight:  1
   }
   filter:  {
@@ -55083,7 +55083,7 @@ study:  {
   name:  "OptimizationTargetNotificationPermissionPredictionsGradualRollout"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230710"
+    name:  "Control_20230712"
     probability_weight:  1
   }
   filter:  {
