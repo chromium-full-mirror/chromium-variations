@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#QZQkn1uV/e8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#+bQA3irsMj8="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -132408,8 +132408,11 @@ study:  {
   name:  "UseMultiPlaneFormatForSoftwareVideo"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Control_50"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "UseMultiPlaneFormatForSoftwareVideo"
+    }
   }
   filter:  {
     end_date:  1693267140
