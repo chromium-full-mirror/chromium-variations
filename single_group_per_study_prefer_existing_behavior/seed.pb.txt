@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KzNK+UsXSak="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#S5ACYnmVIQc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -8102,8 +8102,11 @@ study:  {
   name:  "AutofillMoveLegalTermsAndIconForNewCardEnrollment"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AutofillMoveLegalTermsAndIconForNewCardEnrollment"
+    }
   }
   filter:  {
     end_date:  1692748740
