@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#830P9UF9zwk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Zgj7eU2S8Pc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -67138,8 +67138,11 @@ study:  {
   name:  "ReduceToolbarUpdatesForSameDocNavigations"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Control_50"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "ReduceToolbarUpdatesForSameDocNavigations"
+    }
   }
   filter:  {
     end_date:  1690761540
