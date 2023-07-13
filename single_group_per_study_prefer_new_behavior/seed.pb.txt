@@ -1,4 +1,4 @@
-serial_number: "SMCgNuaWwSAiAAIgIIAQ==#VElxdNoDiWU="
+serial_number: "SMCgNuaWwSAiAAIgIIAQ==#ZWHicxUS1qQ="
 study: {
   name: "AImageReaderMediaPlayer"
   consistency: PERMANENT
@@ -83031,7 +83031,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1696204740
     min_version: "110.*"
     channel: BETA
     platform: PLATFORM_WINDOWS
@@ -83048,19 +83048,75 @@ study: {
   name: "TrustSafetySentimentSurveyV2"
   consistency: PERMANENT
   experiment: {
-    name: "Enabled_0_probability"
+    name: "Enabled_PrivacySandbox4"
     probability_weight: 1
     feature_association: {
       enable_feature: "TrustSafetySentimentSurvey"
       enable_feature: "TrustSafetySentimentSurveyV2"
     }
     param: {
+      name: "browsing-data-probability"
+      value: "0.0"
+    }
+    param: {
+      name: "control-group-probability"
+      value: "0.0"
+    }
+    param: {
+      name: "password-check-probability"
+      value: "0.0"
+    }
+    param: {
+      name: "privacy-guide-probability"
+      value: "0.0"
+    }
+    param: {
+      name: "privacy-sandbox-4-consent-accept-probability"
+      value: "1.0"
+    }
+    param: {
+      name: "privacy-sandbox-4-consent-accept-trigger-id"
+      value: "WLBMfuhGw0ugnJ3q1cK0W2efwLx5"
+    }
+    param: {
+      name: "privacy-sandbox-4-consent-decline-probability"
+      value: "1.0"
+    }
+    param: {
+      name: "privacy-sandbox-4-consent-decline-trigger-id"
+      value: "mHuLP8piS0ugnJ3q1cK0W5TRwzwX"
+    }
+    param: {
+      name: "privacy-sandbox-4-notice-ok-probability"
+      value: "1.0"
+    }
+    param: {
+      name: "privacy-sandbox-4-notice-ok-trigger-id"
+      value: "nJdDk3iUp0ugnJ3q1cK0V9Coru6X"
+    }
+    param: {
+      name: "privacy-sandbox-4-notice-settings-probability"
+      value: "1.0"
+    }
+    param: {
+      name: "privacy-sandbox-4-notice-settings-trigger-id"
+      value: "sHLF2Ekdi0ugnJ3q1cK0PQG7xu6d"
+    }
+    param: {
       name: "probability"
+      value: "1.0"
+    }
+    param: {
+      name: "safety-check-probability"
+      value: "0.0"
+    }
+    param: {
+      name: "trusted-surface-probability"
       value: "0.0"
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1696204740
     min_version: "110.*"
     channel: CANARY
     channel: DEV
@@ -83162,7 +83218,7 @@ study: {
     }
   }
   filter: {
-    end_date: 1690934340
+    end_date: 1696204740
     min_version: "110.*"
     channel: STABLE
     platform: PLATFORM_WINDOWS
