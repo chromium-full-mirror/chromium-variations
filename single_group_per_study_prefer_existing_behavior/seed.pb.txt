@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#QuhIJyNNcsI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#MO+sQeExqcI="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -71544,67 +71544,6 @@ study:  {
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SearchPrefetchHoldback"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1696204740
-    min_version:  "106.0.5223.0"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SearchPrefetchHoldback"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1696204740
-    min_version:  "106.0.5223.0"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "SearchPrefetchHoldback"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1696204740
-    min_version:  "106.0.5223.0"
-    channel:  STABLE
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
   }
   activation_type:  ACTIVATE_ON_STARTUP
 }
