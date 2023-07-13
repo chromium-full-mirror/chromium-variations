@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#JEMlI9q/Wm8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#BIC3MjDn8Co="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -114414,7 +114414,7 @@ study:  {
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.JavaScriptDialog"
-      value:  "50"
+      value:  "46"
     }
     param:  {
       name:  "AbusiveExperienceHeuristic.TabUnder"
@@ -114442,15 +114442,19 @@ study:  {
     }
     param:  {
       name:  "AdPageLoad"
-      value:  "75"
+      value:  "74"
     }
     param:  {
       name:  "AdsInterestGroup.AuctionLatency"
       value:  "1"
     }
     param:  {
+      name:  "AdsInterestGroup.AuctionLatency.V2"
+      value:  "1"
+    }
+    param:  {
       name:  "AdsIntervention.LastIntervention"
-      value:  "13"
+      value:  "12"
     }
     param:  {
       name:  "Android.DarkTheme.AutoDarkMode"
@@ -114462,7 +114466,7 @@ study:  {
     }
     param:  {
       name:  "Android.MultiWindowState"
-      value:  "40"
+      value:  "39"
     }
     param:  {
       name:  "Android.NonDefaultRdsPageLoad"
@@ -114470,7 +114474,7 @@ study:  {
     }
     param:  {
       name:  "Android.ScreenRotation"
-      value:  "7"
+      value:  "6"
     }
     param:  {
       name:  "Android.UserRequestedUserAgentChange"
@@ -114478,7 +114482,7 @@ study:  {
     }
     param:  {
       name:  "Autofill"
-      value:  "82"
+      value:  "84"
     }
     param:  {
       name:  "Autofill.AddressProfileImport"
@@ -114617,6 +114621,10 @@ study:  {
       value:  "160"
     }
     param:  {
+      name:  "Blink.JavaScriptFramework.Versions"
+      value:  "1"
+    }
+    param:  {
       name:  "Blink.PageLoad"
       value:  "210"
     }
@@ -114638,7 +114646,7 @@ study:  {
     }
     param:  {
       name:  "ChargeEventHistory"
-      value:  "18"
+      value:  "17"
     }
     param:  {
       name:  "ChromeOS.DeviceManagement"
@@ -114682,7 +114690,7 @@ study:  {
     }
     param:  {
       name:  "ClientHints.AcceptCHFrameUsage"
-      value:  "880"
+      value:  "860"
     }
     param:  {
       name:  "ClientHints.AcceptCHHeaderUsage"
@@ -114734,7 +114742,7 @@ study:  {
     }
     param:  {
       name:  "CrossOriginSubframeWithoutEmbeddingControl"
-      value:  "770"
+      value:  "760"
     }
     param:  {
       name:  "DIPS.Deletion"
@@ -114742,11 +114750,11 @@ study:  {
     }
     param:  {
       name:  "DIPS.Redirect"
-      value:  "53"
+      value:  "51"
     }
     param:  {
       name:  "DailyChargeSummary"
-      value:  "25"
+      value:  "24"
     }
     param:  {
       name:  "DocumentCreated"
@@ -114774,11 +114782,11 @@ study:  {
     }
     param:  {
       name:  "Event.Scroll.Touch"
-      value:  "10000"
+      value:  "9900"
     }
     param:  {
       name:  "Event.Scroll.Wheel"
-      value:  "1400"
+      value:  "1500"
     }
     param:  {
       name:  "Event.ScrollBegin.Touch"
@@ -114798,19 +114806,15 @@ study:  {
     }
     param:  {
       name:  "Extensions.OnNavigation"
-      value:  "660"
+      value:  "670"
     }
     param:  {
       name:  "Extensions.WebRequest.KeepaliveRequestFinished"
-      value:  "590"
-    }
-    param:  {
-      name:  "FileSystemAPI.WebRequest"
-      value:  "1"
+      value:  "630"
     }
     param:  {
       name:  "FontMatchAttempts"
-      value:  "4700"
+      value:  "4600"
     }
     param:  {
       name:  "GamingInputOverlay.ActionRepositionOperationType"
@@ -114850,7 +114854,7 @@ study:  {
     }
     param:  {
       name:  "GeneratedNavigation"
-      value:  "18"
+      value:  "17"
     }
     param:  {
       name:  "GoogleDocsOfflineExtension"
@@ -114858,7 +114862,7 @@ study:  {
     }
     param:  {
       name:  "Graphics.Smoothness"
-      value:  "120"
+      value:  "110"
     }
     param:  {
       name:  "Graphics.Smoothness.EventLatency"
@@ -114878,7 +114882,7 @@ study:  {
     }
     param:  {
       name:  "HistoryManipulationIntervention"
-      value:  "32"
+      value:  "30"
     }
     param:  {
       name:  "IOS.FindInPageSearchMatches"
@@ -114930,11 +114934,11 @@ study:  {
     }
     param:  {
       name:  "InstalledRelatedApps"
-      value:  "39"
+      value:  "38"
     }
     param:  {
       name:  "JavascriptFrameworkPageLoad"
-      value:  "180"
+      value:  "170"
     }
     param:  {
       name:  "LoadCountsPerTopLevelDocument"
@@ -114946,7 +114950,7 @@ study:  {
     }
     param:  {
       name:  "LocalNetworkRequests"
-      value:  "79"
+      value:  "76"
     }
     param:  {
       name:  "LoginDetection"
@@ -114962,7 +114966,7 @@ study:  {
     }
     param:  {
       name:  "Media"
-      value:  "270"
+      value:  "260"
     }
     param:  {
       name:  "Media.Autoplay.Attempt"
@@ -114990,7 +114994,7 @@ study:  {
     }
     param:  {
       name:  "Media.EME.GetStatusForPolicy"
-      value:  "59"
+      value:  "58"
     }
     param:  {
       name:  "Media.EME.RequestMediaKeySystemAccess"
@@ -115010,7 +115014,7 @@ study:  {
     }
     param:  {
       name:  "Media.VideoDecodePerfRecord"
-      value:  "63"
+      value:  "61"
     }
     param:  {
       name:  "Media.WebAudio.AudioContext.AudibleTime"
@@ -115034,11 +115038,11 @@ study:  {
     }
     param:  {
       name:  "Memory.TabFootprint"
-      value:  "190"
+      value:  "200"
     }
     param:  {
       name:  "MixedContentAutoupgrade.ResourceRequest"
-      value:  "26"
+      value:  "25"
     }
     param:  {
       name:  "MobileFriendliness"
@@ -115066,11 +115070,11 @@ study:  {
     }
     param:  {
       name:  "Navigation.ReceivedResponse"
-      value:  "190"
+      value:  "180"
     }
     param:  {
       name:  "NavigationPredictor"
-      value:  "46"
+      value:  "44"
     }
     param:  {
       name:  "NavigationPredictorAnchorElementMetrics"
@@ -115122,7 +115126,15 @@ study:  {
     }
     param:  {
       name:  "OmniboxSecurityIndicator.FormSubmission"
-      value:  "37"
+      value:  "36"
+    }
+    param:  {
+      name:  "OpenerHeuristic.PopupInteraction"
+      value:  "1"
+    }
+    param:  {
+      name:  "OpenerHeuristic.PopupPastInteraction"
+      value:  "1"
     }
     param:  {
       name:  "OptimizationGuide"
@@ -115142,7 +115154,7 @@ study:  {
     }
     param:  {
       name:  "PageForegroundSession"
-      value:  "290"
+      value:  "280"
     }
     param:  {
       name:  "PageInfoBubble"
@@ -115201,30 +115213,6 @@ study:  {
       value:  "1"
     }
     param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.AfterLoad.BlockingFrame"
-      value:  "1"
-    }
-    param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.AfterLoad.BlockingInput"
-      value:  "1"
-    }
-    param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.AfterLoad.NonBlocking"
-      value:  "1"
-    }
-    param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.BeforeLoad.BlockingFrame"
-      value:  "1"
-    }
-    param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.BeforeLoad.BlockingInput"
-      value:  "1"
-    }
-    param:  {
-      name:  "PerformanceAPI.LongAnimationFrame.BeforeLoad.NonBlocking"
-      value:  "1"
-    }
-    param:  {
       name:  "PerformanceAPI.LongTask"
       value:  "250"
     }
@@ -115234,15 +115222,15 @@ study:  {
     }
     param:  {
       name:  "PerformanceAPI.Memory.Legacy"
-      value:  "1500"
+      value:  "1600"
     }
     param:  {
       name:  "PerformanceManager.PageResourceUsage"
-      value:  "930"
+      value:  "940"
     }
     param:  {
       name:  "PerformanceManager.PageTimelineState"
-      value:  "46"
+      value:  "47"
     }
     param:  {
       name:  "PeriodicBackgroundSyncRegistered"
@@ -115270,7 +115258,7 @@ study:  {
     }
     param:  {
       name:  "PostMessage"
-      value:  "250"
+      value:  "240"
     }
     param:  {
       name:  "PostMessage.Incoming.FirstPartyToFirstParty.DifferentBucket"
@@ -115326,7 +115314,7 @@ study:  {
     }
     param:  {
       name:  "PrefetchProxy"
-      value:  "150"
+      value:  "140"
     }
     param:  {
       name:  "PrefetchProxy.AfterSRPClick"
@@ -115338,19 +115326,19 @@ study:  {
     }
     param:  {
       name:  "Preloading.Attempt"
-      value:  "2"
+      value:  "1"
     }
     param:  {
       name:  "Preloading.Attempt.PreviousPrimaryPage"
-      value:  "3"
+      value:  "1"
     }
     param:  {
       name:  "Preloading.Prediction"
-      value:  "730"
+      value:  "720"
     }
     param:  {
       name:  "Preloading.Prediction.PreviousPrimaryPage"
-      value:  "910"
+      value:  "900"
     }
     param:  {
       name:  "Presentation.StartResult"
@@ -115370,7 +115358,7 @@ study:  {
     }
     param:  {
       name:  "RendererSchedulerTask"
-      value:  "7200"
+      value:  "7500"
     }
     param:  {
       name:  "Responsiveness.UserInteraction"
@@ -115382,19 +115370,19 @@ study:  {
     }
     param:  {
       name:  "SSL.MixedContentShown2"
-      value:  "40"
+      value:  "41"
     }
     param:  {
       name:  "SalientImageAvailability"
-      value:  "370"
+      value:  "380"
     }
     param:  {
       name:  "SamesiteRedirectContextDowngrade"
-      value:  "48"
+      value:  "49"
     }
     param:  {
       name:  "SchemefulSameSiteContextDowngrade"
-      value:  "19"
+      value:  "20"
     }
     param:  {
       name:  "ScreenBrightness"
@@ -115410,7 +115398,7 @@ study:  {
     }
     param:  {
       name:  "Segmentation.ModelExecution"
-      value:  "4"
+      value:  "1"
     }
     param:  {
       name:  "ServiceWorker.OnLoad"
@@ -115434,7 +115422,7 @@ study:  {
     }
     param:  {
       name:  "Shopping.AddToCartDetection"
-      value:  "2"
+      value:  "3"
     }
     param:  {
       name:  "Shopping.CartExtraction"
@@ -115462,7 +115450,7 @@ study:  {
     }
     param:  {
       name:  "Shopping.WillSendRequest"
-      value:  "180"
+      value:  "210"
     }
     param:  {
       name:  "SmartCharging"
@@ -115530,7 +115518,7 @@ study:  {
     }
     param:  {
       name:  "Unload"
-      value:  "260"
+      value:  "250"
     }
     param:  {
       name:  "UserActivity"
@@ -115542,11 +115530,7 @@ study:  {
     }
     param:  {
       name:  "UserPerceivedPageVisit"
-      value:  "550"
-    }
-    param:  {
-      name:  "UserSettingsEvent"
-      value:  "1"
+      value:  "540"
     }
     param:  {
       name:  "V8.Wasm"
@@ -115590,11 +115574,11 @@ study:  {
     }
     param:  {
       name:  "WebApp.DailyInteraction"
-      value:  "1"
+      value:  "2"
     }
     param:  {
       name:  "WebOTPImpact"
-      value:  "70"
+      value:  "69"
     }
     param:  {
       name:  "Webapp.AddToHomeScreen"
@@ -115606,7 +115590,7 @@ study:  {
     }
     param:  {
       name:  "XR.WebXR"
-      value:  "7"
+      value:  "6"
     }
     param:  {
       name:  "XR.WebXR.Session"
@@ -116812,6 +116796,1225 @@ study:  {
     min_version:  "116.*"
     max_version:  "116.*"
     channel:  BETA
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_ANDROID_WEBLAYER
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_IOS
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_WINDOWS
+  }
+}
+study:  {
+  name:  "UkmSamplingRate"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Sampled_Default"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "UkmSamplingRate"
+    }
+    param:  {
+      name:  "AboutThisSiteStatus"
+      value:  "1"
+    }
+    param:  {
+      name:  "AbusiveExperienceHeuristic.JavaScriptDialog"
+      value:  "46"
+    }
+    param:  {
+      name:  "AbusiveExperienceHeuristic.TabUnder"
+      value:  "1"
+    }
+    param:  {
+      name:  "AbusiveExperienceHeuristic.WindowOpen"
+      value:  "6"
+    }
+    param:  {
+      name:  "Accessibility.ImageDescriptions"
+      value:  "1"
+    }
+    param:  {
+      name:  "Accessibility.PageZoom"
+      value:  "1"
+    }
+    param:  {
+      name:  "Accessibility.Renderer"
+      value:  "2"
+    }
+    param:  {
+      name:  "AdFrameLoad"
+      value:  "330"
+    }
+    param:  {
+      name:  "AdPageLoad"
+      value:  "74"
+    }
+    param:  {
+      name:  "AdsInterestGroup.AuctionLatency"
+      value:  "1"
+    }
+    param:  {
+      name:  "AdsInterestGroup.AuctionLatency.V2"
+      value:  "1"
+    }
+    param:  {
+      name:  "AdsIntervention.LastIntervention"
+      value:  "12"
+    }
+    param:  {
+      name:  "Android.DarkTheme.AutoDarkMode"
+      value:  "1"
+    }
+    param:  {
+      name:  "Android.MultiWindowChangeActivity"
+      value:  "1"
+    }
+    param:  {
+      name:  "Android.MultiWindowState"
+      value:  "39"
+    }
+    param:  {
+      name:  "Android.NonDefaultRdsPageLoad"
+      value:  "3"
+    }
+    param:  {
+      name:  "Android.ScreenRotation"
+      value:  "6"
+    }
+    param:  {
+      name:  "Android.UserRequestedUserAgentChange"
+      value:  "1"
+    }
+    param:  {
+      name:  "Autofill"
+      value:  "84"
+    }
+    param:  {
+      name:  "Autofill.AddressProfileImport"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.CardUploadDecision"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.CreditCardFill"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.DeveloperEngagement"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.EditedAutofilledFieldAtSubmission"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FastCheckoutRunOutcome"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FieldFillStatus"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FieldTypeValidation"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FormEvent"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FormFillSuccessIOS"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.FormSubmitted"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.HiddenRepresentationalFieldSkipDecision"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.InteractedWithForm"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.KeyMetrics"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.RepeatedServerTypePredictionRationalized"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.Sectioning"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.SuggestionFilled"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.SuggestionsShown"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill.TextFieldDidChange"
+      value:  "Autofill"
+    }
+    param:  {
+      name:  "Autofill2.FieldInfo"
+      value:  "1"
+    }
+    param:  {
+      name:  "Autofill2.FormSummary"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackForwardCacheDisabledForRenderFrameHostReason"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackForwardCacheDisallowActivationReason"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackgroundFetch"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackgroundFetchDeletingRegistration"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackgroundSyncCompleted"
+      value:  "1"
+    }
+    param:  {
+      name:  "BackgroundSyncRegistered"
+      value:  "1"
+    }
+    param:  {
+      name:  "Badging"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.AutomaticLazyLoadFrame"
+      value:  "20"
+    }
+    param:  {
+      name:  "Blink.DeveloperMetricsRare"
+      value:  "150"
+    }
+    param:  {
+      name:  "Blink.FedCm"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.FedCmIdp"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.FindInPage"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.HTMLParsing"
+      value:  "160"
+    }
+    param:  {
+      name:  "Blink.JavaScriptFramework.Versions"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.PageLoad"
+      value:  "210"
+    }
+    param:  {
+      name:  "Blink.PaintTiming"
+      value:  "1"
+    }
+    param:  {
+      name:  "Blink.UpdateTime"
+      value:  "420"
+    }
+    param:  {
+      name:  "BrowsingTopics.EpochTopicsCalculationResult"
+      value:  "1"
+    }
+    param:  {
+      name:  "BrowsingTopics.PageLoad"
+      value:  "1"
+    }
+    param:  {
+      name:  "ChargeEventHistory"
+      value:  "17"
+    }
+    param:  {
+      name:  "ChromeOS.DeviceManagement"
+      value:  "1"
+    }
+    param:  {
+      name:  "ChromeOS.WebsiteUsageTime"
+      value:  "1"
+    }
+    param:  {
+      name:  "ChromeOSApp"
+      value:  "1"
+    }
+    param:  {
+      name:  "ChromeOSApp.InputEvent"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ChromeOSApp.InstalledApp"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ChromeOSApp.Launch"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ChromeOSApp.UninstallApp"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ChromeOSApp.UsageTime"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ChromeOSApp.UsageTimeReusedSourceId"
+      value:  "ChromeOSApp"
+    }
+    param:  {
+      name:  "ClickInput"
+      value:  "2"
+    }
+    param:  {
+      name:  "ClientHints.AcceptCHFrameUsage"
+      value:  "860"
+    }
+    param:  {
+      name:  "ClientHints.AcceptCHHeaderUsage"
+      value:  "400"
+    }
+    param:  {
+      name:  "ClientHints.AcceptCHMetaUsage"
+      value:  "1"
+    }
+    param:  {
+      name:  "ClientHints.CriticalCHHeaderUsage"
+      value:  "3"
+    }
+    param:  {
+      name:  "ClientHints.DelegateCHMetaUsage"
+      value:  "1"
+    }
+    param:  {
+      name:  "ClientRenderingAPI"
+      value:  "3700"
+    }
+    param:  {
+      name:  "Companion.PageView"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContactsPicker.ShareStatistics"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContentIndex.Added"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContentIndex.DeletedByUser"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContentIndex.Opened"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContextMenuAndroid.Selected"
+      value:  "1"
+    }
+    param:  {
+      name:  "ContextMenuAndroid.Shown"
+      value:  "1"
+    }
+    param:  {
+      name:  "CrossOriginSubframeWithoutEmbeddingControl"
+      value:  "760"
+    }
+    param:  {
+      name:  "DIPS.Deletion"
+      value:  "1"
+    }
+    param:  {
+      name:  "DIPS.Redirect"
+      value:  "51"
+    }
+    param:  {
+      name:  "DailyChargeSummary"
+      value:  "24"
+    }
+    param:  {
+      name:  "DocumentCreated"
+      value:  "1100"
+    }
+    param:  {
+      name:  "Download"
+      value:  "1"
+    }
+    param:  {
+      name:  "Download.Completed"
+      value:  "Download"
+    }
+    param:  {
+      name:  "Download.Interrupted"
+      value:  "Download"
+    }
+    param:  {
+      name:  "Download.Resumed"
+      value:  "Download"
+    }
+    param:  {
+      name:  "Download.Started"
+      value:  "Download"
+    }
+    param:  {
+      name:  "Event.Scroll.Touch"
+      value:  "9900"
+    }
+    param:  {
+      name:  "Event.Scroll.Wheel"
+      value:  "1500"
+    }
+    param:  {
+      name:  "Event.ScrollBegin.Touch"
+      value:  "Event.Scroll.Touch"
+    }
+    param:  {
+      name:  "Event.ScrollBegin.Wheel"
+      value:  "Event.Scroll.Wheel"
+    }
+    param:  {
+      name:  "Event.ScrollUpdate.Touch"
+      value:  "Event.Scroll.Touch"
+    }
+    param:  {
+      name:  "Event.ScrollUpdate.Wheel"
+      value:  "Event.Scroll.Wheel"
+    }
+    param:  {
+      name:  "Extensions.OnNavigation"
+      value:  "670"
+    }
+    param:  {
+      name:  "Extensions.WebRequest.KeepaliveRequestFinished"
+      value:  "630"
+    }
+    param:  {
+      name:  "FontMatchAttempts"
+      value:  "4600"
+    }
+    param:  {
+      name:  "GamingInputOverlay.ActionRepositionOperationType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.ActionRepositionWindowStateType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.ButtonGroupRepositionOperationType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.ButtonGroupRepositionWindowStateType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.Customization"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.Feature"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.MappingHint"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.MenuEntryRepositionOperationType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GamingInputOverlay.MenuEntryRepositionWindowStateType"
+      value:  "1"
+    }
+    param:  {
+      name:  "GeneratedNavigation"
+      value:  "17"
+    }
+    param:  {
+      name:  "GoogleDocsOfflineExtension"
+      value:  "160"
+    }
+    param:  {
+      name:  "Graphics.Smoothness"
+      value:  "110"
+    }
+    param:  {
+      name:  "Graphics.Smoothness.EventLatency"
+      value:  "Graphics.Smoothness"
+    }
+    param:  {
+      name:  "Graphics.Smoothness.Latency"
+      value:  "Graphics.Smoothness"
+    }
+    param:  {
+      name:  "Graphics.Smoothness.NormalizedPercentDroppedFrames"
+      value:  "Graphics.Smoothness"
+    }
+    param:  {
+      name:  "HistoryClusters"
+      value:  "1"
+    }
+    param:  {
+      name:  "HistoryManipulationIntervention"
+      value:  "30"
+    }
+    param:  {
+      name:  "IOS.FindInPageSearchMatches"
+      value:  "1"
+    }
+    param:  {
+      name:  "IOS.IsDefaultBrowser"
+      value:  "3"
+    }
+    param:  {
+      name:  "IOS.PageAddedToReadingList"
+      value:  "1"
+    }
+    param:  {
+      name:  "IOS.PageZoomChanged"
+      value:  "1"
+    }
+    param:  {
+      name:  "IOS.RendererGone"
+      value:  "1"
+    }
+    param:  {
+      name:  "IOS.URLMismatchInLegacyAndSlimNavigationManager"
+      value:  "7"
+    }
+    param:  {
+      name:  "Identifiability"
+      value:  "1"
+    }
+    param:  {
+      name:  "InputEvent"
+      value:  "2900"
+    }
+    param:  {
+      name:  "InputMethod.Assistive.AutocorrectV2"
+      value:  "1"
+    }
+    param:  {
+      name:  "InputMethod.Assistive.Match"
+      value:  "1"
+    }
+    param:  {
+      name:  "InputMethod.LongpressDiacritics"
+      value:  "1"
+    }
+    param:  {
+      name:  "InputMethod.NonCompliantApi"
+      value:  "1"
+    }
+    param:  {
+      name:  "InstalledRelatedApps"
+      value:  "38"
+    }
+    param:  {
+      name:  "JavascriptFrameworkPageLoad"
+      value:  "170"
+    }
+    param:  {
+      name:  "LoadCountsPerTopLevelDocument"
+      value:  "230"
+    }
+    param:  {
+      name:  "LoadingPredictor"
+      value:  "120"
+    }
+    param:  {
+      name:  "LocalNetworkRequests"
+      value:  "76"
+    }
+    param:  {
+      name:  "LoginDetection"
+      value:  "130"
+    }
+    param:  {
+      name:  "LookalikeUrl.NavigationSuggestion"
+      value:  "1"
+    }
+    param:  {
+      name:  "MainFrameNavigation"
+      value:  "6"
+    }
+    param:  {
+      name:  "Media"
+      value:  "260"
+    }
+    param:  {
+      name:  "Media.Autoplay.Attempt"
+      value:  "120"
+    }
+    param:  {
+      name:  "Media.Autoplay.AudioContext"
+      value:  "6"
+    }
+    param:  {
+      name:  "Media.Autoplay.Muted.UnmuteAction"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.BasicPlayback"
+      value:  "Media"
+    }
+    param:  {
+      name:  "Media.EME.ApiPromiseRejection"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.EME.CreateMediaKeys"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.EME.GetStatusForPolicy"
+      value:  "58"
+    }
+    param:  {
+      name:  "Media.EME.RequestMediaKeySystemAccess"
+      value:  "18"
+    }
+    param:  {
+      name:  "Media.Engagement.ShortPlaybackIgnored"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.GlobalMediaControls.ActionButtonPressed"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.SiteMuted"
+      value:  "1"
+    }
+    param:  {
+      name:  "Media.VideoDecodePerfRecord"
+      value:  "61"
+    }
+    param:  {
+      name:  "Media.WebAudio.AudioContext.AudibleTime"
+      value:  "Media"
+    }
+    param:  {
+      name:  "Media.WebMediaPlayerState"
+      value:  "Media"
+    }
+    param:  {
+      name:  "MediaRouter.SiteInitiatedMirroringStarted"
+      value:  "1"
+    }
+    param:  {
+      name:  "MediaRouter.TabMirroringStarted"
+      value:  "1"
+    }
+    param:  {
+      name:  "Memory.Experimental"
+      value:  "860"
+    }
+    param:  {
+      name:  "Memory.TabFootprint"
+      value:  "200"
+    }
+    param:  {
+      name:  "MixedContentAutoupgrade.ResourceRequest"
+      value:  "25"
+    }
+    param:  {
+      name:  "MobileFriendliness"
+      value:  "3"
+    }
+    param:  {
+      name:  "MobileFriendliness.TappedBadTargets"
+      value:  "120"
+    }
+    param:  {
+      name:  "MobileMenu.DirectShare"
+      value:  "1"
+    }
+    param:  {
+      name:  "MobileMenu.FindInPage"
+      value:  "1"
+    }
+    param:  {
+      name:  "MobileMenu.Share"
+      value:  "1"
+    }
+    param:  {
+      name:  "Navigation.IDNA2008Transition"
+      value:  "1"
+    }
+    param:  {
+      name:  "Navigation.ReceivedResponse"
+      value:  "180"
+    }
+    param:  {
+      name:  "NavigationPredictor"
+      value:  "44"
+    }
+    param:  {
+      name:  "NavigationPredictorAnchorElementMetrics"
+      value:  "NavigationPredictor"
+    }
+    param:  {
+      name:  "NavigationPredictorPageLinkClick"
+      value:  "NavigationPredictor"
+    }
+    param:  {
+      name:  "NavigationPredictorPageLinkMetrics"
+      value:  "NavigationPredictor"
+    }
+    param:  {
+      name:  "NavigationPredictorPreloadOnHover"
+      value:  "NavigationPredictor"
+    }
+    param:  {
+      name:  "NavigationPredictorUserInteractions"
+      value:  "NavigationPredictor"
+    }
+    param:  {
+      name:  "NavigationThrottleDeferredTime"
+      value:  "50"
+    }
+    param:  {
+      name:  "NavigationTiming"
+      value:  "150"
+    }
+    param:  {
+      name:  "Network.CacheTransparency2"
+      value:  "1"
+    }
+    param:  {
+      name:  "NewTabPage.HistoryClusters"
+      value:  "1"
+    }
+    param:  {
+      name:  "NoStatePrefetch"
+      value:  "1"
+    }
+    param:  {
+      name:  "Notification"
+      value:  "15"
+    }
+    param:  {
+      name:  "Omnibox.EditUrlSuggestion.Share"
+      value:  "1"
+    }
+    param:  {
+      name:  "OmniboxSecurityIndicator.FormSubmission"
+      value:  "36"
+    }
+    param:  {
+      name:  "OpenerHeuristic.PopupInteraction"
+      value:  "1"
+    }
+    param:  {
+      name:  "OpenerHeuristic.PopupPastInteraction"
+      value:  "1"
+    }
+    param:  {
+      name:  "OptimizationGuide"
+      value:  "510"
+    }
+    param:  {
+      name:  "PWA.Visit"
+      value:  "11"
+    }
+    param:  {
+      name:  "PageContentAnnotations2"
+      value:  "100"
+    }
+    param:  {
+      name:  "PageDomainInfo"
+      value:  "160"
+    }
+    param:  {
+      name:  "PageForegroundSession"
+      value:  "280"
+    }
+    param:  {
+      name:  "PageInfoBubble"
+      value:  "1"
+    }
+    param:  {
+      name:  "PageLoad.CacheTransparencyEnabled"
+      value:  "1"
+    }
+    param:  {
+      name:  "PageLoad.PervasivePayloadsEnabled"
+      value:  "1"
+    }
+    param:  {
+      name:  "PageLoad.SignedExchange"
+      value:  "1"
+    }
+    param:  {
+      name:  "PageLoadInitiatorForAdTagging"
+      value:  "170"
+    }
+    param:  {
+      name:  "PaintPreviewCapture"
+      value:  "10"
+    }
+    param:  {
+      name:  "PasswordManager.LeakWarningDialog"
+      value:  "1"
+    }
+    param:  {
+      name:  "PasswordManager.PasswordChangeFlowDuration"
+      value:  "1"
+    }
+    param:  {
+      name:  "PasswordManager.PasswordChangeTriggered"
+      value:  "1"
+    }
+    param:  {
+      name:  "PasswordManager.PasswordFillingIOS"
+      value:  "1"
+    }
+    param:  {
+      name:  "PasswordManager.WellKnownChangePasswordResult"
+      value:  "1"
+    }
+    param:  {
+      name:  "PaymentApp.CheckoutEvents"
+      value:  "1"
+    }
+    param:  {
+      name:  "PaymentRequest.CheckoutEvents"
+      value:  "1"
+    }
+    param:  {
+      name:  "PerformanceAPI.LongAnimationFrame"
+      value:  "1"
+    }
+    param:  {
+      name:  "PerformanceAPI.LongTask"
+      value:  "250"
+    }
+    param:  {
+      name:  "PerformanceAPI.Memory"
+      value:  "1"
+    }
+    param:  {
+      name:  "PerformanceAPI.Memory.Legacy"
+      value:  "1600"
+    }
+    param:  {
+      name:  "PerformanceManager.PageResourceUsage"
+      value:  "940"
+    }
+    param:  {
+      name:  "PerformanceManager.PageTimelineState"
+      value:  "47"
+    }
+    param:  {
+      name:  "PeriodicBackgroundSyncRegistered"
+      value:  "1"
+    }
+    param:  {
+      name:  "PermissionUsage"
+      value:  "110"
+    }
+    param:  {
+      name:  "Popup"
+      value:  "13"
+    }
+    param:  {
+      name:  "Popup.Closed"
+      value:  "Popup"
+    }
+    param:  {
+      name:  "Popup.Page"
+      value:  "Popup"
+    }
+    param:  {
+      name:  "Portal.Activate"
+      value:  "160"
+    }
+    param:  {
+      name:  "PostMessage"
+      value:  "240"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.FirstPartyToFirstParty.DifferentBucket"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.FirstPartyToFirstParty.SameBucket"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.FirstPartyToThirdParty.DifferentBucket.DifferentOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.FirstPartyToThirdParty.DifferentBucket.SameOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.Frame"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.Opaque"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.Page"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.ThirdPartyToFirstParty.DifferentBucket.DifferentOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.ThirdPartyToFirstParty.DifferentBucket.SameOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.ThirdPartyToThirdParty.DifferentBucket.DifferentOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.ThirdPartyToThirdParty.DifferentBucket.SameOrigin"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PostMessage.Incoming.ThirdPartyToThirdParty.SameBucket"
+      value:  "PostMessage"
+    }
+    param:  {
+      name:  "PowerUsageScenariosIntervalData"
+      value:  "170"
+    }
+    param:  {
+      name:  "PrefetchProxy"
+      value:  "140"
+    }
+    param:  {
+      name:  "PrefetchProxy.AfterSRPClick"
+      value:  "8"
+    }
+    param:  {
+      name:  "PrefetchProxy.PrefetchedResource"
+      value:  "11"
+    }
+    param:  {
+      name:  "Preloading.Attempt"
+      value:  "1"
+    }
+    param:  {
+      name:  "Preloading.Attempt.PreviousPrimaryPage"
+      value:  "1"
+    }
+    param:  {
+      name:  "Preloading.Prediction"
+      value:  "720"
+    }
+    param:  {
+      name:  "Preloading.Prediction.PreviousPrimaryPage"
+      value:  "900"
+    }
+    param:  {
+      name:  "Presentation.StartResult"
+      value:  "1"
+    }
+    param:  {
+      name:  "ReaderModeActivated"
+      value:  "1"
+    }
+    param:  {
+      name:  "ReaderModeReceivedDistillability"
+      value:  "1"
+    }
+    param:  {
+      name:  "RenderViewContextMenu.Used"
+      value:  "1"
+    }
+    param:  {
+      name:  "RendererSchedulerTask"
+      value:  "7500"
+    }
+    param:  {
+      name:  "Responsiveness.UserInteraction"
+      value:  "200"
+    }
+    param:  {
+      name:  "SMSReceiver"
+      value:  "1"
+    }
+    param:  {
+      name:  "SSL.MixedContentShown2"
+      value:  "41"
+    }
+    param:  {
+      name:  "SalientImageAvailability"
+      value:  "380"
+    }
+    param:  {
+      name:  "SamesiteRedirectContextDowngrade"
+      value:  "49"
+    }
+    param:  {
+      name:  "SchemefulSameSiteContextDowngrade"
+      value:  "20"
+    }
+    param:  {
+      name:  "ScreenBrightness"
+      value:  "2"
+    }
+    param:  {
+      name:  "Security.SafetyTip"
+      value:  "1"
+    }
+    param:  {
+      name:  "Security.SiteEngagement"
+      value:  "160"
+    }
+    param:  {
+      name:  "Segmentation.ModelExecution"
+      value:  "1"
+    }
+    param:  {
+      name:  "ServiceWorker.OnLoad"
+      value:  "16"
+    }
+    param:  {
+      name:  "SharedHighlights.LinkGenerated"
+      value:  "5"
+    }
+    param:  {
+      name:  "SharedHighlights.LinkGenerated.Requested"
+      value:  "1"
+    }
+    param:  {
+      name:  "SharedHighlights.LinkOpened"
+      value:  "1"
+    }
+    param:  {
+      name:  "Sharing.ClickToCall"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.AddToCartDetection"
+      value:  "3"
+    }
+    param:  {
+      name:  "Shopping.CartExtraction"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.ChromeCart"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.FormSubmitted"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.MerchantTrust.DataAvailable"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.MerchantTrust.RowClicked"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.MerchantTrust.RowSeen"
+      value:  "1"
+    }
+    param:  {
+      name:  "Shopping.WillSendRequest"
+      value:  "210"
+    }
+    param:  {
+      name:  "SmartCharging"
+      value:  "1"
+    }
+    param:  {
+      name:  "SubresourceFilter"
+      value:  "190"
+    }
+    param:  {
+      name:  "Tab.RendererOOM"
+      value:  "1"
+    }
+    param:  {
+      name:  "Tab.Screenshot"
+      value:  "1"
+    }
+    param:  {
+      name:  "TabManager.Background.FirstFaviconUpdated"
+      value:  "2"
+    }
+    param:  {
+      name:  "TabManager.Background.FirstNonPersistentNotificationCreated"
+      value:  "1"
+    }
+    param:  {
+      name:  "TabManager.Background.FirstTitleUpdated"
+      value:  "2"
+    }
+    param:  {
+      name:  "TopToolbar.Share"
+      value:  "1"
+    }
+    param:  {
+      name:  "TouchToFill.Shown"
+      value:  "1"
+    }
+    param:  {
+      name:  "TouchToFill.SubmissionReadiness"
+      value:  "1"
+    }
+    param:  {
+      name:  "TouchToFill.TimeToSuccessfulLogin"
+      value:  "1"
+    }
+    param:  {
+      name:  "Translate"
+      value:  "160"
+    }
+    param:  {
+      name:  "TranslatePageLoad"
+      value:  "240"
+    }
+    param:  {
+      name:  "TrustedWebActivity.LocationDelegation"
+      value:  "1"
+    }
+    param:  {
+      name:  "TrustedWebActivity.Open"
+      value:  "1"
+    }
+    param:  {
+      name:  "TrustedWebActivity.QualityEnforcementViolation"
+      value:  "1"
+    }
+    param:  {
+      name:  "Unload"
+      value:  "250"
+    }
+    param:  {
+      name:  "UserActivity"
+      value:  "1"
+    }
+    param:  {
+      name:  "UserActivityId"
+      value:  "2"
+    }
+    param:  {
+      name:  "UserPerceivedPageVisit"
+      value:  "540"
+    }
+    param:  {
+      name:  "V8.Wasm"
+      value:  "19"
+    }
+    param:  {
+      name:  "V8.Wasm.ModuleCompiled"
+      value:  "V8.Wasm"
+    }
+    param:  {
+      name:  "V8.Wasm.ModuleDecoded"
+      value:  "V8.Wasm"
+    }
+    param:  {
+      name:  "V8.Wasm.ModuleInstantiated"
+      value:  "V8.Wasm"
+    }
+    param:  {
+      name:  "VirtualKeyboard.Open"
+      value:  "1"
+    }
+    param:  {
+      name:  "WebAPK"
+      value:  "1"
+    }
+    param:  {
+      name:  "WebAPK.Install"
+      value:  "WebAPK"
+    }
+    param:  {
+      name:  "WebAPK.SessionEnd"
+      value:  "WebAPK"
+    }
+    param:  {
+      name:  "WebAPK.Uninstall"
+      value:  "WebAPK"
+    }
+    param:  {
+      name:  "WebAPK.Visit"
+      value:  "WebAPK"
+    }
+    param:  {
+      name:  "WebApp.DailyInteraction"
+      value:  "2"
+    }
+    param:  {
+      name:  "WebOTPImpact"
+      value:  "69"
+    }
+    param:  {
+      name:  "Webapp.AddToHomeScreen"
+      value:  "1"
+    }
+    param:  {
+      name:  "Worker.ClientAdded"
+      value:  "2"
+    }
+    param:  {
+      name:  "XR.WebXR"
+      value:  "6"
+    }
+    param:  {
+      name:  "XR.WebXR.Session"
+      value:  "1"
+    }
+    param:  {
+      name:  "XR.WebXR.SessionRequest"
+      value:  "1"
+    }
+    param:  {
+      name:  "_default_sampling"
+      value:  "1"
+    }
+  }
+  filter:  {
+    min_version:  "116.*"
+    max_version:  "116.*"
+    channel:  STABLE
     platform:  PLATFORM_ANDROID
     platform:  PLATFORM_ANDROID_WEBLAYER
     platform:  PLATFORM_CHROMEOS
