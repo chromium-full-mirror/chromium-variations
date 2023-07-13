@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#MGm0OUXTuI4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#l3NqbMbaU9Y="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -68084,6 +68084,70 @@ study:  {
     min_version:  "117.0.5874.0"
     channel:  STABLE
     platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "EnableProtoApiForClassifyUrl"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1696118340
+    min_version:  "117.0.5884.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "EnableProtoApiForClassifyUrl"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Enabled"
+    probability_weight:  1
+    feature_association:  {
+      enable_feature:  "EnableProtoApiForClassifyUrl"
+    }
+  }
+  filter:  {
+    end_date:  1696118340
+    min_version:  "117.0.5884.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
+  }
+}
+study:  {
+  name:  "EnableProtoApiForClassifyUrl"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1696118340
+    min_version:  "117.0.5884.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_IOS
   }
 }
 study:  {
