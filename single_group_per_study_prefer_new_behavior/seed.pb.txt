@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#iMIuah99LOE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#h7rsO+ud1TE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -32104,9 +32104,9 @@ study:  {
   name:  "FollowOnboarding"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_20230515"
+    name:  "EnabledLaunch"
     probability_weight:  1
-    gws_trigger_experiment_id:  3362083
+    gws_trigger_experiment_id:  3367309
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "WebFeedAwareness"
@@ -32118,73 +32118,11 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689638400
-    min_version:  "109.*"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID
-    country:  "us"
-    country:  "gb"
-    country:  "au"
-    country:  "za"
-    country:  "nz"
-    country:  "ca"
-  }
-  randomization_seed:  796372030
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "FollowOnboarding"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_20230515"
-    probability_weight:  1
-    gws_trigger_experiment_id:  3362086
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      enable_feature:  "WebFeedAwareness"
-      enable_feature:  "WebFeedOnboarding"
-    }
-    param:  {
-      name:  "awareness_style"
-      value:  "IPH"
-    }
-  }
-  filter:  {
-    end_date:  1689638400
+    end_date:  1690675200
     min_version:  "109.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_ANDROID
-    country:  "us"
-    country:  "gb"
-    country:  "au"
-    country:  "za"
-    country:  "nz"
-    country:  "ca"
-  }
-  randomization_seed:  2850577206
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "FollowOnboarding"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "EnabledNoConfetti_50pc_20230616"
-    probability_weight:  1
-    gws_trigger_experiment_id:  3366661
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      enable_feature:  "WebFeedAwareness"
-      enable_feature:  "WebFeedOnboarding"
-    }
-    param:  {
-      name:  "awareness_style"
-      value:  "IPH"
-    }
-  }
-  filter:  {
-    end_date:  1689638400
-    min_version:  "112.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
     country:  "us"
@@ -32194,7 +32132,7 @@ study:  {
     country:  "nz"
     country:  "ca"
   }
-  randomization_seed:  3361532538
+  randomization_seed:  2850577206
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {

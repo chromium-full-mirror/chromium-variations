@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#e+c6hLiITfg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#UQ4SeA0PQmg="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -31139,75 +31139,25 @@ study:  {
   name:  "FollowOnboarding"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230515"
+    name:  "EnabledLaunch"
     probability_weight:  1
-    gws_trigger_experiment_id:  3362082
+    gws_trigger_experiment_id:  3367309
     web_visibility:  FIRST_PARTY
     feature_association:  {
-      disable_feature:  "WebFeedAwareness"
-      disable_feature:  "WebFeedOnboarding"
+      enable_feature:  "WebFeedAwareness"
+      enable_feature:  "WebFeedOnboarding"
+    }
+    param:  {
+      name:  "awareness_style"
+      value:  "IPH"
     }
   }
   filter:  {
-    end_date:  1689638400
-    min_version:  "109.*"
-    channel:  BETA
-    platform:  PLATFORM_ANDROID
-    country:  "us"
-    country:  "gb"
-    country:  "au"
-    country:  "za"
-    country:  "nz"
-    country:  "ca"
-  }
-  randomization_seed:  796372030
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "FollowOnboarding"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230515"
-    probability_weight:  1
-    gws_trigger_experiment_id:  3362085
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      disable_feature:  "WebFeedAwareness"
-      disable_feature:  "WebFeedOnboarding"
-    }
-  }
-  filter:  {
-    end_date:  1689638400
+    end_date:  1690675200
     min_version:  "109.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_ANDROID
-    country:  "us"
-    country:  "gb"
-    country:  "au"
-    country:  "za"
-    country:  "nz"
-    country:  "ca"
-  }
-  randomization_seed:  2850577206
-  activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "FollowOnboarding"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_50pc_20230616"
-    probability_weight:  1
-    gws_trigger_experiment_id:  3366660
-    web_visibility:  FIRST_PARTY
-    feature_association:  {
-      disable_feature:  "WebFeedAwareness"
-      disable_feature:  "WebFeedOnboarding"
-    }
-  }
-  filter:  {
-    end_date:  1689638400
-    min_version:  "112.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_ANDROID
     country:  "us"
@@ -31217,7 +31167,7 @@ study:  {
     country:  "nz"
     country:  "ca"
   }
-  randomization_seed:  3361532538
+  randomization_seed:  2850577206
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
