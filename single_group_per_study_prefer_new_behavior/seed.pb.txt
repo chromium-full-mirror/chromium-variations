@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KEsIOI6wBeU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#e0p+cWOmY64="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -71115,7 +71115,7 @@ study:  {
   name:  "RevampedPasswordManagementBubble"
   consistency:  PERMANENT
   experiment:  {
-    name:  "EnabledWithIPH_20230707"
+    name:  "EnabledWithIPH_20230713"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "IPH_PasswordsManagementBubbleAfterSave"
@@ -71124,7 +71124,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690329540
+    end_date:  1693007940
     min_version:  "114.0.5735.8"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -71138,7 +71138,7 @@ study:  {
   name:  "RevampedPasswordManagementBubble"
   consistency:  PERMANENT
   experiment:  {
-    name:  "EnabledWithIPH_20230707"
+    name:  "EnabledWithIPH_20230713"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "IPH_PasswordsManagementBubbleAfterSave"
@@ -71147,7 +71147,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690329540
+    end_date:  1693007940
     min_version:  "114.0.5735.8"
     channel:  CANARY
     channel:  DEV
@@ -71166,7 +71166,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690329540
+    end_date:  1693007940
     min_version:  "114.0.5735.8"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
