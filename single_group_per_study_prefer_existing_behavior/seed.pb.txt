@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ol7r8c9eRQg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#V3uX1rAuAag="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -19702,6 +19702,67 @@ study:  {
     channel:  CANARY
     channel:  DEV
     channel:  BETA
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "CompressionDictionaryTransportBackend"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693439940
+    min_version:  "117.0.5879.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "CompressionDictionaryTransportBackend"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "CompressionDictionaryTransportBackend"
+    }
+  }
+  filter:  {
+    end_date:  1693439940
+    min_version:  "117.0.5879.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+  }
+}
+study:  {
+  name:  "CompressionDictionaryTransportBackend"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1693439940
+    min_version:  "117.0.5879.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
