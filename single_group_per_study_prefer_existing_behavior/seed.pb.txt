@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#V3uX1rAuAag="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#cR5oj8ushyA="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -136076,7 +136076,7 @@ study:  {
   name:  "WebApkInstallFailureAndRetry"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230625"
+    name:  "Control_20230712"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "WebApkInstallFailureNotification"
@@ -136089,12 +136089,13 @@ study:  {
     channel:  BETA
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "WebApkInstallFailureAndRetry"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230625"
+    name:  "Control_20230712"
     probability_weight:  1
     feature_association:  {
       disable_feature:  "WebApkInstallFailureNotification"
@@ -136108,6 +136109,7 @@ study:  {
     channel:  DEV
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "WebApkInstallFailureAndRetry"
@@ -136122,6 +136124,7 @@ study:  {
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "WebApkManifestUniqueId"
