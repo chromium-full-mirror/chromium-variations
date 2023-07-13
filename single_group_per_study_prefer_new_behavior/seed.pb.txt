@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#oniDsRt6lWk="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#GogVcJH1688="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -61922,7 +61922,7 @@ study:  {
     }
     param:  {
       name:  "update_memory_on_navigation"
-      value:  "true"
+      value:  "false"
     }
   }
   filter:  {
