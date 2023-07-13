@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Zgj7eU2S8Pc="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#U1cjBQsa8VE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -76169,6 +76169,71 @@ study:  {
     channel:  STABLE
     platform:  PLATFORM_ANDROID_WEBVIEW
   }
+}
+study:  {
+  name:  "SubprocessMetricsAsync"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Enabled,PeriodicMergeAsync"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1696982340
+    min_version:  "117.0.5883.0"
+    channel:  BETA
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "SubprocessMetricsAsync"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    feature_association:  {
+      disable_feature:  "SubprocessMetricsAsync"
+    }
+  }
+  filter:  {
+    end_date:  1696982340
+    min_version:  "117.0.5883.0"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+}
+study:  {
+  name:  "SubprocessMetricsAsync"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1696982340
+    min_version:  "117.0.5883.0"
+    channel:  STABLE
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    platform:  PLATFORM_CHROMEOS
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_ANDROID
+    platform:  PLATFORM_ANDROID_WEBVIEW
+  }
+  randomization_seed:  1736614127
 }
 study:  {
   name:  "SubresourceFilter"
