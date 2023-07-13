@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#H8nKNhzxvpg="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#jBI7gOdbb7M="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -61894,45 +61894,6 @@ study:  {
   consistency:  PERMANENT
   experiment:  {
     name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1694044740
-    min_version:  "112.*"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    locale:  "en-US"
-  }
-}
-study:  {
-  name:  "PerformanceControlsHatsStudy"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1694044740
-    min_version:  "112.*"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    locale:  "en-US"
-  }
-}
-study:  {
-  name:  "PerformanceControlsHatsStudy"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Preperiod_Default"
     probability_weight:  1
   }
   filter:  {
