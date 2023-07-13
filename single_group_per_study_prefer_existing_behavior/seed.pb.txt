@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#L7tZll+W2b8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#q05cr6tAPXc="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -51866,6 +51866,7 @@ study:  {
   filter:  {
     end_date:  1692921540
     min_version:  "115.0.5778.0"
+    max_version:  "115.1.0.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_CHROMEOS_LACROS
@@ -51899,6 +51900,7 @@ study:  {
   filter:  {
     end_date:  1692921540
     min_version:  "115.0.5778.0"
+    max_version:  "115.1.0.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -51906,6 +51908,80 @@ study:  {
     platform:  PLATFORM_LINUX
     exclude_google_group:  89835551718
   }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "OmniboxCr23M116Desktop"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    gws_experiment_id:  3367451
+    web_visibility:  FIRST_PARTY
+    feature_association:  {
+      disable_feature:  "ChromeRefresh2023"
+      disable_feature:  "Cr2023ActionChips"
+      disable_feature:  "Cr2023ActionChipsIcons"
+      disable_feature:  "OmniboxExpandedLayout"
+      disable_feature:  "OmniboxExpandedStateColors"
+      disable_feature:  "OmniboxExpandedStateHeight"
+      disable_feature:  "OmniboxExpandedStateShape"
+      disable_feature:  "OmniboxExpandedStateSuggestIcons"
+      disable_feature:  "OmniboxSteadyStateBackgroundColor"
+      disable_feature:  "OmniboxSteadyStateHeight"
+      disable_feature:  "OmniboxSteadyStateTextColor"
+      disable_feature:  "OmniboxSteadyStateTextStyle"
+      disable_feature:  "OmniboxSuggestionHoverFillShape"
+      disable_feature:  "kOmniboxCR23SteadyStateIcons"
+    }
+  }
+  filter:  {
+    end_date:  1694390340
+    min_version:  "116.0.5845.14"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_CHROMEOS_LACROS
+    platform:  PLATFORM_CHROMEOS
+  }
+  randomization_seed:  2264255384
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "OmniboxCr23M116Desktop"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Control"
+    probability_weight:  1
+    gws_experiment_id:  3367451
+    web_visibility:  FIRST_PARTY
+    feature_association:  {
+      disable_feature:  "ChromeRefresh2023"
+      disable_feature:  "Cr2023ActionChips"
+      disable_feature:  "Cr2023ActionChipsIcons"
+      disable_feature:  "OmniboxExpandedLayout"
+      disable_feature:  "OmniboxExpandedStateColors"
+      disable_feature:  "OmniboxExpandedStateHeight"
+      disable_feature:  "OmniboxExpandedStateShape"
+      disable_feature:  "OmniboxExpandedStateSuggestIcons"
+      disable_feature:  "OmniboxSteadyStateBackgroundColor"
+      disable_feature:  "OmniboxSteadyStateHeight"
+      disable_feature:  "OmniboxSteadyStateTextColor"
+      disable_feature:  "OmniboxSteadyStateTextStyle"
+      disable_feature:  "OmniboxSuggestionHoverFillShape"
+      disable_feature:  "kOmniboxCR23SteadyStateIcons"
+    }
+  }
+  filter:  {
+    end_date:  1694390340
+    min_version:  "116.0.5845.14"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_WINDOWS
+    platform:  PLATFORM_MAC
+    platform:  PLATFORM_LINUX
+    exclude_google_group:  89835551718
+  }
+  randomization_seed:  2264255384
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
