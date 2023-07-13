@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#MO+sQeExqcI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#U0c2nwifbPo="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -75184,7 +75184,7 @@ study:  {
   name:  "SmartPWAInstallPromptAndroid"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Preperiod_Enabled_20230712"
     probability_weight:  1
   }
   filter:  {
@@ -75193,14 +75193,16 @@ study:  {
     channel:  BETA
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "SmartPWAInstallPromptAndroid"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "Control_20230712"
     probability_weight:  1
     feature_association:  {
+      disable_feature:  "InstallPromptGlobalGuardrails"
       disable_feature:  "InstallPromptSegmentation"
     }
   }
@@ -75211,6 +75213,7 @@ study:  {
     channel:  DEV
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "SmartPWAInstallPromptAndroid"
@@ -75225,6 +75228,7 @@ study:  {
     channel:  STABLE
     platform:  PLATFORM_ANDROID
   }
+  activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
   name:  "SpacesM2"
