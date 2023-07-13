@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4dtBqyvc7rU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#qsG/W/CLQI0="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -49680,8 +49680,11 @@ study:  {
   name:  "NewBaseUrlInheritanceBehavior-Rollout"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "NewBaseUrlInheritanceBehavior"
+    }
   }
   filter:  {
     end_date:  1693439940
