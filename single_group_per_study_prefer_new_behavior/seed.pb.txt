@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#QMN6w/DSzKo="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#l/TiWKLEmgA="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -35846,7 +35846,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1696118340
     min_version:  "115.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -35869,7 +35869,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1696118340
     min_version:  "115.*"
     channel:  CANARY
     channel:  DEV
@@ -35885,11 +35885,11 @@ study:  {
   name:  "HttpsUpgrades"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Default"
+    name:  "Default"
     probability_weight:  1
   }
   filter:  {
-    end_date:  1690847940
+    end_date:  1696118340
     min_version:  "115.*"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
