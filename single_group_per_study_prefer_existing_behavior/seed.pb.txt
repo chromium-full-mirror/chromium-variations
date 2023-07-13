@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#706/fqN6ZuY="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#4dtBqyvc7rU="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -74,70 +74,6 @@ study:  {
     platform:  PLATFORM_MAC
   }
   activation_type:  ACTIVATE_ON_STARTUP
-}
-study:  {
-  name:  "AccessibilityUnserializeOptimizations"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230622"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "AccessibilityUnserializeOptimizations"
-    }
-  }
-  filter:  {
-    end_date:  1691798340
-    min_version:  "115.0.5766.0"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AccessibilityUnserializeOptimizations"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_20230622"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "AccessibilityUnserializeOptimizations"
-    }
-  }
-  filter:  {
-    end_date:  1691798340
-    min_version:  "115.0.5766.0"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AccessibilityUnserializeOptimizations"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1691798340
-    min_version:  "115.0.5766.0"
-    channel:  STABLE
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
 }
 study:  {
   name:  "PageInfoAboutThisSite"
