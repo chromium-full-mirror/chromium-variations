@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#um0fpo5SHtU="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#EHENnDHKlRQ="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -46514,7 +46514,7 @@ study:  {
   name:  "MagicStack"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_MVT_In_Magic_Stack_20230623"
+    name:  "Enabled_MVT_In_Magic_Stack_20230711"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "MagicStack"
@@ -46547,7 +46547,7 @@ study:  {
   }
   filter:  {
     end_date:  1692662340
-    min_version:  "115.*"
+    min_version:  "114.*"
     channel:  STABLE
     platform:  PLATFORM_IOS
   }
