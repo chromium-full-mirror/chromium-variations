@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#gvOnGcck6vw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ZxiErGAn+/g="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -77098,7 +77098,7 @@ study:  {
   experiment:  {
     name:  "Enabled_UnPinned_Clobber_20230614"
     probability_weight:  1
-    gws_experiment_id:  3366667
+    gws_trigger_experiment_id:  3367476
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SidePanelCompanion"
@@ -77128,7 +77128,7 @@ study:  {
   experiment:  {
     name:  "Enabled_UnPinned_Clobber_20230614"
     probability_weight:  1
-    gws_experiment_id:  3366667
+    gws_trigger_experiment_id:  3367476
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "SidePanelCompanion"
