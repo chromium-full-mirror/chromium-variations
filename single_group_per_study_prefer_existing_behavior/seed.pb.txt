@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#V4+jTfbxLXc="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#KD0h8wPtQ60="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -17685,52 +17685,34 @@ study:  {
   name:  "HappinessTrackingOsSettingsSearch"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
-      disable_feature:  "HappinessTrackingOsSettingsSearch"
+      enable_feature:  "HappinessTrackingOsSettingsSearch"
+    }
+    param:  {
+      name:  "prob"
+      value:  "0.01"
+    }
+    param:  {
+      name:  "survey_cycle_length"
+      value:  "7"
+    }
+    param:  {
+      name:  "survey_start_date_ms"
+      value:  "1678393016"
+    }
+    param:  {
+      name:  "trigger_id"
+      value:  "Fa3H4WsCf0jBnuKU19R0Sq6aUpgf"
     }
   }
   filter:  {
-    end_date:  1743551940
     min_version:  "114.*"
-    channel:  BETA
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-  }
-}
-study:  {
-  name:  "HappinessTrackingOsSettingsSearch"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "HappinessTrackingOsSettingsSearch"
-    }
-  }
-  filter:  {
-    end_date:  1743551940
-    min_version:  "114.*"
+    max_version:  "145.*"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-  }
-}
-study:  {
-  name:  "HappinessTrackingOsSettingsSearch"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control_50"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "HappinessTrackingOsSettingsSearch"
-    }
-  }
-  filter:  {
-    end_date:  1743551940
-    min_version:  "114.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
