@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#WuBvBoj46ZY="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ZnG+75FZ2po="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -33845,6 +33845,57 @@ study:  {
     platform:  PLATFORM_CHROMEOS_LACROS
   }
   randomization_seed:  3737078718
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "GoogleLensDirectUploadIOS"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Preperiod_Control_20230712"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694563140
+    min_version:  "116.0.5845.11"
+    channel:  BETA
+    platform:  PLATFORM_IOS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "GoogleLensDirectUploadIOS"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "LensMobileWebDirectUpload_20230712_dev"
+    probability_weight:  1
+    gws_experiment_id:  3367468
+    web_visibility:  FIRST_PARTY
+    feature_association:  {
+      enable_feature:  "LensMobileWebDirectUpload"
+    }
+  }
+  filter:  {
+    end_date:  1694563140
+    min_version:  "116.0.5845.11"
+    channel:  CANARY
+    channel:  DEV
+    platform:  PLATFORM_IOS
+  }
+  activation_type:  ACTIVATE_ON_STARTUP
+}
+study:  {
+  name:  "GoogleLensDirectUploadIOS"
+  consistency:  PERMANENT
+  experiment:  {
+    name:  "Default"
+    probability_weight:  1
+  }
+  filter:  {
+    end_date:  1694563140
+    min_version:  "116.0.5845.11"
+    channel:  STABLE
+    platform:  PLATFORM_IOS
+  }
   activation_type:  ACTIVATE_ON_STARTUP
 }
 study:  {
