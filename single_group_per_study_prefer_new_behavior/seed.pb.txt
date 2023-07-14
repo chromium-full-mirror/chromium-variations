@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#D4Kssscosg4="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#/5vinclrbYE="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -11092,60 +11092,18 @@ study:  {
   name:  "AllowSpeechSynthesisIntoBFCache"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Enabled_2023-07-03"
+    name:  "EnabledLaunch"
     probability_weight:  1
     feature_association:  {
       enable_feature:  "UnblockSpeechSynthesisForBFCache"
     }
   }
   filter:  {
-    end_date:  1690329540
     min_version:  "112.*"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_FUCHSIA
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AllowSpeechSynthesisIntoBFCache"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_2023-07-03"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "UnblockSpeechSynthesisForBFCache"
-    }
-  }
-  filter:  {
-    end_date:  1690329540
-    min_version:  "112.*"
+    max_version:  "117.0.5883.0"
     channel:  CANARY
     channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_FUCHSIA
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AllowSpeechSynthesisIntoBFCache"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Enabled_2023-07-03"
-    probability_weight:  1
-    feature_association:  {
-      enable_feature:  "UnblockSpeechSynthesisForBFCache"
-    }
-  }
-  filter:  {
-    end_date:  1690329540
-    min_version:  "112.*"
+    channel:  BETA
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
