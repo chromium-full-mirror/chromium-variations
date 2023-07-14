@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ep7Wu1K6uIE="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#D4Kssscosg4="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -24841,21 +24841,27 @@ study:  {
   name:  "NtpHistoryClusters"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Quests_20230628"
+    name:  "Quests_20230713"
     probability_weight:  1
-    gws_experiment_id:  3366954
+    gws_experiment_id:  3367527
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "NtpHistoryClustersModule"
+      enable_feature:  "NtpHistoryClustersModuleCategories"
       enable_feature:  "NtpHistoryClustersModuleUseModelRanking"
       enable_feature:  "NtpModulesHeaderIcon"
       enable_feature:  "NtpReducedLogoSpace"
       enable_feature:  "NtpSingleRowShortcuts"
       enable_feature:  "NtpWideModules"
       enable_feature:  "PageContentAnnotationsPersistSalientImageMetadata"
+      enable_feature:  "RemotePageMetadata"
       enable_feature:  "SyncPollImmediatelyOnEveryStartup"
       disable_feature:  "NtpChromeCartInHistoryClusterModule"
       disable_feature:  "NtpRecipeTasksModule"
+    }
+    param:  {
+      name:  "NtpHistoryClustersModuleCategoriesBlocklistParam"
+      value:  "/m/04n1sn,/m/025t3bg,/g/11h1zghcjr,/m/01hbs0,/m/01lj9,/m/022hpx,/m/01mf_,/m/01mkq,/m/019qw9,/g/11h16094f_,/m/02h32,/m/017rcq,/m/02csf,/m/027hpj,/m/0dcz2,/m/02jfc,/m/05xlzx,/m/03nlf2w,/m/01pmdg,/m/03r55,/m/03n2_q,/g/1q677w6hv,/m/02rfdq,/m/01rk91,/m/04rjg,/m/0g55yf,/m/06k1r,/m/012mq4,/m/06mnr,/m/014dsx,/g/11fhwwq0bp,/m/033wsp"
     }
     param:  {
       name:  "NtpModulesOrderParam"
@@ -24863,7 +24869,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689897540
+    end_date:  1695254340
     min_version:  "114.0.5735.53"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -24880,21 +24886,27 @@ study:  {
   name:  "NtpHistoryClusters"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Quests_20230710"
+    name:  "Quests_20230713"
     probability_weight:  1
-    gws_experiment_id:  3367414
+    gws_experiment_id:  3367522
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "NtpHistoryClustersModule"
+      enable_feature:  "NtpHistoryClustersModuleCategories"
       enable_feature:  "NtpHistoryClustersModuleUseModelRanking"
       enable_feature:  "NtpModulesHeaderIcon"
       enable_feature:  "NtpReducedLogoSpace"
       enable_feature:  "NtpSingleRowShortcuts"
       enable_feature:  "NtpWideModules"
       enable_feature:  "PageContentAnnotationsPersistSalientImageMetadata"
+      enable_feature:  "RemotePageMetadata"
       enable_feature:  "SyncPollImmediatelyOnEveryStartup"
       disable_feature:  "NtpChromeCartInHistoryClusterModule"
       disable_feature:  "NtpRecipeTasksModule"
+    }
+    param:  {
+      name:  "NtpHistoryClustersModuleCategoriesBlocklistParam"
+      value:  "/m/04n1sn,/m/025t3bg,/g/11h1zghcjr,/m/01hbs0,/m/01lj9,/m/022hpx,/m/01mf_,/m/01mkq,/m/019qw9,/g/11h16094f_,/m/02h32,/m/017rcq,/m/02csf,/m/027hpj,/m/0dcz2,/m/02jfc,/m/05xlzx,/m/03nlf2w,/m/01pmdg,/m/03r55,/m/03n2_q,/g/1q677w6hv,/m/02rfdq,/m/01rk91,/m/04rjg,/m/0g55yf,/m/06k1r,/m/012mq4,/m/06mnr,/m/014dsx,/g/11fhwwq0bp,/m/033wsp"
     }
     param:  {
       name:  "NtpModulesOrderParam"
@@ -24902,7 +24914,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689897540
+    end_date:  1695254340
     min_version:  "116.0.5817.0"
     channel:  CANARY
     channel:  DEV
@@ -80146,7 +80158,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -80170,7 +80182,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     channel:  CANARY
     channel:  DEV
@@ -80197,7 +80209,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     max_version:  "114.0.5735.132"
     channel:  STABLE
@@ -80225,7 +80237,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -80252,7 +80264,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -80279,7 +80291,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -80305,7 +80317,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_ANDROID

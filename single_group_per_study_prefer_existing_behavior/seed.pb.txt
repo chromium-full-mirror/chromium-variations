@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#ej+E5z0dGv8="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#yn+itFRdhOU="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -24059,9 +24059,9 @@ study:  {
   name:  "NtpHistoryClusters"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230628"
+    name:  "Control_20230713"
     probability_weight:  1
-    gws_experiment_id:  3366953
+    gws_experiment_id:  3367526
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "NtpRecipeTasksModule"
@@ -24076,7 +24076,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689897540
+    end_date:  1695254340
     min_version:  "114.0.5735.53"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -24093,9 +24093,9 @@ study:  {
   name:  "NtpHistoryClusters"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Control_20230710"
+    name:  "Control_20230713"
     probability_weight:  1
-    gws_experiment_id:  3367413
+    gws_experiment_id:  3367521
     web_visibility:  FIRST_PARTY
     feature_association:  {
       enable_feature:  "NtpRecipeTasksModule"
@@ -24110,7 +24110,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689897540
+    end_date:  1695254340
     min_version:  "116.0.5817.0"
     channel:  CANARY
     channel:  DEV
@@ -76990,7 +76990,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -77014,7 +77014,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     channel:  CANARY
     channel:  DEV
@@ -77041,7 +77041,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "111.*"
     max_version:  "114.0.5735.132"
     channel:  STABLE
@@ -77069,7 +77069,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -77096,7 +77096,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -77123,7 +77123,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
@@ -77149,7 +77149,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1691020740
+    end_date:  1695254340
     min_version:  "114.0.5735.133"
     channel:  STABLE
     platform:  PLATFORM_ANDROID
