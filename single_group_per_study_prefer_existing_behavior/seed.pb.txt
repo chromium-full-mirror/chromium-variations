@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#mxUc0RSaXrY="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#fXGV1R4E61g="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -6210,11 +6210,14 @@ study:  {
   name:  "AutofillEnableExpirationDateImprovements"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Preperiod_Enabled"
+    name:  "Control"
     probability_weight:  1
+    feature_association:  {
+      disable_feature:  "AutofillEnableExpirationDateImprovements"
+    }
   }
   filter:  {
-    end_date:  1689811140
+    end_date:  1695167940
     min_version:  "115.0.5780.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
@@ -6238,7 +6241,7 @@ study:  {
     }
   }
   filter:  {
-    end_date:  1689811140
+    end_date:  1695167940
     min_version:  "115.0.5780.0"
     channel:  CANARY
     channel:  DEV
@@ -6260,7 +6263,7 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1689811140
+    end_date:  1695167940
     min_version:  "115.0.5780.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
