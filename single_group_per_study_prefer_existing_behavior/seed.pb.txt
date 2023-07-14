@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#anujG4Wtrfw="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#XbZiMCAqG+E="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -8674,70 +8674,6 @@ study:  {
     platform:  PLATFORM_LINUX
     platform:  PLATFORM_CHROMEOS
     platform:  PLATFORM_CHROMEOS_LACROS
-  }
-}
-study:  {
-  name:  "AutofillPopupUseThresholdForKeyboardAndMobileAccept"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "AutofillPopupUseThresholdForKeyboardAndMobileAccept"
-    }
-  }
-  filter:  {
-    end_date:  1688342340
-    min_version:  "113.0.5629.*"
-    channel:  BETA
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AutofillPopupUseThresholdForKeyboardAndMobileAccept"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Control"
-    probability_weight:  1
-    feature_association:  {
-      disable_feature:  "AutofillPopupUseThresholdForKeyboardAndMobileAccept"
-    }
-  }
-  filter:  {
-    end_date:  1688342340
-    min_version:  "113.0.5629.*"
-    channel:  CANARY
-    channel:  DEV
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
-  }
-}
-study:  {
-  name:  "AutofillPopupUseThresholdForKeyboardAndMobileAccept"
-  consistency:  PERMANENT
-  experiment:  {
-    name:  "Default"
-    probability_weight:  1
-  }
-  filter:  {
-    end_date:  1688342340
-    min_version:  "113.0.5629.*"
-    channel:  STABLE
-    platform:  PLATFORM_WINDOWS
-    platform:  PLATFORM_MAC
-    platform:  PLATFORM_LINUX
-    platform:  PLATFORM_CHROMEOS
-    platform:  PLATFORM_CHROMEOS_LACROS
-    platform:  PLATFORM_ANDROID
   }
 }
 study:  {
