@@ -1,4 +1,4 @@
-serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#Wo5ZWloN4jI="
+serial_number:  "SMCgNuaWwSAiAAIgIIAQ==#oc8R0ImDXJA="
 study:  {
   name:  "AImageReaderMediaPlayer"
   consistency:  PERMANENT
@@ -10417,12 +10417,12 @@ study:  {
   name:  "AutofillUseParameterizedSectioning"
   consistency:  PERMANENT
   experiment:  {
-    name:  "Default"
+    name:  "Preperiod_Default"
     probability_weight:  1
   }
   filter:  {
-    end_date:  1686959940
-    min_version:  "114.0.5735.0"
+    end_date:  1693699140
+    min_version:  "117.0.5872.0"
     channel:  BETA
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
@@ -10441,8 +10441,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1686959940
-    min_version:  "114.0.5735.0"
+    end_date:  1693699140
+    min_version:  "117.0.5872.0"
     channel:  CANARY
     channel:  DEV
     platform:  PLATFORM_WINDOWS
@@ -10462,8 +10462,8 @@ study:  {
     probability_weight:  1
   }
   filter:  {
-    end_date:  1686959940
-    min_version:  "114.0.5735.0"
+    end_date:  1693699140
+    min_version:  "117.0.5872.0"
     channel:  STABLE
     platform:  PLATFORM_WINDOWS
     platform:  PLATFORM_MAC
