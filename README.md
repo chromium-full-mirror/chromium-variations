@@ -3,10 +3,9 @@
 ## Overview
 
 This repository contains various directories, each of which holds a seed.json
-and seed.pb.txt file. Each seed.json file contains a variations seed. A
-variations seed is used to turn on/off field trials and features in Chromium
-projects, such as the Chromium browser. Each seed.json file has a corresponding
-seed.pb.txt file, which is a human readable version of the same.
+file. Each seed.json file contains a variations seed. A variations seed is used
+to turn on/off field trials and features in Chromium projects, such as the
+Chromium browser.
 
 Changes to this repository will not be accepted.
 
